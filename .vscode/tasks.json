@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Zip Folder",
+      "type": "shell",
+      "command": "zsh",
+      "args": [
+        "-c",
+        "source ~/.zshrc && nvm use 20.5.0 && node zipFolder.js"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Zips a selected folder into a zip file"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "darty-ai-samples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Darty-ai/darty-ai-samples.git",
+  "author": "Trevor <trevor@creative-scripts.com>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "inquirer": "^12.1.0"
+  },
+  "type": "module"
+}
