@@ -1,0 +1,2 @@
+This is a temp file used to populate folders.
+It should be removed when other files are placed in the folder.
