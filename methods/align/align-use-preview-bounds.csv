@@ -1,0 +1,10 @@
+star,,,,,
+align,,,,,
+align,tagSearch,keyArt,usePreviewBounds,targetAnchorPoint,artboardNumber
+,,,,,
+right,,,,,
+left,,,,,
+bottom,first-star,dotted-line,TRUE,,
+bottom,second-star,dotted-line,FALSE,,
+top,first-star,dotted-line,TRUE,,
+top,second-star,dotted-line,FALSE,,
