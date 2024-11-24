@@ -1,0 +1,10 @@
+star,,,,,,,,,,,,,,,
+appearance,,,,,,,,,,,,,,,
+strokeColor,strokeWidth,strokeOpacity,stroke[2]Color,stroke[2]width,stroke[2]dashValues,stroke[2]dashAlignment,stroke[3]Color,stroke[3]width,stroke[3]effect[1]name: feather,stroke[3]effect[1]radius: 5pt,fill[1]Color,fill[2]Color,effect[1]name: roundCorners,effect[1]radius,replace: true
+(Optional Labels),,,,,,,,,,,,,,,Try swapping to false
+red,5,50,yellow,10,"10, 35",adjust,#5468dd,15,feather,5pt,Alyssa,#99e5ff,roundCorners,5,TRUE
+"""Violet Blue""",6,60,sugarPlum,11,"11, 12, 30",TRUE,"cmyk 50, 30, 70",16,feather,5pt,red,#abcdef,roundCorners,,TRUE
+cmyk 100 0 0 0,7,70,lab 100 -58 127,12,"[12, 40]",preserve,#BEEFEE,17,feather,5pt,cmyk 100 0 0 0,#fedcba,roundCorners,10,TRUE
+cmyk 0 100 0 0,8,80,lab 100 88 87,13,"20, 30",FALSE,#DECADE,18,feather,5pt,lab 100 88 87,lab 100 88 87,roundCorners,,TRUE
+None,,,rgb #EEFFBB,14,"[20, 30, 40]",TRUE,#D0000D,19,feather,5pt,None,skyblue,roundCorners,8,TRUE
+Foliage,10,100,"rgb 255, 128, 0",15,15,yes,cmyk 15 0 71 0,20,feather,5pt,"""R=255 G=0 B=0""",raspberry,roundCorners,,TRUE

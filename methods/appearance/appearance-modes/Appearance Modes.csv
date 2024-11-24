@@ -1,0 +1,11 @@
+star,,
+appearance,,
+stroke[1]mode,stroke[1]color,stroke[1]width: 2pt
+See associated graphic ??,,
+add,red,2pt
+replace,cyan,2pt
+addEdit,purple,2pt
+addEditRE,green,2pt
+editRE,orange,2pt
+edit,lime,2pt
+remove,,
