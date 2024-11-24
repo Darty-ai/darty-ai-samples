@@ -1,0 +1,16 @@
+star,,,,,
+appearance,,,,,
+strokeColor,fillSwatch,fill[2]RGB,fill[2]grayscale,stroke[2]HSB,stroke[2]lab
+Using the color property,Using the swatch property,Using the RGB property,Using the grayscale property,Using the HSB property,Using the Lab property
+"""Violet Blue""",yellow,"10, 35, 240",,,#5468dd
+#0F0,sugarPlum,"194, 169, 30",,,"cmyk 50, 30, 70"
+cmyk 100 0 0 0,lab 100 -58 127,"[55, 240]",50,,#BEEFEE
+cmyk 0 100 0 0,lab 100 88 87,"0, 200, 30",,,#DECADE
+None,rgb #EEFFBB,"[20, 30, 40]",,,#D0000D
+Foliage,"rgb 255, 128, 0",,,,cmyk 15 0 71 0
+,,,10,"100,70,0",
+,,,20,,
+,,,30,"70,100,25",
+,,,40,,
+,,,50,,
+,,,60,,
