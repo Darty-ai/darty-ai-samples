@@ -1,0 +1,16 @@
+star,,,,,,,,,,
+appearance,,,,,,,,,,
+stroke[red]index,stroke[red]color:red,stroke[red]effect[2]name,fill[2]index,fill[2]color:blue,effect[showEffect]index,effect[showEffect]visible,preEffect[showEffect]index,preEffect[showEffect]visible,postEffect[showEffect]index,postEffect[showEffect]visible
+Descriptive index,,,[2] Could be confusing,,Descriptive index,,,,,
+1,red,roundCorners,4,blue,1,TRUE,,,,
+2,red,zigzag,3,blue,2,TRUE,,,,
+3,red,roughen,2,blue,3,TRUE,,,,
+4,red,tweak,1,blue,4,TRUE,,,,
+1,red,roundCorners,4,blue,,,1,TRUE,,
+2,red,zigzag,3,blue,,,2,TRUE,,
+3,red,roughen,2,blue,,,3,TRUE,,
+4,red,tweak,1,blue,,,4,TRUE,,
+1,red,roundCorners,4,blue,,,,,1,TRUE
+2,red,zigzag,3,blue,,,,,2,TRUE
+3,red,roughen,2,blue,,,,,3,TRUE
+4,red,tweak,1,blue,,,,,4,TRUE
