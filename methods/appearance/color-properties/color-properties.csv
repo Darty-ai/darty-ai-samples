@@ -1,16 +1,18 @@
-star,,,,,
-appearance,,,,,
-strokeColor,fillSwatch,fill[2]RGB,fill[2]grayscale,stroke[2]HSB,stroke[2]lab
-Using the color property,Using the swatch property,Using the RGB property,Using the grayscale property,Using the HSB property,Using the Lab property
-"""Violet Blue""",yellow,"10, 35, 240",,,#5468dd
-#0F0,sugarPlum,"194, 169, 30",,,"cmyk 50, 30, 70"
-cmyk 100 0 0 0,lab 100 -58 127,"[55, 240]",50,,#BEEFEE
-cmyk 0 100 0 0,lab 100 88 87,"0, 200, 30",,,#DECADE
-None,rgb #EEFFBB,"[20, 30, 40]",,,#D0000D
-Foliage,"rgb 255, 128, 0",,,,cmyk 15 0 71 0
-,,,10,"100,70,0",
-,,,20,,
-,,,30,"70,100,25",
-,,,40,,
-,,,50,,
-,,,60,,
+star,,,,,,,,,
+appearance,,,,,,,,,
+strokeColor,fillSwatch,Fill Swatch Name,fill[2]RGB,fill[2]grayscale,fill[2]#,fill[2]mode,stroke[2]HSB,stroke[2]lab,stroke[2]hsl
+Using the color property,Using the swatch property,,Using the RGB property,Using the grayscale property,,,Using the HSB property,Using the Lab property,
+"""Violet Blue""",yellow,,"200, 35, 40",,,,,"100, 127, 128",
+#0F0,sugarPlum,,"194, 169, 30",,,,,"cmyk 50, 30, 70 brownish spot",
+cmyk 100 0 0 0,Pink,,"[55, 240]",,,,,#BEEFEE,
+cmyk 0 100 0 0,/Pink,,"0, 200, 30",,,,,#DECADE,
+None,rgb #EEFFBB,,"[200, 130, 40]",,,,,#D0000D,
+Foliage,"rgb 254, 143, 94 Clementine",,#f0f,,,,,cmyk 15 0 71 0,
+grayscale 30,lab 100 88 87 Orange-Peach,,,60,,,"100,70,100",100 -128 127 LiMe,
+grayscale 70,,Pink,,,ff0,,220 100 100,,45 100 50
+hsv 270 100 50,hsl 180 50 50,,,30,,,"270,100,90",,220 60 80
+0 100 50 20,Sky,,,,#008000,,,,
+#15f088,,,0 100 0 0,,e55088,,,,
+255 0 255,,,none,,,,[0 60 80],,
+100 50 -50 lab,,,,,,edit,"[0, 100, 50]",,
+Amazon,dartyGreen,,,,,,#0ff,,

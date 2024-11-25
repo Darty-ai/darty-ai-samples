@@ -1,6 +1,6 @@
 rectangle,circle,,
 appearance,,,
-fillChannel1,fillcolor,fillChannel1,fillswatchName
+fillChannel1,fillcolor,fillChannel1,fillSwatchName
 ,,,
 100,"20,0,50,0",100,"""CMYK Spot"""
 0,,20,CMYK Spot
