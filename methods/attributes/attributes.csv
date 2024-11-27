@@ -1,0 +1,9 @@
+circle,,,,,,,,,,,
+attributes,,,,,,,,,,,
+name,note,url,imageMap,visible,locked,closed,guides,selected,wrapped,wrapInside,wrapOffset
+,,Works if imageMap is Rectangle or Polygon,,,,Works on Paths,Works on Paths,,,wrapped must be true,wrapped must be true
+circle,earth like shape,https://darty.ai,Rectangle,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,,
+Round Thing,Sun,https://www.google.com/search?q=sun,Polygon,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,3mm
+Ball,Football,https://darty.ai,Polygon,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,,".1"""
+guide,The shape is now a guide,,,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,10
+See me not,.,,None,FALSE,TRUE,TRUE,FALSE,,TRUE,FALSE,20
