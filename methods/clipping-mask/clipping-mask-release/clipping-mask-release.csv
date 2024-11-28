@@ -1,0 +1,9 @@
+masked-image,,,
+releaseClippingMask,,,comment
+*,skip,tagSearch,*
+,,,
+,,,Clipping masks tagged masked-image will be released
+FALSE,,,The releaseClippingMask method will be skipped
+,TRUE,,The releaseClippingMask method will be skipped
+,,"""""",The releaseClippingMask method will be skipped
+,,image-mask,Clipping masks tagged image-masked will be released

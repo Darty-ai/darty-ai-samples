@@ -1,0 +1,8 @@
+eyes | nose | mouth | ears,,,comment
+makeCompoundPath,,releaseCompoundPath,
+*,skip,tagSearch: face,*
+,,,
+,,face,Both the makeCompoundPath and releaseCompoundPath methods will be applied
+FALSE,,face,The makeCompoundPath method will be skipped
+,TRUE,face,The makeCompoundPath method will be skipped
+,,"""""",The releaseCompoundPath method will be skipped
