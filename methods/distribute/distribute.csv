@@ -1,0 +1,11 @@
+dartyLogo,,,,,,,,
+distribute,,,,,,,,
+distribute,distributeSpacing,tagSearch,keyArt,artboardNumber,direction,gap,usePreviewBounds,zOrder
+,,overrides dartylogo,,,,,,
+center,,,,,,,,
+,hv,,axis,,,,,FALSE
+left,,,axis,,,10px,,TRUE
+left,,window,rectangle,,,,TRUE,
+center,,window,rectangle,,,,FALSE,
+center,,,,1,horizontal,,,
+bl,,,,,vertical,,,
