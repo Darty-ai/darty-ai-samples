@@ -1,0 +1,12 @@
+image,,,,
+makeClippingMask,,,,
+tagSearch,mask: mask-2,fit,unite,compoundPath
+,,,,
+,mask-2,,,
+,mask-2,asis,,
+,mask-2,fill,,
+,mask-2,bounds,,
+,mask-2,fit,,
+sea,mask-2,fill,,
+,mask-2,,FALSE,TRUE
+,mask-2,,FALSE,FALSE

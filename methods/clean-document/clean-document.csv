@@ -1,0 +1,8 @@
+*,,,
+cleandocument,,,comment
+*,swatches,symbols,*
+,,,
+,,,"With no values given, will remove both unsused swatches and symbols"
+,FALSE,,Will only remove symbols
+,,FALSE,Will only remove swatches
+TRUE,,,"If there are no other properties on the table and it's the last row in the table, you need to set a true value."
