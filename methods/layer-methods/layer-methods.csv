@@ -1,0 +1,11 @@
+*,,,,,,,,,,,,
+layer,,,,,,,,,,,,
+mode,name,newName,color,targetLayer,target,location,visible,locked,print,preview,template,dimPercentage
+,,,,,,,,,,,,
+add,,,,,,,,,,,,
+add,Gold,,gold,Orange Layer,,above,,,,,TRUE,
+duplicate,Green Layer,Locked and Hidden,#bca,Blue Layer,blue,below,FALSE,TRUE,,,,
+edit,Orange Layer,,GrassGreen,Green Layer,,bottom,,,,FALSE,,
+edit,Green Layer,Gray Layer,grayscale 20,,,,,TRUE,FALSE,,,25
+edit,Blue Layer,,0 0 255,,,aboveAll,,,,,,
+remove,Blue Layer,,,,,,,,,,,
