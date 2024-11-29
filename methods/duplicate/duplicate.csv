@@ -1,0 +1,9 @@
+cat,,,,,,,,cat,,
+duplicate,,,,,,,,distribute,,
+location,numberOfCopies,seriesTag,tagOriginal,tags,targetTagSearch: tree & left,useSingleTarget,replace,keyArt: distribute-bar,tagSearch,zOrder: true
+,,,,,,,,,,
+above,2,tom,,,tree & left,,,distribute-bar,,TRUE
+below,2,,,,tree & left,,,distribute-bar,,TRUE
+below,3,tom,FALSE,,tree & left,,,distribute-bar,,TRUE
+above,3,,,tom,tree,,TRUE,distribute-bar,tom,TRUE
+above,2,,,tom,tree,FALSE,TRUE,distribute-bar,tom,TRUE
