@@ -1,0 +1,9 @@
+*,,,,,,,,
+fitToBounds,,,,,,,,
+artboardNumbers,fromArtboardItems,tagSearch,padding: 5,layerNumber,paddingLeft,paddingRight,paddingTop,paddingBottom
+,,,,,,,,
+,,,5,,,,,
+"1, 2",,,5,,,,,
+"1, 2",FALSE,,5,,,,,
+,,circle,5,,,,,
+,,circle,:,2,10,20,30,40
