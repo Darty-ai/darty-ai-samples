@@ -1,0 +1,9 @@
+cat | dog | mouse,*,,
+group,ungroup,,comment
+*,tagSearch: trees,skip,*
+,,,
+,trees,,Both group and ungroup will be applied
+FALSE,trees,,"group will be skipped, group's * property is set to false"
+,trees,TRUE,"ungroup will be skipped, ungroup's skip property is set to true"
+,"""""",,"ungroup will be skipped, ungroup's tagSearch property is set to """""
+TRUE,trees,FALSE,Both group and ungroup will be applied
