@@ -1,0 +1,8 @@
+*,,
+outline,,comment
+tagSearch,skip,*
+,,
+,,All the document's texts will be outlined
+title,,"Only texts in containers labeled ""title"" will be outlined"
+,TRUE,The outline method will be skipped
+Non-existing-tag,,The outline method will be skipped
