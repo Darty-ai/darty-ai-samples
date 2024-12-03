@@ -1,11 +1,14 @@
-dartyLogo,,,,,,,,
-distribute,,,,,,,,
-distribute,distributeSpacing,tagSearch,keyArt,artboardNumber,direction,gap,usePreviewBounds,zOrder
-,,overrides dartylogo,,,,,,
-center,,,,,,,,
-,hv,,axis,,,,,FALSE
-left,,,axis,,,10px,,TRUE
-left,,window,rectangle,,,,TRUE,
-center,,window,rectangle,,,,FALSE,
-center,,,,1,horizontal,,,
-bl,,,,,vertical,,,
+dartyLogo,,,,,,,,,description
+distribute,,,,,,,,,text
+distribute,distributeSpacing,tagSearch,keyArt,artboardNumber,direction,gap,usePreviewBounds,zOrder,replace
+,,overrides dartylogo,,,,,,,
+center,,,,,,,,,Plain centering
+left,,,,,,,,,
+,h,,,,,,,,
+,hv,,axis,,,,,FALSE,
+,hv,,axis,,,,,TRUE,
+left,,,axis,,,10px,,TRUE,
+center,,,,1,vertical,,,,
+center,,,,1,hv,,,,
+bl,,,,,hv,,,,
+tr,,,,,hv,,,,
