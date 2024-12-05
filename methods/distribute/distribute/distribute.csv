@@ -7,11 +7,11 @@ left,,,,,,,,"Horizontal distribution of art tagged ""dartyLogo"", with each midd
 ,h,,,,,,,"Center X distribution of art tagged ""dartyLogo"", with each object between the start & end objects' centers evenly spaced horizontally."
 ,hv,axis,,,,,FALSE,"Horizontal & vertical distribution of art tagged ""dartyLogo"", with all objects distributed within the bounding area of all artwork tagged ""axis"", without honoring the stacking order of the objects in the layer panel."
 ,hv,axis,,,,,TRUE,"Horizontal & vertical distribution with all objects distributed within the bounding area of all artwork tagged ""axis"", which honors the stacking order of the objects in the layer panel."
-left,,axis,,,40px,TRUE,TRUE,"Horizontal distribution of art tagged ""dartyLogo"", which honors the stacking order and puts 10 pixels between each object's left/right sides, with alignment from the left bound of the bounds of all artwork tagged ""axis"".
+left,,axis,,,40px,TRUE,TRUE,"Horizontal distribution of art tagged ""dartyLogo"", which honors the stacking order and puts 40 pixels between each object's left/right sides, with alignment from the left bound of the bounds of all artwork tagged ""axis"".
 Uses preview bounds"
-left,,axis,,,40px,FALSE,TRUE,"Horizontal distribution of art tagged ""dartyLogo"", which honors the stacking order and puts 10 pixels between each object's left/right sides, with alignment from the left bound of the bounds of all artwork tagged ""axis"".
+left,,axis,,,40px,FALSE,TRUE,"Horizontal distribution of art tagged ""dartyLogo"", which honors the stacking order and puts 40 pixels between each object's left/right sides, with alignment from the left bound of the bounds of all artwork tagged ""axis"".
 Does not use preview bounds."
-left,,axis,,,40px,,TRUE,"Horizontal distribution of art tagged ""dartyLogo"", which honors the stacking order and puts 10 pixels between each object's left/right sides, with alignment from the left bound of the bounds of all artwork tagged ""axis"".
+left,,axis,,,40px,,TRUE,"Horizontal distribution of art tagged ""dartyLogo"", which honors the stacking order and puts 40 pixels between each object's left/right sides, with alignment from the left bound of the bounds of all artwork tagged ""axis"".
 Uses Illustrator's setting for preview bounds."
 center,,,1,vertical,,,,Vertical distribution of all the objects across the 1st artboard.
 center,,,1,hv,,,,"Horizonal & vertical distribution of all the objects tagged ""dartyLogo"", across the 1st artboard. (If text-wrap is on the objects and they run into this text, they should make the text avoid the object(s))"
