@@ -1,10 +1,10 @@
-rectangle,circle,,
-appearance,,,
-fillChannel1,fillcolor,fillChannel1,fillSwatchName
-,,,
-100,"20,0,50,0",100,"""CMYK Spot"""
-0,,20,CMYK Spot
-100,"150,0,50",100,
-0,,20,
-100,,100,
-100,,100,CMYK Spot
+rectangle,,,,,,,,circle,,
+appearance,,,,,,,,,,
+fillChannel1,fillColor2,fillC3,fillK,fillTint,fillSwatchName,fillSpot,fillColorMode,fillcolor,fillChannel1,fillSwatchName
+,,,,,,,,,,
+100,50,20,0,,Foo,,cmyk,"20,0,50,0",100,"""CMYK Spot"""
+100,,20,0,,Foo,,cmyk,,20,CMYK Spot
+100,,200,,,Foo,,,"150,0,50",100,
+100,,20,,,,,,,20,
+100,,,,,Brown,,cmyk,,100,
+100,,,,,,,,,100,CMYK Spot
