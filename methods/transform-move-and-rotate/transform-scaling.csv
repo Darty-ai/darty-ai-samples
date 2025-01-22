@@ -1,12 +1,13 @@
-star,,,,,,,,,,,,
-transform,,,,,,,,,,,,
-scaleH,scaleV,keepProportions,widthDiff,heightDiff,width,height,scaleStrokes,anchorPoint,changeStrokePattern,changeLineWidths:false,changeFillPatterns,transformObjects:true
-,,,,,,,,,,,,
-50,,TRUE,,,,,FALSE,CENTER,TRUE,TRUE,TRUE,
-,50,,,,,,FALSE,,,,,
-,,,"1""",,,,,TOPLEFT,TRUE,TRUE,TRUE,
-,,TRUE,,100pt,,,,TOPLEFT,,,,
-,,,,,,300,,TOPLEFT,TRUE,TRUE,TRUE,
-,,TRUE,,,2 in,,,CENTER,TRUE,TRUE,TRUE,FALSE
-,,,50,50,,,,TOPLEFT,TRUE,TRUE,TRUE,
-,,,,,300,300,,CENTER,TRUE,TRUE,TRUE,FALSE
+star,,,,,,,,,,,
+transform,,,,,,,,,,,
+scaleH,scaleV,keepProportions,widthDiff,heightDiff,width,height,scaleStrokes,anchorPoint,changeStrokePattern,changeFillPatterns,transformObjects:true
+,,,,,,,,,,,
+50,,TRUE,,,,,FALSE,CENTER,TRUE,TRUE,
+,50,,,,,,FALSE,,,,
+,,,"1""",,,,TRUE,TOPLEFT,TRUE,TRUE,
+,,TRUE,,100pt,,,,CENTER,,,
+,,,,,,300,TRUE,CENTER,TRUE,TRUE,
+,,TRUE,,,2cm,,FALSE,CENTER,TRUE,FALSE,FALSE
+,,TRUE,,,2cm,,TRUE,CENTER,TRUE,FALSE,FALSE
+,,,50,50,,,TRUE,CENTER,TRUE,TRUE,
+,,,,,20,60,TRUE,CENTER,TRUE,TRUE,FALSE
