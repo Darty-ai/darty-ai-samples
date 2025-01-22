@@ -1,0 +1,10 @@
+star,,,,,,
+transform,,,,,,
+shearh,shearv,anchorPoint,changeStrokePattern,changeLineWidths,changeFillPatterns,transformObjects:true
+,,,,,,
+10,10,CENTER,TRUE,TRUE,TRUE,
+20,20,CENTER,TRUE,TRUE,TRUE,
+10,10,TOPLEFT,TRUE,TRUE,TRUE,
+20,20,TOPLEFT,TRUE,TRUE,TRUE,
+10,10,CENTER,TRUE,TRUE,TRUE,FALSE
+20,20,CENTER,TRUE,TRUE,TRUE,FALSE

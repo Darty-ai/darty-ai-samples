@@ -1,5 +1,10 @@
-star,,,
-transform,,,
-deltax,deltay,x,y
-10,10,,
-,,10,10
+star,,,,,,,,
+transform,,,,,,,,
+deltax,deltay,angle,distance,anchorPoint,changeStrokePattern,changeLineWidths,changeFillPatterns,transformObjects:true
+,,,,,,,,
+50,50,,,CENTER,TRUE,TRUE,TRUE,
+,,72,50,CENTER,TRUE,TRUE,TRUE,
+50,50,,,TOPLEFT,TRUE,TRUE,TRUE,
+,,72,50,TOPLEFT,TRUE,TRUE,TRUE,
+50,50,,,CENTER,TRUE,TRUE,TRUE,FALSE
+,,72,50,CENTER,TRUE,TRUE,TRUE,FALSE
