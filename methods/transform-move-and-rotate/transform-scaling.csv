@@ -1,10 +1,12 @@
-star,,,,,,,,
-transform,,,,,,,,
-scaleH,scaleV,widthDiff,heightDiff,anchorPoint,changeStrokePattern,changeLineWidths,changeFillPatterns,transformObjects:true
-,,,,,,,,
-50,50,,,CENTER,TRUE,TRUE,TRUE,
-,,50,50,CENTER,TRUE,TRUE,TRUE,
-50,50,,,TOPLEFT,TRUE,TRUE,TRUE,
-,,50,50,TOPLEFT,TRUE,TRUE,TRUE,
-50,50,,,CENTER,TRUE,TRUE,TRUE,FALSE
-,,50,50,CENTER,TRUE,TRUE,TRUE,FALSE
+star,,,,,,,,,,,,
+transform,,,,,,,,,,,,
+scaleH,scaleV,keepProportions,widthDiff,heightDiff,width,height,scaleStrokes,anchorPoint,changeStrokePattern,changeLineWidths:false,changeFillPatterns,transformObjects:true
+,,,,,,,,,,,,
+50,,TRUE,,,,,FALSE,CENTER,TRUE,TRUE,TRUE,
+,50,,,,,,FALSE,,,,,
+,,,"1""",,,,,TOPLEFT,TRUE,TRUE,TRUE,
+,,TRUE,,100pt,,,,TOPLEFT,,,,
+,,,,,,300,,TOPLEFT,TRUE,TRUE,TRUE,
+,,TRUE,,,2 in,,,CENTER,TRUE,TRUE,TRUE,FALSE
+,,,50,50,,,,TOPLEFT,TRUE,TRUE,TRUE,
+,,,,,300,300,,CENTER,TRUE,TRUE,TRUE,FALSE
