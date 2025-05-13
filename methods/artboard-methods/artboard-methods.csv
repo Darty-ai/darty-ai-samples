@@ -1,12 +1,12 @@
-*,,,,,,,,,,,,,,,,,
-artboard,,,,,,,,,,,,,,,,,
-mode,artboardNumber,template,index,copies,newName,copyArtwork,width,height,moveArtwork,x,y,anchorPoint,centerMark,layout,columns,gap,reorder
-,,,,,,,,,,,,,,,,,
-add,,A4,2,3,A4-Artboard,,,,,,,,TRUE,,,,
-add,,,,,D-1,,"12""","5""",,,,,,,,25mm,
-add,1,,,3,,TRUE,,,,,,,,,,,
-edit,1,,,,,,,,TRUE,1000,400,top left,TRUE,,,,
-edit,1,,,,,,,,FALSE,1000,400,topLeft,TRUE,,,,
-rearrange,,,,,,,,,,,,,,gridByRow,5,25mm,
-rearrange,,,,,,,,,,,,,,gridByRow,5,25mm,"5, 3, 1, 2, 4"
-remove,1,,,,,,,,,,,,,,,,
+*,,,,,,,,,,,,,,,,
+artboard,,,,,,,,,,,,,,,,
+mode,artboardNumber,template,index,copies,newName,width,height,includeArtwork,x,y,anchorPoint,centerMark,layout,columns,gap,reorder
+,,,,,,,,,,,,,,,,
+add,,A4,2,3,A4-Artboard,,,FALSE,,,,TRUE,,,,
+add,,,,,D-1,"12""","5""",,,,,,,,25mm,
+add,1,,,3,,,,,,,,,,,,
+edit,1,,,,,,,TRUE,1000,400,top left,TRUE,,,,
+edit,1,,,,,,,FALSE,1000,400,topLeft,TRUE,,,,
+rearrange,,,,,,,,,,,,,gridByRow,5,25mm,
+rearrange,,,,,,,,,,,,,gridByRow,5,25mm,"5, 3, 1, 2, 4"
+remove,1,,,,,,,,,,,,,,,
