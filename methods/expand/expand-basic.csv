@@ -1,0 +1,10 @@
+house-object | basic-stroke-fill-object,,,,circles-object,,
+expand,,,,expand,,
+fill:true,stroke:false,object:true,seriesTag:house-or-basic,fill:true,stroke:false,object:true
+,,,,,,
+FALSE,TRUE,,,FALSE,TRUE,
+TRUE,,,,TRUE,,
+TRUE,TRUE,TRUE,,TRUE,TRUE,TRUE
+,,FALSE,,,,FALSE
+FALSE,TRUE,FALSE,,FALSE,TRUE,FALSE
+FALSE,FALSE,TRUE,,FALSE,FALSE,TRUE

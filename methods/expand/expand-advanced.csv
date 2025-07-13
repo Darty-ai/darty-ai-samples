@@ -1,0 +1,10 @@
+house-object | basic-stroke-fill-object,,,,circles-object,,,,*,,*,,*,,,*,,,*,,,*
+expand,,,,expand,,,,ungroup,,ungroup,,ungroup,,,ungroup,,,ungroup,,,tagsToName
+fill:true,stroke:false,object:true,seriesTag:house-or-basic,fill:true,stroke:false,object:true,seriesTag:circ,seriesTag:circ,tagSearch:circ1,seriesTag:circ,tagSearch:circ1,seriesTag:circ,tagSearch:circ1,seriesStart:1,seriesTag:circ,tagSearch:circ2,seriesStart:2,seriesTag:circ,tagSearch:circ3,seriesStart:3,*
+,,,,,,,,,,,,,,,,,,,,,
+FALSE,TRUE,,,FALSE,TRUE,,,,circles-group,,,,,,,,,,,,
+TRUE,,,,TRUE,,,,,,,,,,,,,,,,,
+TRUE,TRUE,TRUE,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,
+,,FALSE,,,,FALSE,,,,,,,,,,,,,,,
+FALSE,TRUE,FALSE,,FALSE,TRUE,FALSE,,,,,,,,,,,,,,,
+FALSE,FALSE,TRUE,,FALSE,FALSE,TRUE,,,,,,,,,,,,,,,
