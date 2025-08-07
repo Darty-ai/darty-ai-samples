@@ -1,0 +1,33 @@
+[
+  {
+    "version": "1.3.14532",
+    "date": "2025-08-06",
+    "title": "Adds advanced Grep - Regex text searches, extra Right to Left features, Fixes transform bug",
+    "ai_versions": "2024, 2025",
+    "ai_versions_numbers": "28, 29",
+    "important": true,
+    "changes": [
+      "Added Support ADVANCED `regex` searches",
+			"Added `storyDirection`, `paragraphDirection`, `characterDirection` to `composer` to greatly enhance Right to Left support",
+      "Fixed bug `transform` `scale` bug on envelopes and group strokes and patterns"
+    ],
+    "breakingChanges": ["None"],
+    "notes": "Links to come",
+    "type": "feature, fix"
+  },
+  {
+    "version": "1.2.54465",
+    "date": "2025-08-04",
+    "title": "Adds Google Sheets and Fixes loader bug",
+    "ai_versions": "2024, 2025",
+    "ai_versions_numbers": "28, 29",
+    "important": true,
+    "changes": [
+      "Added Google Sheets Support",
+      "Fixed bug where the loading screen would not close"
+    ],
+    "breakingChanges": ["None"],
+    "notes": "Allows Darty-Ai to use public Google Sheets and private Google Sheets shared with a service account. See https://darty.ai/illustrator-meets-google-sheets/",
+    "type": "feature, fix"
+  }
+]
