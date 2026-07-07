@@ -1,7 +1,7 @@
 {
   "temp-comment": "The info here is just a sample for now and will be updated with the real data when the new version is released.",
   "current-versions": {
-    "extension": "2.3.14532",
+    "extension": "1.3.14532",
     "go-server": "1.3.14532",
     "zing": "1.3.14532",
     "cpp-plugin": "1.3.14532"
