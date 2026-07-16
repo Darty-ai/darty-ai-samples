@@ -92,7 +92,7 @@
       "ai_versions": [2024, 2025, 2026],
       "ai_versions_numbers": [28, 29, 30],
       "released": true,
-      "public": true,
+      "public": false,
       "important": false,
       "localizations": {
         "en": {
