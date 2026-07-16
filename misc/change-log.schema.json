@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/master/misc/change-log.schema.json",
+  "title": "Darty-Ai change log",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "default-locale",
+    "downloads-page",
+    "release-notes-page",
+    "current-versions",
+    "version-history"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "default-locale": { "const": "en" },
+    "temp-comment": { "type": "string" },
+    "downloads-page": { "type": "string", "format": "uri" },
+    "release-notes-page": { "type": "string", "format": "uri" },
+    "current-versions": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1 },
+      "required": ["extension"],
+      "properties": {
+        "extension": { "type": "string", "minLength": 1 },
+        "go-server": { "type": "string", "minLength": 1 },
+        "zing": { "type": "string", "minLength": 1 },
+        "cpp-plugin": { "type": "string", "minLength": 1 }
+      }
+    },
+    "version-history": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/release" }
+    }
+  },
+  "definitions": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "downloadLinks": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mac": { "type": "string", "format": "uri" },
+        "win": { "type": "string", "format": "uri" }
+      }
+    },
+    "release": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "released",
+        "public",
+        "localizations"
+      ],
+      "properties": {
+        "version": { "type": "string", "minLength": 1 },
+        "date": { "type": "string", "format": "date" },
+        "ai_versions": {
+          "type": "array",
+          "items": { "type": "integer" }
+        },
+        "ai_versions_numbers": {
+          "type": "array",
+          "items": { "type": "integer" }
+        },
+        "released": { "type": "boolean" },
+        "public": { "type": "boolean" },
+        "important": { "type": "boolean" },
+        "download-links": { "$ref": "#/definitions/downloadLinks" },
+        "localizations": {
+          "type": "object",
+          "required": ["en"],
+          "propertyNames": { "pattern": "^[a-z]{2}(?:-[A-Z]{2})?$" },
+          "properties": {
+            "en": { "$ref": "#/definitions/englishRelease" }
+          },
+          "additionalProperties": { "$ref": "#/definitions/localizedRelease" }
+        }
+      }
+    },
+    "localizedRelease": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "title": { "type": "string" },
+        "changes": { "$ref": "#/definitions/stringList" },
+        "breakingChanges": { "$ref": "#/definitions/stringList" },
+        "notes": { "type": "string" },
+        "type": { "type": "string" }
+      }
+    },
+    "englishRelease": {
+      "allOf": [
+        { "$ref": "#/definitions/localizedRelease" },
+        {
+          "required": ["title", "changes", "breakingChanges"]
+        }
+      ]
+    }
+  }
+}
