@@ -48,6 +48,41 @@
           "breakingChanges": ["None"],
           "notes": "Links to come",
           "type": "feature, fix"
+        },
+        "de": {
+          "title": "Eine nicht existierende Version, um das Änderungsprotokoll zu testen",
+          "changes": ["Änderung 1", "Änderung 2", "Behoben 3"],
+          "breakingChanges": ["Keine"],
+          "notes": "Links folgen",
+          "type": "Funktion, Fehlerbehebung"
+        },
+        "fr": {
+          "title": "Une version inexistante pour tester le journal des modifications",
+          "changes": ["changement 1", "changement 2", "Corrigé 3"],
+          "breakingChanges": ["Aucun"],
+          "notes": "Liens à venir",
+          "type": "fonctionnalité, correction"
+        },
+        "es": {
+          "title": "Una versión inexistente para probar el registro de cambios",
+          "changes": ["cambio 1", "cambio 2", "Corregido 3"],
+          "breakingChanges": ["Ninguno"],
+          "notes": "Enlaces por venir",
+          "type": "funcionalidad, corrección"
+        },
+        "it": {
+          "title": "Una versione inesistente per testare il registro delle modifiche",
+          "changes": ["cambio 1", "cambio 2", "Corretto 3"],
+          "breakingChanges": ["Nessuno"],
+          "notes": "Link in arrivo",
+          "type": "funzionalità, correzione"
+        },
+        "nl": {
+          "title": "Een niet-bestaande versie om het wijzigingslogboek te testen",
+          "changes": ["wijziging 1", "wijziging 2", "Gerepareerd 3"],
+          "breakingChanges": ["Geen"],
+          "notes": "Links volgen",
+          "type": "functie, bugfix"
         }
       }
     },
