@@ -10,13 +10,13 @@
   },
   "version-history": [
     {
-      "version": "2.0.0",
+      "version": "2.1.0",
       "date": "2026-08-06",
       "title": "A non existing version Not yet released.",
       "ai_versions": [2024, 2025, 2026],
       "ai_versions_numbers": [28, 29, 30],
       "released": false,
-      "public": false,
+      "public": true,
       "important": true,
       "changes": ["change 1", "change 2", "Fixed 3"],
       "breakingChanges": ["None"],
