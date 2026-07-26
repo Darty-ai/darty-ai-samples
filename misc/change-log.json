@@ -26,7 +26,21 @@
       "localizations": {
         "en": {
           "title": "A non existing version to test the changelog",
-          "changes": ["change 1", "change 2", "Fixed 3"],
+          "changes": [
+            "* **Darty-Ai Sheet Builder**: Create and edit dispatch sheets directly in Darty.",
+            "* **Multi-Template Workflows**: preview and export template files per data row, not just one template for the whole run.",
+            "* **Localization**: Darty-Ai now supports English, Spanish, French, German, Dutch, and Italian.",
+            "* **Barcodes**: the full barcode builder with preview and validation, with GS1 Digital Link QR support.",
+            "* **Tools Workspace**: a dedicated workspace for sheet building in the UI.",
+            "* **Appearance Tool**: build and preview fills, strokes, blending, stacking, and effects.",
+            "* **Place Improvements**: place artwork with explicit or object-based rotation.",
+            "* **Text Tools**: RegEx-based text search & replace.",
+            "* **Transform Improvements**: simpler shear control.",
+            "* **Non-Admin Installer and Repair**: a user-writable plugin install flow, with repair/retry guidance.",
+            "* **Font Previewer**: browse fonts with search & live preview.",
+            "* **Bug Fixes**: several important bug fixes that improve stability, reliability, and overall workflow consistency.",
+            "* **Search in tables**: find contents in your loaded tables."
+          ],
           "breakingChanges": ["None"],
           "notes": "Links to come",
           "type": "feature, fix"
