@@ -12,11 +12,11 @@
   },
   "version-history": [
     {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "date": "2025-08-06",
       "ai_versions": [2024, 2025, 2026],
       "ai_versions_numbers": [28, 29, 30],
-      "released": true,
+      "released": false,
       "public": true,
       "important": true,
       "download-links": {
@@ -25,7 +25,7 @@
       },
       "localizations": {
         "en": {
-          "title": "A non existing version to test the changelog",
+          "title": "Summer 2026 Release - Darty-Ai 2.0.0",
           "changes": [
             "* **Darty-Ai Sheet Builder**: Create and edit dispatch sheets directly in Darty.",
             "* **Multi-Template Workflows**: preview and export template files per data row, not just one template for the whole run.",
@@ -42,42 +42,42 @@
             "* **Search in tables**: find contents in your loaded tables."
           ],
           "breakingChanges": ["None"],
-          "notes": "Links to come",
+          "notes": "",
           "type": "feature, fix"
         },
         "de": {
-          "title": "Eine nicht existierende Version, um das Änderungsprotokoll zu testen",
+          "title": "Sommer 2026 Release - Darty-Ai 2.0.0",
           "changes": ["Änderung 1", "Änderung 2", "Behoben 3"],
           "breakingChanges": ["Keine"],
-          "notes": "Links folgen",
+          "notes": "",
           "type": "Funktion, Fehlerbehebung"
         },
         "fr": {
-          "title": "Une version inexistante pour tester le journal des modifications",
+          "title": "Summer 2026 Release - Darty-Ai 2.0.0",
           "changes": ["changement 1", "changement 2", "Corrigé 3"],
           "breakingChanges": ["Aucun"],
-          "notes": "Liens à venir",
+          "notes": "",
           "type": "fonctionnalité, correction"
         },
         "es": {
-          "title": "Una versión inexistente para probar el registro de cambios",
+          "title": "Summer 2026 Release - Darty-Ai 2.0.0",
           "changes": ["cambio 1", "cambio 2", "Corregido 3"],
           "breakingChanges": ["Ninguno"],
-          "notes": "Enlaces por venir",
+          "notes": "",
           "type": "funcionalidad, corrección"
         },
         "it": {
-          "title": "Una versione inesistente per testare il registro delle modifiche",
+          "title": "Summer 2026 Release - Darty-Ai 2.0.0",
           "changes": ["cambio 1", "cambio 2", "Corretto 3"],
           "breakingChanges": ["Nessuno"],
-          "notes": "Link in arrivo",
+          "notes": "",
           "type": "funzionalità, correzione"
         },
         "nl": {
-          "title": "Een niet-bestaande versie om het wijzigingslogboek te testen",
+          "title": "Summer 2026 Release - Darty-Ai 2.0.0",
           "changes": ["wijziging 1", "wijziging 2", "Gerepareerd 3"],
           "breakingChanges": ["Geen"],
-          "notes": "Links volgen",
+          "notes": "",
           "type": "functie, bugfix"
         }
       }
