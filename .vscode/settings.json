@@ -16,5 +16,8 @@
 		"statusBar.debuggingForeground": "#15202b"
 	},
 	"peacock.color": "#1ED001",
-	"deno.enable": true
+	"deno.enable": true,
+	"cSpell.words": [
+		"zint"
+	]
 }
