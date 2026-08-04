@@ -5,14 +5,14 @@
   "downloads-page": "https://darty.ai/downloads/",
   "release-notes-page": "https://docs.darty.ai/release-notes/",
   "current-versions": {
-    "extension": "2.0.1",
+    "extension": "2.0.0",
     "go-server": "2.6.0",
     "zint": "2.16.0.9",
     "cpp-plugin": "2.0.0.5786"
   },
   "version-history": [
     {
-      "version": "2.0.1",
+      "version": "2.0.0",
       "date": "2026-09-03",
       "ai_versions": [2024, 2025, 2026],
       "ai_versions_numbers": [28, 29, 30],
