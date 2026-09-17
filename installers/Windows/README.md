@@ -16,11 +16,15 @@ folder, choose a separate writable folder through the CEP panel, then exit and
 restart Illustrator. Setup never enables or changes that preference itself.
 Help must show **Version: 2.0.2 - 6176**, plus the existing cloud-server line.
 
-The CEP 2.0.2 candidate passed real Windows installation, unchanged-preference
-checks, all installed payload comparisons, and Adobe/Windows signature checks.
-Its new runtime/uninstall verification is in progress. Windows Illustrator
-2024/28.0 and a second PC remain unqualified. The earlier 2025 test passed with
-CEP 2.0.10; its separate COM Quit hang remains documented.
+The CEP 2.0.2 candidate passed real Windows installation, unchanged preferences,
+all installed payload comparisons, and Adobe/Windows signature checks. Local
+Illustrator 2025 29.8.3 also passed explicit CEP folder setup, normal restart,
+eight native smoke checks, Help version display and uninstall preservation.
+The original development setup was restored and verified afterward.
+
+Windows Illustrator 2024/28.0 and a second PC remain unqualified. The earlier
+COM automation Quit hang remains documented; normal application exit passed.
+The installer bytes are unchanged from the candidate first published here.
 
 [Build provenance and current test record](https://github.com/dartyai/p-tests/blob/long-term-support/WINDOWS_LTS24_INSTALLER.md).
 Historical installers remain below this release in the directory. The separate
