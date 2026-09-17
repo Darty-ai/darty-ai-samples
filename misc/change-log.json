@@ -12,6 +12,129 @@
   },
   "version-history": [
     {
+      "version": "2.0.2",
+      "date": "2026-09-17",
+      "ai_versions": [2024, 2025, 2026],
+      "ai_versions_numbers": [28, 29, 30],
+      "released": false,
+      "public": false,
+      "important": false,
+      "download-links": {
+        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.0.2.6176-Mac.dmg",
+        "win": "about:blank"
+      },
+      "localizations": {
+        "en": {
+          "title": "Darty-Ai 2.0.2 — Bug fixes (build 6176)",
+          "changes": [
+            "- **Illustrator 2024 Startup**: Fixed plug-in loading compatibility with Illustrator 2024.",
+            "- **PDF and Bitmap Exports**: Preserve PDF preset values for unspecified options and correctly restore temporary document changes between exports, including multi-artboard jobs.",
+            "- **Text Replacement and Fitting**: Corrected replacement offsets and inherited formatting, shrink-only fitting, exact line-count matches, and fitting on hidden layers.",
+            "- **Batch Operations and Artboards**: Refresh artwork after duplication, movement, and structural changes; correct automatic artboard positioning to avoid overlaps and excess gaps.",
+            "- **Tag Matching**: Fixed nested tag selectors, replacement and duplicate handling when copying tags to names, and trailing end-match operators.",
+            "- **Colors and Stability**: Preserve global swatch tints in live-effect strokes, fix recursive color conversion, and clean up temporary text and artwork resources.",
+            "- **Barcodes**: Remove incomplete artwork after generation errors and correctly deselect completed barcodes.",
+            "- **Licensing Connections**: Improved certificate and proxy handling, retries and connection error details, plus Windows support for Unicode user-profile paths.",
+            "- **Accounts and Login**: Fixed stale-token logout and relogin, prevent stale account summaries, and provide retry or token entry when account validation fails.",
+            "- **Installation and Upgrades**: Handle missing or unsafe plug-in folders, protect existing plug-ins during failed replacements, and preserve Illustrator preferences and account data during upgrades and removal."
+          ],
+          "breakingChanges": [],
+          "notes": "This version is compatible with Adobe Illustrator 2024 and focuses on bug fixes. It will probably be the last version compatible with Illustrator 2024. The Windows installer is coming soon; its download link is currently a placeholder.",
+          "type": "fix"
+        },
+        "de": {
+          "title": "Darty-Ai 2.0.2 — Fehlerbehebungen (Build 6176)",
+          "changes": [
+            "- **Start in Illustrator 2024**: Kompatibilitätsprobleme beim Laden des Plug-ins in Illustrator 2024 behoben.",
+            "- **PDF- und Bitmap-Export**: PDF-Vorgaben für nicht angegebene Optionen bleiben erhalten. Temporäre Dokumentänderungen werden zwischen Exporten korrekt zurückgesetzt, auch bei Aufträgen mit mehreren Zeichenflächen.",
+            "- **Textersetzung und Textanpassung**: Fehler bei Ersetzungspositionen, übernommener Formatierung, ausschließlichem Verkleinern, exakten Zeilenzahlen und der Anpassung auf ausgeblendeten Ebenen behoben.",
+            "- **Stapelverarbeitung und Zeichenflächen**: Grafiken werden nach Duplizierung, Verschiebung und Strukturänderungen aktualisiert. Die automatische Positionierung von Zeichenflächen vermeidet Überlappungen und übermäßige Abstände.",
+            "- **Tag-Abgleich**: Verschachtelte Tag-Selektoren, Ersetzung und Duplikatbehandlung beim Kopieren von Tags in Namen sowie nachgestellte Operatoren für den Abgleich am Ende korrigiert.",
+            "- **Farben und Stabilität**: Farbtöne globaler Farbfelder in Konturen mit Live-Effekten bleiben erhalten. Rekursive Farbkonvertierung korrigiert und temporäre Text- und Grafikressourcen bereinigt.",
+            "- **Barcodes**: Unvollständige Grafiken werden nach Erstellungsfehlern entfernt und fertige Barcodes korrekt abgewählt.",
+            "- **Lizenzverbindungen**: Zertifikat- und Proxy-Verarbeitung, Wiederholungsversuche und Verbindungsfehlermeldungen verbessert. Windows-Benutzerprofilpfade mit Unicode-Zeichen werden zuverlässiger unterstützt.",
+            "- **Konten und Anmeldung**: Abmeldung und erneute Anmeldung mit veralteten Tokens korrigiert. Veraltete Kontoübersichten werden verhindert; bei fehlgeschlagener Kontoprüfung sind ein erneuter Versuch oder die Eingabe eines Tokens möglich.",
+            "- **Installation und Updates**: Fehlende oder unsichere Plug-in-Ordner werden berücksichtigt, bestehende Plug-ins bei fehlgeschlagenem Austausch geschützt und Illustrator-Voreinstellungen sowie Kontodaten bei Updates und Deinstallation erhalten."
+          ],
+          "breakingChanges": [],
+          "notes": "Diese Version ist mit Adobe Illustrator 2024 kompatibel und konzentriert sich auf Fehlerbehebungen. Sie wird voraussichtlich die letzte mit Illustrator 2024 kompatible Version sein. Das Windows-Installationsprogramm folgt in Kürze; der Download-Link ist derzeit ein Platzhalter.",
+          "type": "Fehlerbehebung"
+        },
+        "fr": {
+          "title": "Darty-Ai 2.0.2 — Corrections de bogues (build 6176)",
+          "changes": [
+            "- **Démarrage dans Illustrator 2024** : correction des problèmes de compatibilité lors du chargement du plug-in dans Illustrator 2024.",
+            "- **Exportations PDF et bitmap** : conservation des valeurs du paramètre prédéfini PDF pour les options non précisées et annulation correcte des modifications temporaires du document entre les exportations, y compris avec plusieurs plans de travail.",
+            "- **Remplacement et ajustement du texte** : correction des positions de remplacement, de la mise en forme héritée, de l'ajustement par réduction uniquement, des correspondances exactes du nombre de lignes et de l'ajustement sur les calques masqués.",
+            "- **Traitement par lots et plans de travail** : actualisation des illustrations après duplication, déplacement ou modification de structure ; correction du positionnement automatique des plans de travail pour éviter les chevauchements et les espacements excessifs.",
+            "- **Correspondance des balises** : correction des sélecteurs imbriqués, du remplacement et de la gestion des doublons lors de la copie des balises dans les noms, ainsi que des opérateurs de fin placés après le texte recherché.",
+            "- **Couleurs et stabilité** : conservation des teintes des nuances globales dans les contours avec effets dynamiques, correction de la conversion récursive des couleurs et libération des ressources temporaires de texte et d'illustration.",
+            "- **Codes-barres** : suppression des illustrations incomplètes après une erreur de génération et désélection correcte des codes-barres terminés.",
+            "- **Connexions de licence** : amélioration de la gestion des certificats et des proxys, des nouvelles tentatives et des détails des erreurs de connexion, ainsi que de la prise en charge des chemins de profil utilisateur Unicode sous Windows.",
+            "- **Comptes et connexion** : correction de la déconnexion et de la reconnexion avec des jetons périmés, prévention des résumés de compte obsolètes et possibilité de réessayer ou de saisir un jeton en cas d'échec de la validation du compte.",
+            "- **Installation et mises à jour** : gestion des dossiers de plug-ins absents ou non sûrs, protection des plug-ins existants en cas d'échec du remplacement et conservation des préférences Illustrator et des données du compte lors des mises à jour et de la désinstallation."
+          ],
+          "breakingChanges": [],
+          "notes": "Cette version est compatible avec Adobe Illustrator 2024 et se concentre sur les corrections de bogues. Elle sera probablement la dernière version compatible avec Illustrator 2024. Le programme d'installation Windows sera bientôt disponible ; son lien de téléchargement est provisoire.",
+          "type": "correction"
+        },
+        "es": {
+          "title": "Darty-Ai 2.0.2 — Correcciones de errores (compilación 6176)",
+          "changes": [
+            "- **Inicio en Illustrator 2024**: se corrigieron los problemas de compatibilidad al cargar el complemento en Illustrator 2024.",
+            "- **Exportaciones PDF y de mapas de bits**: se conservan los valores del ajuste preestablecido de PDF para las opciones no especificadas y se revierten correctamente los cambios temporales del documento entre exportaciones, incluso con varias mesas de trabajo.",
+            "- **Sustitución y ajuste de texto**: se corrigieron las posiciones de sustitución, el formato heredado, el ajuste que solo reduce el texto, las coincidencias exactas del número de líneas y el ajuste en capas ocultas.",
+            "- **Operaciones por lotes y mesas de trabajo**: se actualizan las ilustraciones tras duplicaciones, movimientos y cambios de estructura; se corrige el posicionamiento automático de las mesas de trabajo para evitar solapamientos y espacios excesivos.",
+            "- **Coincidencia de etiquetas**: se corrigieron los selectores anidados, la sustitución y el tratamiento de duplicados al copiar etiquetas a nombres, y los operadores de coincidencia final colocados al final del texto buscado.",
+            "- **Colores y estabilidad**: se conservan los matices de las muestras globales en trazos con efectos dinámicos, se corrige la conversión recursiva de colores y se liberan los recursos temporales de texto e ilustraciones.",
+            "- **Códigos de barras**: se eliminan las ilustraciones incompletas tras errores de generación y se deseleccionan correctamente los códigos de barras terminados.",
+            "- **Conexiones de licencia**: se mejoraron la gestión de certificados y proxies, los reintentos y los detalles de los errores de conexión, además de la compatibilidad con rutas de perfiles de usuario con caracteres Unicode en Windows.",
+            "- **Cuentas e inicio de sesión**: se corrigieron el cierre y el reinicio de sesión con tokens obsoletos, se evitan los resúmenes de cuenta desactualizados y se permite reintentar o introducir un token cuando falla la validación de la cuenta.",
+            "- **Instalación y actualizaciones**: se gestionan las carpetas de complementos ausentes o inseguras, se protegen los complementos existentes si falla su sustitución y se conservan las preferencias de Illustrator y los datos de la cuenta durante las actualizaciones y la desinstalación."
+          ],
+          "breakingChanges": [],
+          "notes": "Esta versión es compatible con Adobe Illustrator 2024 y se centra en la corrección de errores. Probablemente será la última versión compatible con Illustrator 2024. El instalador de Windows estará disponible pronto; su enlace de descarga es provisional.",
+          "type": "corrección"
+        },
+        "it": {
+          "title": "Darty-Ai 2.0.2 — Correzioni di bug (build 6176)",
+          "changes": [
+            "- **Avvio in Illustrator 2024**: corretti i problemi di compatibilità nel caricamento del plug-in in Illustrator 2024.",
+            "- **Esportazioni PDF e bitmap**: conservati i valori del predefinito PDF per le opzioni non specificate e annullate correttamente le modifiche temporanee al documento tra le esportazioni, anche nei lavori con più tavole da disegno.",
+            "- **Sostituzione e adattamento del testo**: corretti le posizioni di sostituzione, la formattazione ereditata, l'adattamento con sola riduzione, le corrispondenze esatte del numero di righe e l'adattamento sui livelli nascosti.",
+            "- **Operazioni in serie e tavole da disegno**: aggiornamento della grafica dopo duplicazioni, spostamenti e modifiche strutturali; corretto il posizionamento automatico delle tavole da disegno per evitare sovrapposizioni e spazi eccessivi.",
+            "- **Corrispondenza dei tag**: corretti i selettori annidati, la sostituzione e la gestione dei duplicati durante la copia dei tag nei nomi e gli operatori di corrispondenza finale posti dopo il testo cercato.",
+            "- **Colori e stabilità**: conservate le tinte dei campioni globali nelle tracce con effetti dinamici, corretta la conversione ricorsiva dei colori e liberate le risorse temporanee di testo e grafica.",
+            "- **Codici a barre**: rimossa la grafica incompleta dopo gli errori di generazione e deselezionati correttamente i codici a barre completati.",
+            "- **Connessioni di licenza**: migliorati la gestione di certificati e proxy, i tentativi successivi e i dettagli degli errori di connessione, oltre al supporto dei percorsi dei profili utente con caratteri Unicode in Windows.",
+            "- **Account e accesso**: corretti la disconnessione e il nuovo accesso con token obsoleti, evitati i riepiloghi dell'account non aggiornati e aggiunta la possibilità di riprovare o inserire un token quando la verifica dell'account non riesce.",
+            "- **Installazione e aggiornamenti**: gestite le cartelle dei plug-in mancanti o non sicure, protetti i plug-in esistenti in caso di sostituzione non riuscita e conservati le preferenze di Illustrator e i dati dell'account durante gli aggiornamenti e la disinstallazione."
+          ],
+          "breakingChanges": [],
+          "notes": "Questa versione è compatibile con Adobe Illustrator 2024 e si concentra sulla correzione di bug. Probabilmente sarà l'ultima versione compatibile con Illustrator 2024. Il programma di installazione per Windows sarà disponibile a breve; il collegamento per il download è provvisorio.",
+          "type": "correzione"
+        },
+        "nl": {
+          "title": "Darty-Ai 2.0.2 — Bugfixes (build 6176)",
+          "changes": [
+            "- **Opstarten in Illustrator 2024**: compatibiliteitsproblemen bij het laden van de plug-in in Illustrator 2024 verholpen.",
+            "- **PDF- en bitmapexport**: PDF-voorinstellingen blijven behouden voor niet opgegeven opties en tijdelijke documentwijzigingen worden tussen exports correct teruggedraaid, ook bij taken met meerdere tekengebieden.",
+            "- **Tekst vervangen en passend maken**: vervangingsposities, overgenomen opmaak, passend maken door alleen te verkleinen, exacte overeenkomsten van het aantal regels en passend maken op verborgen lagen gecorrigeerd.",
+            "- **Batchbewerkingen en tekengebieden**: illustraties worden vernieuwd na dupliceren, verplaatsen en structuurwijzigingen; automatische plaatsing van tekengebieden gecorrigeerd om overlap en te grote tussenruimten te voorkomen.",
+            "- **Tags herkennen**: geneste tagselectoren, vervanging en verwerking van duplicaten bij het kopiëren van tags naar namen, en achteraan geplaatste operatoren voor overeenkomsten aan het einde gecorrigeerd.",
+            "- **Kleuren en stabiliteit**: tinten van globale kleurstalen blijven behouden in lijnen met live-effecten, recursieve kleurconversie gecorrigeerd en tijdelijke tekst- en illustratiebronnen opgeruimd.",
+            "- **Barcodes**: onvolledige illustraties worden na fouten bij het genereren verwijderd en voltooide barcodes worden correct gedeselecteerd.",
+            "- **Licentieverbindingen**: verwerking van certificaten en proxy's, nieuwe verbindingspogingen en details van verbindingsfouten verbeterd, evenals ondersteuning voor Windows-gebruikersprofielpaden met Unicode-tekens.",
+            "- **Accounts en aanmelden**: afmelden en opnieuw aanmelden met verouderde tokens gecorrigeerd, verouderde accountoverzichten voorkomen en opnieuw proberen of een token invoeren mogelijk gemaakt wanneer accountvalidatie mislukt.",
+            "- **Installatie en updates**: ontbrekende of onveilige plug-inmappen worden afgehandeld, bestaande plug-ins worden beschermd bij mislukte vervanging en Illustrator-voorkeuren en accountgegevens blijven behouden tijdens updates en verwijdering."
+          ],
+          "breakingChanges": [],
+          "notes": "Deze versie is compatibel met Adobe Illustrator 2024 en richt zich op bugfixes. Dit zal waarschijnlijk de laatste versie zijn die compatibel is met Illustrator 2024. Het Windows-installatieprogramma komt binnenkort; de downloadlink is voorlopig een tijdelijke aanduiding.",
+          "type": "bugfix"
+        }
+      }
+    },
+    {
       "version": "2.0.0",
       "date": "2026-09-03",
       "ai_versions": [2024, 2025, 2026],
