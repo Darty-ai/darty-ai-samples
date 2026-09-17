@@ -21,7 +21,7 @@
       "important": false,
       "download-links": {
         "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.0.2.6176-Mac.dmg",
-        "win": "about:blank"
+        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.0.2.6176-Windows-LTS24-Setup.exe"
       },
       "localizations": {
         "en": {
@@ -39,7 +39,7 @@
             "- **Installation and Upgrades**: Handle missing or unsafe plug-in folders, protect existing plug-ins during failed replacements, and preserve Illustrator preferences and account data during upgrades and removal."
           ],
           "breakingChanges": [],
-          "notes": "This version is compatible with Adobe Illustrator 2024 and focuses on bug fixes. It will probably be the last version compatible with Illustrator 2024. The Windows installer is coming soon; its download link is currently a placeholder.",
+          "notes": "This LTS release targets Adobe Illustrator 2024 and focuses on bug fixes. The Windows installer is available for testing; Windows Illustrator 2024/28.0 and second-PC qualification remain pending. It will probably be the last release supporting Illustrator 2024.",
           "type": "fix"
         },
         "de": {
@@ -57,7 +57,7 @@
             "- **Installation und Updates**: Fehlende oder unsichere Plug-in-Ordner werden berücksichtigt, bestehende Plug-ins bei fehlgeschlagenem Austausch geschützt und Illustrator-Voreinstellungen sowie Kontodaten bei Updates und Deinstallation erhalten."
           ],
           "breakingChanges": [],
-          "notes": "Diese Version ist mit Adobe Illustrator 2024 kompatibel und konzentriert sich auf Fehlerbehebungen. Sie wird voraussichtlich die letzte mit Illustrator 2024 kompatible Version sein. Das Windows-Installationsprogramm folgt in Kürze; der Download-Link ist derzeit ein Platzhalter.",
+          "notes": "Diese LTS-Version ist für Adobe Illustrator 2024 vorgesehen und konzentriert sich auf Fehlerbehebungen. Das Windows-Installationsprogramm steht zum Testen bereit; die Prüfung mit Illustrator 2024/28.0 unter Windows und auf einem zweiten PC steht noch aus. Dies wird voraussichtlich die letzte Version mit Unterstützung für Illustrator 2024 sein.",
           "type": "Fehlerbehebung"
         },
         "fr": {
@@ -75,7 +75,7 @@
             "- **Installation et mises à jour** : gestion des dossiers de plug-ins absents ou non sûrs, protection des plug-ins existants en cas d'échec du remplacement et conservation des préférences Illustrator et des données du compte lors des mises à jour et de la désinstallation."
           ],
           "breakingChanges": [],
-          "notes": "Cette version est compatible avec Adobe Illustrator 2024 et se concentre sur les corrections de bogues. Elle sera probablement la dernière version compatible avec Illustrator 2024. Le programme d'installation Windows sera bientôt disponible ; son lien de téléchargement est provisoire.",
+          "notes": "Cette version LTS vise Adobe Illustrator 2024 et se concentre sur les corrections de bogues. Le programme d’installation Windows est disponible pour les tests ; la validation avec Illustrator 2024/28.0 sous Windows et sur un deuxième PC reste à faire. Ce sera probablement la dernière version prenant en charge Illustrator 2024.",
           "type": "correction"
         },
         "es": {
@@ -93,7 +93,7 @@
             "- **Instalación y actualizaciones**: se gestionan las carpetas de complementos ausentes o inseguras, se protegen los complementos existentes si falla su sustitución y se conservan las preferencias de Illustrator y los datos de la cuenta durante las actualizaciones y la desinstalación."
           ],
           "breakingChanges": [],
-          "notes": "Esta versión es compatible con Adobe Illustrator 2024 y se centra en la corrección de errores. Probablemente será la última versión compatible con Illustrator 2024. El instalador de Windows estará disponible pronto; su enlace de descarga es provisional.",
+          "notes": "Esta versión LTS está destinada a Adobe Illustrator 2024 y se centra en la corrección de errores. El instalador de Windows está disponible para pruebas; la validación con Illustrator 2024/28.0 en Windows y en un segundo PC sigue pendiente. Probablemente será la última versión compatible con Illustrator 2024.",
           "type": "corrección"
         },
         "it": {
@@ -111,7 +111,7 @@
             "- **Installazione e aggiornamenti**: gestite le cartelle dei plug-in mancanti o non sicure, protetti i plug-in esistenti in caso di sostituzione non riuscita e conservati le preferenze di Illustrator e i dati dell'account durante gli aggiornamenti e la disinstallazione."
           ],
           "breakingChanges": [],
-          "notes": "Questa versione è compatibile con Adobe Illustrator 2024 e si concentra sulla correzione di bug. Probabilmente sarà l'ultima versione compatibile con Illustrator 2024. Il programma di installazione per Windows sarà disponibile a breve; il collegamento per il download è provvisorio.",
+          "notes": "Questa versione LTS è destinata ad Adobe Illustrator 2024 e si concentra sulla correzione dei bug. Il programma di installazione Windows è disponibile per i test; restano da completare le verifiche con Illustrator 2024/28.0 su Windows e su un secondo PC. Probabilmente sarà l’ultima versione con supporto per Illustrator 2024.",
           "type": "correzione"
         },
         "nl": {
@@ -129,7 +129,7 @@
             "- **Installatie en updates**: ontbrekende of onveilige plug-inmappen worden afgehandeld, bestaande plug-ins worden beschermd bij mislukte vervanging en Illustrator-voorkeuren en accountgegevens blijven behouden tijdens updates en verwijdering."
           ],
           "breakingChanges": [],
-          "notes": "Deze versie is compatibel met Adobe Illustrator 2024 en richt zich op bugfixes. Dit zal waarschijnlijk de laatste versie zijn die compatibel is met Illustrator 2024. Het Windows-installatieprogramma komt binnenkort; de downloadlink is voorlopig een tijdelijke aanduiding.",
+          "notes": "Deze LTS-versie is bedoeld voor Adobe Illustrator 2024 en richt zich op bugfixes. Het Windows-installatieprogramma is beschikbaar om te testen; verificatie met Illustrator 2024/28.0 onder Windows en op een tweede pc moet nog plaatsvinden. Dit is waarschijnlijk de laatste versie met ondersteuning voor Illustrator 2024.",
           "type": "bugfix"
         }
       }

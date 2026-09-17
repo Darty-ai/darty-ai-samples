@@ -1,0 +1,34 @@
+﻿{
+    "releaseChannel":  "lts",
+    "nativeSdkMajor":  28,
+    "nativeSdkVersion":  "28.1",
+    "nativeSdkInterface":  "kPluginInterfaceVersion28011",
+    "nativeVersion":  "2.0.2.6176",
+    "configuration":  "Release",
+    "nativeSourceCommit":  "446df011bbc4c3e0e8912edd8bf9c6990c079aa6",
+    "cepVersion":  "2.0.2",
+    "cepSha256":  "2D113334105E9295C96DF09594EEBBF5D14CFE996C8E185D2E7120B2920F20F3",
+    "cepBuildInfo":  {
+                         "version":  "2.0.2",
+                         "releaseChannel":  "lts",
+                         "features":  {
+                                          "tablesUi":  "disabled",
+                                          "cloudBackend":  "go"
+                                      },
+                         "tablesMinimumNativeSdkMajor":  30
+                     },
+    "nativeFiles":  [
+                        {
+                            "name":  "com.darty.ai.aip",
+                            "sha256":  "7A1F5E428C09D3DB6E09D7EC85E2AD34EC0000BFB9568DE977A4DE0E2B484E85"
+                        },
+                        {
+                            "name":  "darty-ai-cloud-server-win.exe",
+                            "sha256":  "ABF39DBDE3B069CD28FA5AADBD8C445706C42131E225A301AC94024250F8EC76"
+                        }
+                    ],
+    "signed":  true,
+    "installer":  "Darty-Ai-2.0.2.6176-Windows-LTS24-Setup.exe",
+    "installerSha256":  "042355DE8B8AEAA69B947BC554E2857AEBB732B721C542F0D3D417AEE692904E",
+    "builtAtUtc":  "2026-09-17T20:53:56.5194460Z"
+}
