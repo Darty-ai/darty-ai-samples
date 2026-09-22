@@ -1,23 +1,22 @@
 {
   "$schema": "./change-log.schema.json",
   "default-locale": "en",
-  "temp-comment": "The info here is just a sample for now and will be updated with the real data when the new version is released.",
   "downloads-page": "https://darty.ai/downloads/",
   "release-notes-page": "https://docs.darty.ai/release-notes/",
   "current-versions": {
-    "extension": "2.0.0",
+    "extension": "2.2.0",
     "go-server": "2.6.0",
     "zint": "2.16.0.9",
-    "cpp-plugin": "2.0.0.5786"
+    "cpp-plugin": "2.2.0.6177"
   },
   "version-history": [
     {
       "version": "2.2.0",
-      "date": "2026-09-17",
+      "date": "2026-09-23",
       "ai_versions": [2024, 2025, 2026],
       "ai_versions_numbers": [28, 29, 30],
-      "released": false,
-      "public": false,
+      "released": true,
+      "public": true,
       "important": false,
       "download-links": {
         "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.2.0.6177-Mac.dmg",
