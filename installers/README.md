@@ -29,13 +29,13 @@ the filename is unchanged.
 Vasily confirmed that the installer otherwise works; the Windows README
 records the wording change and his requested fresh signed rebuild.
 
-Windows downloads contain EXE installers and README files only, as requested
-by Vasily. Detailed Windows manifests, checksums and verification evidence
+Download folders contain installer files and READMEs only. Do not add manifest
+or checksum files to Samples. Detailed Windows verification evidence
 remain in the [LTS repository](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_WIN_NAMING_TEST_20260922.md).
 The September 23 Mac export also removes channel labels from its mounted disk,
 installer/uninstaller app names and embedded package title. Its filename remains
-unchanged; download a fresh copy. Mac's matching manifest and checksum accompany
-the corrected DMG.
+unchanged; download a fresh copy. Mac manifests, checksums and verification
+records remain in the native source repository linked from the Mac README.
 
 Installer and uninstaller detection uses stable product IDs and installation
 locations, so download naming does not change replacement or removal behavior.
