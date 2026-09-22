@@ -8,6 +8,11 @@ The rebuilt installer now shows **Darty-Ai** in the wizard, setup text and
 Installed Apps, with no LTS/LTS24 product-name suffix. Download a fresh copy
 if you downloaded this filename before the wording correction.
 
+Change note — September 22, 2026: removed the visible LTS/LTS24 product label
+from Windows Setup and Installed Apps. Vasily confirmed that the installer
+otherwise works and requested this fresh signed rebuild. Native/CEP versions,
+installation paths and installer identity are unchanged.
+
 - Native **2.2.0.6177**, exact Illustrator SDK **28.1/build 140**.
 - Adobe-signed production CEP **2.2.0**, Go helper **2.6.0**, Tables UI disabled.
 - Setup, native AIP, Go helper and uninstaller signed by **Darty Ai Corp**.
