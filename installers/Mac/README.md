@@ -3,7 +3,7 @@
 ## Mainline 2.3.0 test candidate — September 23, 2026
 
 [Darty-Ai-2.3.0.6281-Mac.dmg](Darty-Ai-2.3.0.6281-Mac.dmg) is ready for testing
-over 2.2.0.6177 and in the reverse order. This folder contains DMGs and this
+over 2.2.0.6177 and in the reverse order. This folder contains installers and this
 README only; manifests and checksum files remain in the native source repository.
 
 - Fresh universal Intel/Apple Silicon Release native **2.3.0.6281**, SDK **2025 /
