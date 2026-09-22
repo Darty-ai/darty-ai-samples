@@ -16,6 +16,9 @@ folder-choice and Help/Tools checks; see the Windows page for current status.
 The two Windows installers using `-LTS24` names have been removed at Vasily's
 request because they interfere with deployment scripts. Use the current
 `Darty-Ai-2.2.0.6177-Win.exe` for Windows LTS testing.
+The current Windows EXE also removes the visible LTS/LTS24 suffix from Setup
+and Installed Apps. Download a fresh copy after this wording correction;
+the filename is unchanged.
 
 Windows downloads contain EXE installers and README files only, as requested
 by Vasily. Detailed Windows manifests, checksums and verification evidence
