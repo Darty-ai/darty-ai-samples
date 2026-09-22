@@ -9,15 +9,20 @@ suffix:
 | Windows | `Darty-Ai-<major.minor.micro.build>-Win.exe` | `Darty-Ai-2.2.0.6177-Win.exe` |
 
 See [Mac downloads and validation](Mac/README.md) and
-[Windows downloads and validation](Windows/README.md). The already published
-Windows 2.2.0 installer keeps its original `-Windows-LTS24-Setup.exe` name and
-URL. The `-Win.exe` pattern applies to its next export; that new filename has
-not yet been built or uploaded. Preserve all previously published signed files.
+[Windows downloads and validation](Windows/README.md). The new
+[Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is a signed
+test candidate. Vasily authorized its upload before the remaining manual CEP
+folder-choice and Help/Tools checks; see the Windows page for current status.
+Historical signed installers retain their original bytes, names and URLs.
 
-Keep manifests and checksums with their matching downloads. Installer and
-uninstaller detection uses stable product IDs and installation locations, so
-download naming does not change replacement or removal behavior. Historical
-downloaded EXE/DMG files are not removed by uninstalling the installed product.
+Windows downloads contain EXE installers and README files only, as requested
+by Vasily. Detailed Windows manifests, checksums and verification evidence
+remain in the [LTS repository](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_WIN_NAMING_TEST_20260922.md).
+Mac packaging and its existing accompanying records are unchanged.
+
+Installer and uninstaller detection uses stable product IDs and installation
+locations, so download naming does not change replacement or removal behavior.
+Historical downloaded EXE/DMG files are not removed by uninstalling the product.
 
 Help compares CEP release metadata and follows explicit platform URLs in
 `misc/change-log.json`; uploading a file alone does not announce an update.
