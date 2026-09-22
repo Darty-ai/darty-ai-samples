@@ -1,6 +1,36 @@
 # Mac installers
 
-Current test candidate, September 23, 2026:
+## Mainline 2.3.0 test candidate — September 23, 2026
+
+[Darty-Ai-2.3.0.6281-Mac.dmg](Darty-Ai-2.3.0.6281-Mac.dmg) is ready for testing
+over 2.2.0.6177 and in the reverse order. Keep its adjacent manifest and checksum.
+
+- Fresh universal Intel/Apple Silicon Release native **2.3.0.6281**, SDK **2025 /
+  29.7**, minimum macOS **12**.
+- Current Adobe-signed CEP **2.3.0**, including Main and Tables. The native
+  payload provides Tags and the cloud backend.
+- Developer ID signed, Apple notarized, stapled and Gatekeeper-verified.
+  DMG SHA-256:
+  `156a156bcdfe889344b45814eafd3739553039280c5fbb89a1f4a9fb542de3e1`.
+- All 47 packaged CEP files match the signed archive. Both native code slices
+  match the fresh build. Eight native, 26 CEP and Mac/Windows packaging checks
+  passed; Windows validation ran through PowerShell on macOS, without an EXE build.
+
+Close Illustrator fully before installing either version. After installing
+2.3.0, restart and confirm Help shows **2.3.0 - 6281**, then check Main, Tables
+and Tags under **Window > Darty-Ai**. Install 2.2.0 next, restart and confirm
+**2.2.0 - 6177** with its LTS features. Check replacement and retained licensing
+in both directions, then uninstall behavior after each direction. These actual
+installer/runtime sequences remain untested during this export.
+
+If CEP requests setup, choose a separate safe writable Additional Plug-ins
+folder and restart normally. Existing license retention and uninstall messages
+are unchanged. This upload does not enable updater or website release flags.
+
+[Mainline source provenance and verification](https://github.com/dartyai/p-tests/blob/experiments/cmake/installer-notes/MAINLINE_MAC_RELEASE_20260923.md).
+
+## LTS 2.2.0 test candidate — September 23, 2026
+
 [Darty-Ai-2.2.0.6177-Mac.dmg](Darty-Ai-2.2.0.6177-Mac.dmg).
 Keep the adjacent manifest and SHA-256 file with the installer.
 

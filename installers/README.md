@@ -13,6 +13,13 @@ See [Mac downloads and validation](Mac/README.md) and
 [Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is a signed
 test candidate. Vasily authorized its upload before the remaining manual CEP
 folder-choice and Help/Tools checks; see the Windows page for current status.
+
+The signed and notarized mainline
+[Darty-Ai-2.3.0.6281-Mac.dmg](Mac/Darty-Ai-2.3.0.6281-Mac.dmg) is also available
+for installation-order testing with 2.2.0.6177. Its source fixes retain the
+production CEP Tables panel and validate the same payload on Mac and Windows;
+a new Windows mainline EXE was not built in this Mac export.
+
 The two Windows installers using `-LTS24` names have been removed at Vasily's
 request because they interfere with deployment scripts. Use the current
 `Darty-Ai-2.2.0.6177-Win.exe` for Windows LTS testing.
