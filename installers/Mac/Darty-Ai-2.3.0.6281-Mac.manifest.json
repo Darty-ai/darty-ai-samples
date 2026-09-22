@@ -1,0 +1,38 @@
+{
+  "product": "Darty-Ai",
+  "version": "2.3.0.6281",
+  "nativeVersion": "2.3.0.6281",
+  "nativeSdkVersion": "29.7",
+  "nativeSdkInterface": "kPluginInterfaceVersion29071",
+  "architectures": [
+    "x86_64",
+    "arm64"
+  ],
+  "minimumMacOS": "12.0",
+  "configuration": "Release",
+  "releaseChannel": "edge",
+  "cepVersion": "2.3.0",
+  "features": {
+    "tablesUi": "enabled",
+    "cloudBackend": "native"
+  },
+  "nativeSourceCommit": "e626df4f6c660a17f1b3fc0af3396a4a760563f6",
+  "packagingSourceCommit": "e6af35b3d5e1684837c61826b57a4861b2f52296",
+  "cepSourceCommit": "334d30a550e026896324b6dc422687c1f046b02e",
+  "unpackagedNativeSha256": "2197594bb4f3ac633df8e77379b93da495ef4d092f7f7470f1f7f64fd61ce909",
+  "packagedNativeSha256": "ee593697d86baf45add3f6fe58efe890eece2534087951d016979dec3adb361f",
+  "cepZipSha256": "c4de23ddca1f4db9551ea5cd87590c34365231d7d9b1603eed131716e633ba1b",
+  "cepZxpSha256": "086b2e12905d3c4d8d39e3dbd6388d6812466bee3b628879c982630b27014aa2",
+  "dmgSha256": "156a156bcdfe889344b45814eafd3739553039280c5fbb89a1f4a9fb542de3e1",
+  "packageSha256": "d615a46d0253dc12adcb96e108602c709de82f19d28f7708ef89100ce25ce4ad",
+  "packageLocation": "Darty-Ai-2.3.0.6281-Mac-Installer.app/Contents/Resources/Darty-Ai.pkg (inside DMG)",
+  "signingTeam": "ZM2RS2856R",
+  "packageNotarySubmission": "4be28128-9de8-4faa-b8ef-f9e8815a251f",
+  "dmgNotarySubmission": "0f4dc97b-990b-468d-a4d2-9d381e955c2e",
+  "notaryStatus": "Accepted",
+  "stapled": true,
+  "gatekeeperAccepted": true,
+  "testCandidate": true,
+  "installerSwitchingRuntimeTested": false,
+  "windowsExeRebuilt": false
+}
