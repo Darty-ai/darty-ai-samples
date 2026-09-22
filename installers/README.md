@@ -13,7 +13,9 @@ See [Mac downloads and validation](Mac/README.md) and
 [Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is a signed
 test candidate. Vasily authorized its upload before the remaining manual CEP
 folder-choice and Help/Tools checks; see the Windows page for current status.
-Historical signed installers retain their original bytes, names and URLs.
+The two Windows installers using `-LTS24` names have been removed at Vasily's
+request because they interfere with deployment scripts. Use the current
+`Darty-Ai-2.2.0.6177-Win.exe` for Windows LTS testing.
 
 Windows downloads contain EXE installers and README files only, as requested
 by Vasily. Detailed Windows manifests, checksums and verification evidence

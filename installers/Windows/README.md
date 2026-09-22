@@ -39,7 +39,8 @@ and the native Tags panel/tool is absent. Test familiar tag, text, barcode and
 export workflows; report the Illustrator version and any exact error.
 
 [Detailed provenance and validation in LTS](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_WIN_NAMING_TEST_20260922.md).
-This Windows folder contains EXE installers and README files only. The earlier
-[long-name 2.2.0.6177 export](Darty-Ai-2.2.0.6177-Windows-LTS24-Setup.exe)
-and historical EXEs retain their original bytes. This upload does not change
-the website or updater release flags.
+This Windows folder contains EXE installers and README files only. Use the
+current `Darty-Ai-2.2.0.6177-Win.exe`; the two earlier installers with the
+`-LTS24` naming have been removed at Vasily's request because those names
+interfere with deployment scripts. This cleanup does not change the website
+or updater release flags.
