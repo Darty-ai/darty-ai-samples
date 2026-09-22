@@ -12,7 +12,7 @@
   },
   "version-history": [
     {
-      "version": "2.0.2",
+      "version": "2.2.0",
       "date": "2026-09-17",
       "ai_versions": [2024, 2025, 2026],
       "ai_versions_numbers": [28, 29, 30],
@@ -20,11 +20,12 @@
       "public": false,
       "important": false,
       "download-links": {
-        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.0.2.6176-Mac.dmg"
+        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.2.0.6177-Mac.dmg",
+        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.2.0.6177-Win.exe"
       },
       "localizations": {
         "en": {
-          "title": "Darty-Ai 2.0.2 — Bug fixes (build 6176)",
+          "title": "Darty-Ai 2.2.0 — Fixes and improvements since v2.0.0 (build 6177)",
           "changes": [
             "- **Illustrator 2024 Startup**: Fixed plug-in loading compatibility with Illustrator 2024.",
             "- **PDF and Bitmap Exports**: Preserve PDF preset values for unspecified options and correctly restore temporary document changes between exports, including multi-artboard jobs.",
@@ -35,14 +36,16 @@
             "- **Barcodes**: Remove incomplete artwork after generation errors and correctly deselect completed barcodes.",
             "- **Licensing Connections**: Improved certificate and proxy handling, retries and connection error details, plus Windows support for Unicode user-profile paths.",
             "- **Accounts and Login**: Fixed stale-token logout and relogin, prevent stale account summaries, and provide retry or token entry when account validation fails.",
-            "- **Installation and Upgrades**: Handle missing or unsafe plug-in folders, protect existing plug-ins during failed replacements, and preserve Illustrator preferences and account data during upgrades and removal."
+            "- **Installation and Folder Setup**: Install the required files even when no usable external plug-in folder is configured, then guide the user through folder setup in Darty-Ai. Missing or unsafe folders no longer prevent installation.",
+            "- **Safer Upgrades**: Verify copied plug-in files and restore the previous files if a replacement fails. Windows installers report a failed copy instead of reporting a successful installation.",
+            "- **Uninstalling on Mac**: Fixed incorrect reports of files remaining after removal and hangs caused by cleanup output. Illustrator preferences, license and account data remain available for reinstalls."
           ],
           "breakingChanges": [],
-          "notes": "This LTS release targets Adobe Illustrator 2024 and focuses on bug fixes. The Windows installer is available for testing; Windows Illustrator 2024/28.0 and second-PC qualification remain pending. It will probably be the last release supporting Illustrator 2024.",
+          "notes": "Darty-Ai 2.2.0 builds on v2.0.0, adding the bug fixes and improvements listed above. It is intended for Adobe Illustrator 2024, 2025 and 2026, and will probably be the last version supporting Illustrator 2024. See the release notes for v2.0.0 for the full list of new features and improvements.",
           "type": "fix"
         },
         "de": {
-          "title": "Darty-Ai 2.0.2 — Fehlerbehebungen (Build 6176)",
+          "title": "Darty-Ai 2.2.0 — Fehlerbehebungen und Verbesserungen seit v2.0.0 (Build 6177)",
           "changes": [
             "- **Start in Illustrator 2024**: Kompatibilitätsprobleme beim Laden des Plug-ins in Illustrator 2024 behoben.",
             "- **PDF- und Bitmap-Export**: PDF-Vorgaben für nicht angegebene Optionen bleiben erhalten. Temporäre Dokumentänderungen werden zwischen Exporten korrekt zurückgesetzt, auch bei Aufträgen mit mehreren Zeichenflächen.",
@@ -53,14 +56,16 @@
             "- **Barcodes**: Unvollständige Grafiken werden nach Erstellungsfehlern entfernt und fertige Barcodes korrekt abgewählt.",
             "- **Lizenzverbindungen**: Zertifikat- und Proxy-Verarbeitung, Wiederholungsversuche und Verbindungsfehlermeldungen verbessert. Windows-Benutzerprofilpfade mit Unicode-Zeichen werden zuverlässiger unterstützt.",
             "- **Konten und Anmeldung**: Abmeldung und erneute Anmeldung mit veralteten Tokens korrigiert. Veraltete Kontoübersichten werden verhindert; bei fehlgeschlagener Kontoprüfung sind ein erneuter Versuch oder die Eingabe eines Tokens möglich.",
-            "- **Installation und Updates**: Fehlende oder unsichere Plug-in-Ordner werden berücksichtigt, bestehende Plug-ins bei fehlgeschlagenem Austausch geschützt und Illustrator-Voreinstellungen sowie Kontodaten bei Updates und Deinstallation erhalten."
+            "- **Installation und Ordnereinrichtung**: Die erforderlichen Dateien werden auch dann installiert, wenn kein nutzbarer externer Plug-in-Ordner eingerichtet ist. Anschließend führt Darty-Ai durch die Ordnereinrichtung. Fehlende oder unsichere Ordner verhindern die Installation nicht mehr.",
+            "- **Sicherere Updates**: Kopierte Plug-in-Dateien werden überprüft und die vorherigen Dateien wiederhergestellt, falls ein Austausch fehlschlägt. Windows-Installationsprogramme melden einen Kopierfehler, statt eine erfolgreiche Installation anzuzeigen.",
+            "- **Deinstallation auf dem Mac**: Fehlerhafte Meldungen über nach der Deinstallation verbliebene Dateien sowie Hänger durch die Ausgabe des Bereinigungsvorgangs behoben. Illustrator-Voreinstellungen, Lizenz- und Kontodaten bleiben für eine erneute Installation erhalten."
           ],
           "breakingChanges": [],
-          "notes": "Diese LTS-Version ist für Adobe Illustrator 2024 vorgesehen und konzentriert sich auf Fehlerbehebungen. Das Windows-Installationsprogramm steht zum Testen bereit; die Prüfung mit Illustrator 2024/28.0 unter Windows und auf einem zweiten PC steht noch aus. Dies wird voraussichtlich die letzte Version mit Unterstützung für Illustrator 2024 sein.",
+          "notes": "Darty-Ai 2.2.0 baut auf v2.0.0 auf und ergänzt die oben aufgeführten Fehlerbehebungen und Verbesserungen. Diese Version ist für Adobe Illustrator 2024, 2025 und 2026 vorgesehen und wird wahrscheinlich die letzte Version mit Unterstützung für Illustrator 2024 sein. Die vollständige Liste der neuen Funktionen und Verbesserungen ist in den Versionshinweisen zu v2.0.0 zu finden.",
           "type": "Fehlerbehebung"
         },
         "fr": {
-          "title": "Darty-Ai 2.0.2 — Corrections de bogues (build 6176)",
+          "title": "Darty-Ai 2.2.0 — Corrections et améliorations depuis la v2.0.0 (build 6177)",
           "changes": [
             "- **Démarrage dans Illustrator 2024** : correction des problèmes de compatibilité lors du chargement du plug-in dans Illustrator 2024.",
             "- **Exportations PDF et bitmap** : conservation des valeurs du paramètre prédéfini PDF pour les options non précisées et annulation correcte des modifications temporaires du document entre les exportations, y compris avec plusieurs plans de travail.",
@@ -71,14 +76,16 @@
             "- **Codes-barres** : suppression des illustrations incomplètes après une erreur de génération et désélection correcte des codes-barres terminés.",
             "- **Connexions de licence** : amélioration de la gestion des certificats et des proxys, des nouvelles tentatives et des détails des erreurs de connexion, ainsi que de la prise en charge des chemins de profil utilisateur Unicode sous Windows.",
             "- **Comptes et connexion** : correction de la déconnexion et de la reconnexion avec des jetons périmés, prévention des résumés de compte obsolètes et possibilité de réessayer ou de saisir un jeton en cas d'échec de la validation du compte.",
-            "- **Installation et mises à jour** : gestion des dossiers de plug-ins absents ou non sûrs, protection des plug-ins existants en cas d'échec du remplacement et conservation des préférences Illustrator et des données du compte lors des mises à jour et de la désinstallation."
+            "- **Installation et configuration du dossier** : installation des fichiers nécessaires même si aucun dossier externe de plug-ins utilisable n’est configuré, puis accompagnement de l’utilisateur dans la configuration du dossier dans Darty-Ai. Les dossiers absents ou non sûrs ne bloquent plus l’installation.",
+            "- **Mises à jour plus sûres** : vérification des fichiers de plug-in copiés et restauration des fichiers précédents en cas d’échec du remplacement. Les programmes d’installation Windows signalent un échec de copie au lieu d’indiquer que l’installation a réussi.",
+            "- **Désinstallation sur Mac** : correction des signalements erronés de fichiers restants après la désinstallation et des blocages causés par les messages de sortie du nettoyage. Les préférences Illustrator ainsi que les données de licence et de compte sont conservées pour une réinstallation."
           ],
           "breakingChanges": [],
-          "notes": "Cette version LTS vise Adobe Illustrator 2024 et se concentre sur les corrections de bogues. Le programme d’installation Windows est disponible pour les tests ; la validation avec Illustrator 2024/28.0 sous Windows et sur un deuxième PC reste à faire. Ce sera probablement la dernière version prenant en charge Illustrator 2024.",
+          "notes": "Darty-Ai 2.2.0 s’appuie sur la v2.0.0 et y ajoute les corrections de bogues et les améliorations énumérées ci-dessus. Cette version est destinée à Adobe Illustrator 2024, 2025 et 2026 et sera probablement la dernière à prendre en charge Illustrator 2024. Consultez les notes de version de la v2.0.0 pour connaître la liste complète des nouvelles fonctionnalités et des améliorations.",
           "type": "correction"
         },
         "es": {
-          "title": "Darty-Ai 2.0.2 — Correcciones de errores (compilación 6176)",
+          "title": "Darty-Ai 2.2.0 — Correcciones y mejoras desde la v2.0.0 (compilación 6177)",
           "changes": [
             "- **Inicio en Illustrator 2024**: se corrigieron los problemas de compatibilidad al cargar el complemento en Illustrator 2024.",
             "- **Exportaciones PDF y de mapas de bits**: se conservan los valores del ajuste preestablecido de PDF para las opciones no especificadas y se revierten correctamente los cambios temporales del documento entre exportaciones, incluso con varias mesas de trabajo.",
@@ -89,14 +96,16 @@
             "- **Códigos de barras**: se eliminan las ilustraciones incompletas tras errores de generación y se deseleccionan correctamente los códigos de barras terminados.",
             "- **Conexiones de licencia**: se mejoraron la gestión de certificados y proxies, los reintentos y los detalles de los errores de conexión, además de la compatibilidad con rutas de perfiles de usuario con caracteres Unicode en Windows.",
             "- **Cuentas e inicio de sesión**: se corrigieron el cierre y el reinicio de sesión con tokens obsoletos, se evitan los resúmenes de cuenta desactualizados y se permite reintentar o introducir un token cuando falla la validación de la cuenta.",
-            "- **Instalación y actualizaciones**: se gestionan las carpetas de complementos ausentes o inseguras, se protegen los complementos existentes si falla su sustitución y se conservan las preferencias de Illustrator y los datos de la cuenta durante las actualizaciones y la desinstalación."
+            "- **Instalación y configuración de la carpeta**: se instalan los archivos necesarios aunque no haya configurada ninguna carpeta externa de complementos utilizable y, a continuación, Darty-Ai guía al usuario para configurar la carpeta. Las carpetas ausentes o inseguras ya no impiden la instalación.",
+            "- **Actualizaciones más seguras**: se verifican los archivos del complemento copiados y se restauran los archivos anteriores si falla la sustitución. Los instaladores de Windows notifican los errores de copia en lugar de indicar que la instalación se ha completado correctamente.",
+            "- **Desinstalación en Mac**: se corrigieron los avisos incorrectos de archivos restantes tras la desinstalación y los bloqueos causados por los mensajes de salida de la limpieza. Las preferencias de Illustrator y los datos de licencia y cuenta se conservan para futuras reinstalaciones."
           ],
           "breakingChanges": [],
-          "notes": "Esta versión LTS está destinada a Adobe Illustrator 2024 y se centra en la corrección de errores. El instalador de Windows está disponible para pruebas; la validación con Illustrator 2024/28.0 en Windows y en un segundo PC sigue pendiente. Probablemente será la última versión compatible con Illustrator 2024.",
+          "notes": "Darty-Ai 2.2.0 se basa en la v2.0.0 y añade las correcciones de errores y mejoras indicadas anteriormente. Está destinada a Adobe Illustrator 2024, 2025 y 2026, y probablemente será la última versión compatible con Illustrator 2024. Consulte las notas de la v2.0.0 para ver la lista completa de nuevas funciones y mejoras.",
           "type": "corrección"
         },
         "it": {
-          "title": "Darty-Ai 2.0.2 — Correzioni di bug (build 6176)",
+          "title": "Darty-Ai 2.2.0 — Correzioni e miglioramenti rispetto alla v2.0.0 (build 6177)",
           "changes": [
             "- **Avvio in Illustrator 2024**: corretti i problemi di compatibilità nel caricamento del plug-in in Illustrator 2024.",
             "- **Esportazioni PDF e bitmap**: conservati i valori del predefinito PDF per le opzioni non specificate e annullate correttamente le modifiche temporanee al documento tra le esportazioni, anche nei lavori con più tavole da disegno.",
@@ -107,14 +116,16 @@
             "- **Codici a barre**: rimossa la grafica incompleta dopo gli errori di generazione e deselezionati correttamente i codici a barre completati.",
             "- **Connessioni di licenza**: migliorati la gestione di certificati e proxy, i tentativi successivi e i dettagli degli errori di connessione, oltre al supporto dei percorsi dei profili utente con caratteri Unicode in Windows.",
             "- **Account e accesso**: corretti la disconnessione e il nuovo accesso con token obsoleti, evitati i riepiloghi dell'account non aggiornati e aggiunta la possibilità di riprovare o inserire un token quando la verifica dell'account non riesce.",
-            "- **Installazione e aggiornamenti**: gestite le cartelle dei plug-in mancanti o non sicure, protetti i plug-in esistenti in caso di sostituzione non riuscita e conservati le preferenze di Illustrator e i dati dell'account durante gli aggiornamenti e la disinstallazione."
+            "- **Installazione e configurazione della cartella**: i file necessari vengono installati anche quando non è configurata alcuna cartella esterna utilizzabile per i plug-in; Darty-Ai guida poi l’utente nella configurazione della cartella. Le cartelle mancanti o non sicure non impediscono più l’installazione.",
+            "- **Aggiornamenti più sicuri**: i file del plug-in copiati vengono verificati e, se la sostituzione non riesce, vengono ripristinati quelli precedenti. I programmi di installazione per Windows segnalano gli errori di copia anziché indicare che l’installazione è riuscita.",
+            "- **Disinstallazione su Mac**: corretti gli avvisi errati di file rimasti dopo la disinstallazione e i blocchi causati dai messaggi di output della pulizia. Le preferenze di Illustrator e i dati di licenza e account vengono conservati per eventuali reinstallazioni."
           ],
           "breakingChanges": [],
-          "notes": "Questa versione LTS è destinata ad Adobe Illustrator 2024 e si concentra sulla correzione dei bug. Il programma di installazione Windows è disponibile per i test; restano da completare le verifiche con Illustrator 2024/28.0 su Windows e su un secondo PC. Probabilmente sarà l’ultima versione con supporto per Illustrator 2024.",
+          "notes": "Darty-Ai 2.2.0 si basa sulla v2.0.0 e aggiunge le correzioni di bug e i miglioramenti elencati sopra. È destinata ad Adobe Illustrator 2024, 2025 e 2026 e sarà probabilmente l’ultima versione a supportare Illustrator 2024. Consultare le note di rilascio della v2.0.0 per l’elenco completo delle nuove funzionalità e dei miglioramenti.",
           "type": "correzione"
         },
         "nl": {
-          "title": "Darty-Ai 2.0.2 — Bugfixes (build 6176)",
+          "title": "Darty-Ai 2.2.0 — Bugfixes en verbeteringen sinds v2.0.0 (build 6177)",
           "changes": [
             "- **Opstarten in Illustrator 2024**: compatibiliteitsproblemen bij het laden van de plug-in in Illustrator 2024 verholpen.",
             "- **PDF- en bitmapexport**: PDF-voorinstellingen blijven behouden voor niet opgegeven opties en tijdelijke documentwijzigingen worden tussen exports correct teruggedraaid, ook bij taken met meerdere tekengebieden.",
@@ -125,10 +136,12 @@
             "- **Barcodes**: onvolledige illustraties worden na fouten bij het genereren verwijderd en voltooide barcodes worden correct gedeselecteerd.",
             "- **Licentieverbindingen**: verwerking van certificaten en proxy's, nieuwe verbindingspogingen en details van verbindingsfouten verbeterd, evenals ondersteuning voor Windows-gebruikersprofielpaden met Unicode-tekens.",
             "- **Accounts en aanmelden**: afmelden en opnieuw aanmelden met verouderde tokens gecorrigeerd, verouderde accountoverzichten voorkomen en opnieuw proberen of een token invoeren mogelijk gemaakt wanneer accountvalidatie mislukt.",
-            "- **Installatie en updates**: ontbrekende of onveilige plug-inmappen worden afgehandeld, bestaande plug-ins worden beschermd bij mislukte vervanging en Illustrator-voorkeuren en accountgegevens blijven behouden tijdens updates en verwijdering."
+            "- **Installatie en mapinstellingen**: de benodigde bestanden worden ook geïnstalleerd wanneer er geen bruikbare externe plug-inmap is ingesteld. Daarna begeleidt Darty-Ai de gebruiker bij het instellen van de map. Ontbrekende of onveilige mappen verhinderen de installatie niet meer.",
+            "- **Veiligere updates**: gekopieerde plug-inbestanden worden gecontroleerd en de vorige bestanden worden hersteld als het vervangen mislukt. Windows-installatieprogramma’s melden een kopieerfout in plaats van een geslaagde installatie.",
+            "- **Verwijderen op de Mac**: onjuiste meldingen over achtergebleven bestanden na verwijdering en vastlopers door uitvoer van het opruimproces verholpen. Illustrator-voorkeuren, licentie- en accountgegevens blijven beschikbaar voor herinstallatie."
           ],
           "breakingChanges": [],
-          "notes": "Deze LTS-versie is bedoeld voor Adobe Illustrator 2024 en richt zich op bugfixes. Het Windows-installatieprogramma is beschikbaar om te testen; verificatie met Illustrator 2024/28.0 onder Windows en op een tweede pc moet nog plaatsvinden. Dit is waarschijnlijk de laatste versie met ondersteuning voor Illustrator 2024.",
+          "notes": "Darty-Ai 2.2.0 bouwt voort op v2.0.0 en voegt de hierboven vermelde bugfixes en verbeteringen toe. Deze versie is bedoeld voor Adobe Illustrator 2024, 2025 en 2026 en zal waarschijnlijk de laatste versie zijn die Illustrator 2024 ondersteunt. Bekijk de releaseopmerkingen voor v2.0.0 voor de volledige lijst met nieuwe functies en verbeteringen.",
           "type": "bugfix"
         }
       }
