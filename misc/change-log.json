@@ -20,8 +20,7 @@
       "public": false,
       "important": false,
       "download-links": {
-        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.0.2.6176-Mac.dmg",
-        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.0.2.6176-Windows-LTS24-Setup.exe"
+        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.0.2.6176-Mac.dmg"
       },
       "localizations": {
         "en": {
