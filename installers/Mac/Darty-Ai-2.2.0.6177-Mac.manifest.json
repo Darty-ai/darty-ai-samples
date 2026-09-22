@@ -14,7 +14,7 @@
       "arm64"
     ]
   },
-  "nativeSourceCommit": "f3ed74d2909aaafcfac168fa6979c11dfef5b064",
+  "nativeSourceCommit": "436ea2b723a99a9c88d3f3198517b8b7db91d241",
   "nativeBinarySha256": "c274f15af1e1b58766ba799f874445f42caaf6a0039a8668a7e98c3c36343e42",
   "goHelperSha256": "59bb389224cf997c3bff03903807f3cdecd3bbb06b3372c0237a40ae70efb2d4",
   "cepVersion": "2.2.0",
@@ -29,7 +29,7 @@
     "tablesMinimumNativeSdkMajor": 30
   },
   "zxpSignatureVerified": true,
-  "packagingSourceCommit": "f3ed74d2909aaafcfac168fa6979c11dfef5b064",
+  "packagingSourceCommit": "436ea2b723a99a9c88d3f3198517b8b7db91d241",
   "packagingWorktreeDirty": false,
   "packagingFiles": [
     {
@@ -74,11 +74,11 @@
     },
     {
       "path": "scripts/build-macos-lts-installer.sh",
-      "sha256": "c85a57728107f2c2054975a2a4e34ba3beecfd9ea6a6902173f25d5b11126934"
+      "sha256": "f7c481f314c7e03737e59afcd44022266270b9acf85c5ec0d8c9cf98fcbe0e0f"
     },
     {
       "path": "scripts/build-macos-lts-dmg.sh",
-      "sha256": "ac846a6cf53ab094affe9e9328a6fa27fb7b0a70078b20bce82608b503bd11d6"
+      "sha256": "e1ef3d66219a89dd0eb4f5d3af42c12652ceee30ccedb26c6c133ac84d929699"
     },
     {
       "path": "packaging/macosx/Darty-Ai.pkgbuilder",
@@ -102,7 +102,7 @@
     },
     {
       "path": "scripts/prepare-macos-lts-installer.py",
-      "sha256": "d34cccd40323a2221c71355beebd7ea94b0e2ff3daa4fe175f6ccb13fcb0844d"
+      "sha256": "4ff959f2b0dc9578b1520a6ea969a932989c68080bc619a57ac7b4fc7273200e"
     },
     {
       "path": "scripts/load-macos-release-env.sh",
@@ -114,32 +114,32 @@
     }
   ],
   "package": "Darty-Ai-2.2.0.6177-Mac.pkg",
-  "packageLocation": "Install Darty-Ai LTS24.app/Contents/Resources/Darty-Ai.pkg (inside DMG)",
+  "packageLocation": "Install Darty-Ai.app/Contents/Resources/Darty-Ai.pkg (inside DMG)",
   "packagingTools": [
     "Package Builder",
     "DMG Canvas"
   ],
-  "packageSha256": "ecf0c3e94a355eae8e9bec691e8f30b6ba4ceff5100bbb231b975ff40d55e10a",
+  "packageSha256": "1cce9212f08d5e1b849086941fd81e37e14b0326d687e42a91b9a5627f864ef7",
   "dmg": "Darty-Ai-2.2.0.6177-Mac.dmg",
-  "dmgSha256": "b61e72eb147f1f1a0e591942cbfacbcea6f28c53ca174fd8035430b3b8e30260",
+  "dmgSha256": "0a031e5824b42154b769bb0d23794b1db5713ee23fe53889fac7f0f72ecbde6a",
   "signed": true,
   "notarized": true,
   "appleNotarization": {
     "pkg": {
       "artifact": "Darty-Ai-2.2.0.6177-Mac.pkg",
-      "inputSha256": "63a779876d7e373a39125d9c19b01fcf60d768739931f607f6bf39279b1a0e38",
-      "id": "4d17b235-9113-47fb-9105-1eaacbda5442",
+      "inputSha256": "54be11c9bf2910373ab086b8f561e77ee37d732d0f116f191c056173f52f9be4",
+      "id": "fef31670-76ec-4ff5-83d5-aab180b14c7d",
       "status": "Accepted",
-      "stapledSha256": "ecf0c3e94a355eae8e9bec691e8f30b6ba4ceff5100bbb231b975ff40d55e10a",
+      "stapledSha256": "1cce9212f08d5e1b849086941fd81e37e14b0326d687e42a91b9a5627f864ef7",
       "stapleValidated": true,
       "gatekeeperAccepted": true
     },
     "dmg": {
       "artifact": "Darty-Ai-2.2.0.6177-Mac.dmg",
-      "inputSha256": "d558ebad6bba42c4c0c41a4138f9635956582655a9f0960053bad769317b2fc4",
-      "id": "995b092f-156f-4b58-a669-2c54508819a3",
+      "inputSha256": "fd38acaabd4742e9e5dccee65ca4e613cd7c202900396e9c73c52a8d03e0b28c",
+      "id": "6e6e274a-f862-4c30-a968-dd6e37ca56cf",
       "status": "Accepted",
-      "stapledSha256": "b61e72eb147f1f1a0e591942cbfacbcea6f28c53ca174fd8035430b3b8e30260",
+      "stapledSha256": "0a031e5824b42154b769bb0d23794b1db5713ee23fe53889fac7f0f72ecbde6a",
       "stapleValidated": true,
       "gatekeeperAccepted": true
     }

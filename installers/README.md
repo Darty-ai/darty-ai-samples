@@ -25,7 +25,10 @@ records the wording change and his requested fresh signed rebuild.
 Windows downloads contain EXE installers and README files only, as requested
 by Vasily. Detailed Windows manifests, checksums and verification evidence
 remain in the [LTS repository](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_WIN_NAMING_TEST_20260922.md).
-Mac packaging and its existing accompanying records are unchanged.
+The September 23 Mac export also removes channel labels from its mounted disk,
+installer/uninstaller app names and embedded package title. Its filename remains
+unchanged; download a fresh copy. Mac's matching manifest and checksum accompany
+the corrected DMG.
 
 Installer and uninstaller detection uses stable product IDs and installation
 locations, so download naming does not change replacement or removal behavior.
