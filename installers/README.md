@@ -19,6 +19,8 @@ request because they interfere with deployment scripts. Use the current
 The current Windows EXE also removes the visible LTS/LTS24 suffix from Setup
 and Installed Apps. Download a fresh copy after this wording correction;
 the filename is unchanged.
+Vasily confirmed that the installer otherwise works; the Windows README
+records the wording change and his requested fresh signed rebuild.
 
 Windows downloads contain EXE installers and README files only, as requested
 by Vasily. Detailed Windows manifests, checksums and verification evidence
