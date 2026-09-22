@@ -1,0 +1,147 @@
+{
+  "releaseChannel": "lts",
+  "nativeSdkMajor": 28,
+  "nativeSdkVersion": "28.1",
+  "nativeVersion": "2.2.0.6177",
+  "configuration": "Release",
+  "architectures": {
+    "native AIP": [
+      "x86_64",
+      "arm64"
+    ],
+    "Go cloud helper": [
+      "x86_64",
+      "arm64"
+    ]
+  },
+  "nativeSourceCommit": "f3ed74d2909aaafcfac168fa6979c11dfef5b064",
+  "nativeBinarySha256": "c274f15af1e1b58766ba799f874445f42caaf6a0039a8668a7e98c3c36343e42",
+  "goHelperSha256": "59bb389224cf997c3bff03903807f3cdecd3bbb06b3372c0237a40ae70efb2d4",
+  "cepVersion": "2.2.0",
+  "cepSha256": "3b945330a93385cf2852a299712af51261fa7e65fd2ec32caf9621ae6e3acc14",
+  "cepBuildInfo": {
+    "version": "2.2.0",
+    "releaseChannel": "lts",
+    "features": {
+      "tablesUi": "disabled",
+      "cloudBackend": "go"
+    },
+    "tablesMinimumNativeSdkMajor": 30
+  },
+  "zxpSignatureVerified": true,
+  "packagingSourceCommit": "f3ed74d2909aaafcfac168fa6979c11dfef5b064",
+  "packagingWorktreeDirty": false,
+  "packagingFiles": [
+    {
+      "path": "packaging/macosx/DartyInstallerLauncher.m",
+      "sha256": "b76bfb6e6e097fbd915f2cc0e6035c79b1ae010060eaf08a07ec56f0e1d056df"
+    },
+    {
+      "path": "packaging/macosx/DartyCommandOutput.h",
+      "sha256": "60439fe379a0cb11f7363127eaf4df47af5cc864b715fc2c93b275e4cddb572d"
+    },
+    {
+      "path": "packaging/macosx/DartyLegacyCleanupHelper.c",
+      "sha256": "2e991fd169c8d6ec27c2f6612869d720c03c8a4fef7bdfe9776d7e915e5ca784"
+    },
+    {
+      "path": "packaging/macosx/DartyLegacyUninstaller.m",
+      "sha256": "cd642688dabf7a9744c71fa261d9e0d97c96ac12c8d4e44d38277aed6795407a"
+    },
+    {
+      "path": "packaging/macosx/DartyUninstallerLauncher.m",
+      "sha256": "6489fde181df8c03c5ad538c363c6cef0beeb63f5aea87f232136726ded788a0"
+    },
+    {
+      "path": "packaging/macosx/additional-plugins",
+      "sha256": "ed62fcb1b854b86526b65b2d83e7921beac1cb2c56b477d820f651953cf15e6a"
+    },
+    {
+      "path": "packaging/macosx/legacy-admin-cleanup",
+      "sha256": "d7927e23ebec8c3a64dcf8b05850edc33d0f17b5abac914fc5647fa4ab600340"
+    },
+    {
+      "path": "packaging/macosx/per-user-cleanup",
+      "sha256": "8349134bc56298a5e71481eb19819c60fdc7109858a9c1f6d68bcd6d5548cbcb"
+    },
+    {
+      "path": "packaging/macosx/scripts/preinstall",
+      "sha256": "238d105b7446f58dd9c5d968ec2343efa6276291719c9866bce7bc0ac3775b4d"
+    },
+    {
+      "path": "packaging/macosx/scripts/postinstall",
+      "sha256": "7f33c011be7b34f2ed61bcb7d33e469d9ab431263c22cbc9da23fb8d06e3a917"
+    },
+    {
+      "path": "scripts/build-macos-lts-installer.sh",
+      "sha256": "c85a57728107f2c2054975a2a4e34ba3beecfd9ea6a6902173f25d5b11126934"
+    },
+    {
+      "path": "scripts/build-macos-lts-dmg.sh",
+      "sha256": "ac846a6cf53ab094affe9e9328a6fa27fb7b0a70078b20bce82608b503bd11d6"
+    },
+    {
+      "path": "packaging/macosx/Darty-Ai.pkgbuilder",
+      "sha256": "d0686e1d64749fcfcf3eeeefa248eb17ee411b2d50c9f4e4236a283863b89eb1"
+    },
+    {
+      "path": "packaging/macosx/darty-ai.dmgcanvas/Disk Image",
+      "sha256": "4f5946cb525b8692eb58b5e87c79ebc2382192871817ab949bf2865a0a8e72e8"
+    },
+    {
+      "path": "resources/darty-icon-512.icns",
+      "sha256": "276dec1b9d2c24cf6d260bbe918dd94f4f4c52b3a5e21429a0249c797079d93c"
+    },
+    {
+      "path": "resources/darty-icon-512-disk.icns",
+      "sha256": "47db1f4ee6ba0af8c4ffa2cb4a601973231faf30c4109af88d844c0a7fdc7fa4"
+    },
+    {
+      "path": "resources/dmg-canvas-light.png",
+      "sha256": "6eb6a1facc012a30150fd46c0ab5721f83590107d858e082e12f932762fa6b00"
+    },
+    {
+      "path": "scripts/prepare-macos-lts-installer.py",
+      "sha256": "d34cccd40323a2221c71355beebd7ea94b0e2ff3daa4fe175f6ccb13fcb0844d"
+    },
+    {
+      "path": "scripts/load-macos-release-env.sh",
+      "sha256": "f3f68175f3972a2341ac1f9870310bef08cba44f8f7b8f19cc96e88f7522545c"
+    },
+    {
+      "path": "scripts/notarize-macos-artifact.py",
+      "sha256": "bc2a1f49b61a7800461040ce66ce1b60db90d37b7fa9e00cdd8e75d53dac04d6"
+    }
+  ],
+  "package": "Darty-Ai-2.2.0.6177-Mac.pkg",
+  "packageLocation": "Install Darty-Ai LTS24.app/Contents/Resources/Darty-Ai.pkg (inside DMG)",
+  "packagingTools": [
+    "Package Builder",
+    "DMG Canvas"
+  ],
+  "packageSha256": "ecf0c3e94a355eae8e9bec691e8f30b6ba4ceff5100bbb231b975ff40d55e10a",
+  "dmg": "Darty-Ai-2.2.0.6177-Mac.dmg",
+  "dmgSha256": "b61e72eb147f1f1a0e591942cbfacbcea6f28c53ca174fd8035430b3b8e30260",
+  "signed": true,
+  "notarized": true,
+  "appleNotarization": {
+    "pkg": {
+      "artifact": "Darty-Ai-2.2.0.6177-Mac.pkg",
+      "inputSha256": "63a779876d7e373a39125d9c19b01fcf60d768739931f607f6bf39279b1a0e38",
+      "id": "4d17b235-9113-47fb-9105-1eaacbda5442",
+      "status": "Accepted",
+      "stapledSha256": "ecf0c3e94a355eae8e9bec691e8f30b6ba4ceff5100bbb231b975ff40d55e10a",
+      "stapleValidated": true,
+      "gatekeeperAccepted": true
+    },
+    "dmg": {
+      "artifact": "Darty-Ai-2.2.0.6177-Mac.dmg",
+      "inputSha256": "d558ebad6bba42c4c0c41a4138f9635956582655a9f0960053bad769317b2fc4",
+      "id": "995b092f-156f-4b58-a669-2c54508819a3",
+      "status": "Accepted",
+      "stapledSha256": "b61e72eb147f1f1a0e591942cbfacbcea6f28c53ca174fd8035430b3b8e30260",
+      "stapleValidated": true,
+      "gatekeeperAccepted": true
+    }
+  }
+}
