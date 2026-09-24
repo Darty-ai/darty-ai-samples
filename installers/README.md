@@ -11,7 +11,8 @@ suffix:
 See [Mac downloads and validation](Mac/README.md) and
 [Windows downloads and validation](Windows/README.md). The new
 [Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is a signed
-test candidate. Vasily authorized its upload before the remaining manual CEP
+September 24, 2026 test candidate with verified replacement and full owned-file
+removal. Vasily authorized its upload before the remaining manual CEP
 folder-choice and Help/Tools checks; see the Windows page for current status.
 
 The signed and notarized mainline
@@ -31,7 +32,7 @@ records the wording change and his requested fresh signed rebuild.
 
 Download folders contain installer files and READMEs only. Do not add manifest
 or checksum files to Samples. Detailed Windows verification evidence
-remain in the [LTS repository](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_WIN_NAMING_TEST_20260922.md).
+remain in the [LTS repository](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_LIFECYCLE_20260924.md).
 The September 23 Mac export also removes channel labels from its mounted disk,
 installer/uninstaller app names and embedded package title. Its filename remains
 unchanged; download a fresh copy. Mac manifests, checksums and verification
@@ -43,7 +44,7 @@ Historical downloaded EXE/DMG files are not removed by uninstalling the product.
 
 Help compares CEP release metadata and follows explicit platform URLs in
 `misc/change-log.json`; uploading a file alone does not announce an update.
-The feed still advertises 2.0.0. Native-build comparison and LTS/mainline
+The feed currently advertises 2.2.0. Native-build comparison and LTS/mainline
 eligibility remain separate updater work.
 
 [Windows export, upgrade and uninstall instructions](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_INSTALLER_NAMING_HANDOFF_20260922.md).

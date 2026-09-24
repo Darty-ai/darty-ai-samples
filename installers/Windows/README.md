@@ -1,63 +1,45 @@
-# Windows installers
+# Darty-Ai 2.2.0.6177 for Windows
 
-Current signed LTS test candidate, September 22, 2026:
-[Darty-Ai-2.2.0.6177-Win.exe](Darty-Ai-2.2.0.6177-Win.exe).
-Vasily authorized this upload before the remaining manual checks.
+Use **Darty-Ai-2.2.0.6177-Win.exe** from this folder. The installer and generated
+uninstaller are signed and timestamped. The public product name is Darty-Ai.
+Samples keeps Windows EXEs and Markdown only; private build evidence is kept
+separately. Vasily authorized this September 24, 2026 upload before the remaining
+manual checks. Download a fresh copy: the filename and version are unchanged.
 
-The rebuilt installer now shows **Darty-Ai** in the wizard, setup text and
-Installed Apps, with no LTS/LTS24 product-name suffix. Download a fresh copy
-if you downloaded this filename before the wording correction.
+The package contains native 2.2.0.6177, CEP 2.2.0, the Go backend and exact
+Illustrator SDK 28.1/build 140. It accepts an existing empty external Darty-Ai
+folder and uses verified replacement, rollback and owned-file removal.
 
-Change note — September 22, 2026: removed the visible LTS/LTS24 product label
-from Windows Setup and Installed Apps. Vasily confirmed that the installer
-otherwise works and requested this fresh signed rebuild. Native/CEP versions,
-installation paths and installer identity are unchanged.
+## September 24, 2026 changes
 
-- Native **2.2.0.6177**, exact Illustrator SDK **28.1/build 140**.
-- Adobe-signed production CEP **2.2.0**, Go helper **2.6.0**, Tables UI disabled.
-- Setup, native AIP, Go helper and uninstaller signed by **Darty Ai Corp**.
+- Accept empty or regular metadata-only external Darty-Ai folders.
+- Select the signed CEP 2.2.0 archive and verify replacement with rollback.
+- Discover and confirm existing owned AIP, Go, CEP and helper files, including
+  external copies after Illustrator is removed. Preserve unrelated files.
+- Keep uninstall available after failures and offer separate per-file legacy
+  administrator cleanup. Product wording remains Darty-Ai.
 
-The wording correction passed source/compiled-metadata branding checks, all
-40 installer checks, eight native build guards and two Release CTests. The
-installer AppId, installation paths and native/CEP versions are unchanged.
+The 60 installer regressions, actual install/reinstall/uninstall and locked-file
+failure/retry checks passed. The original development setup was restored.
 
-The following install/runtime results are from the earlier September 22 export
-of the same native/CEP payload. Installation of the reworded export has not
-been repeated during the user's active Illustrator session.
+## Brief manual acceptance
 
-Fresh installation and upgrade from 2.0.2.6176 passed, retaining one installation
-and one uninstaller at the same paths. Installed native payloads and all 50 CEP
-files match the signed release. Setup preserved all nine Illustrator preference
-files. A locked-copy test correctly returned failure, followed by a successful
-repair installation.
+1. Close Illustrator normally and install this EXE. On a fresh profile/PC, open
+   Window > Extensions > Darty-Ai, choose a separate safe plug-in folder through
+   CEP setup, and restart Illustrator. An existing empty Darty-Ai child should work.
+2. Check Help: **2.2.0 - 6177** and the actual later CEP/native compilation date.
+   Tools should omit Tables and native Tags visibility controls. Check account
+   sign-in/cloud behavior through the Go backend.
+3. Use Settings > Apps > Darty-Ai > Uninstall. Review the actual existing-file
+   list, cancel, and confirm the installation remains. Run it again to confirm
+   removal; unrelated files, preferences and account data should remain.
+4. If legacy administrator files are found, review the separate cleanup choice.
+   Removing them requests UAC; keeping them must be an explicit choice.
 
-The signed AIP passed all eight native smoke checks in **Illustrator 2026 /
-30.3.0** on Windows build **26200**. Forty installer checks, eight native
-packaging guards and two Release CTests passed. The unchanged signed CEP has
-the separately recorded September 22 typecheck/build and 39 related checks.
-Fresh signed uninstall preserved preferences and user data; separate disposable
-legacy-cleanup fixtures passed. Administrator UAC interaction and compatibility
-with historical uninstallers are not claimed tested.
+Scripted checks cover replacement/removal, missing and changed destinations,
+file locks, failure reporting and preservation. The exact candidate loaded in
+Illustrator 2026/30.3.0 and passed all eight native smoke checks. Visual CEP,
+Settings > Apps/UAC and another-PC acceptance still need manual results.
 
-**Still to test:** explicit first-run folder choice and visual Help/Tools
-confirmation. The local candidate remains installed for that session, with
-the original development setup backed up for restoration afterward.
-Windows Illustrator 2024/28.0 and a second PC remain unqualified.
-
-Close Illustrator before running Setup. Open **Window > Extensions > Darty-Ai**.
-If setup is requested, choose a separate writable Additional Plug-ins folder
-outside AppData, Program Files and Illustrator's application directory through
-CEP, then exit normally and restart Illustrator. Setup never enables or changes
-that preference itself.
-
-Help should show **Version: 2.2.0 - 6177**, **September 18, 2026** (the actual
-later compilation date), and cloud server **2.6.0**. Confirm Tools has no Tables
-and the native Tags panel/tool is absent. Test familiar tag, text, barcode and
-export workflows; report the Illustrator version and any exact error.
-
-[Current wording export and validation in LTS](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_WIN_BRANDING_TEST_20260922.md).
-This Windows folder contains EXE installers and README files only. Use the
-current `Darty-Ai-2.2.0.6177-Win.exe`; the two earlier installers with the
-`-LTS24` naming have been removed at Vasily's request because those names
-interfere with deployment scripts. This cleanup does not change the website
-or updater release flags.
+See the [source and Windows qualification report](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_LIFECYCLE_20260924.md)
+for precise source, artifact and test provenance.
