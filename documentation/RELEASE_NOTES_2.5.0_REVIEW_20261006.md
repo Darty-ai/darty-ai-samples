@@ -2,7 +2,7 @@
 
 Review date: **2026-10-06**. Product sources reviewed: **native 2.5.0.6353 /
 CEP 2.5.0**, including the earlier Windows **2.3.0.6351** history fix.
-Editorial implementation: `pending`.
+Editorial implementation: `8b0b358c970c1a01ca164c27896c5376cfa81ab5`.
 
 ## Reviewed sources
 
