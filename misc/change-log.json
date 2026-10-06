@@ -11,10 +11,75 @@
   },
   "version-history": [
     {
+      "version": "2.5.0",
+      "ai_versions": [
+        2025,
+        2026
+      ],
+      "ai_versions_numbers": [
+        29,
+        30
+      ],
+      "released": false,
+      "public": false,
+      "important": true,
+      "localizations": {
+        "en": {
+          "title": "Darty-Ai 2.5.0 — Tables, Tags, annotations and new workflow tools",
+          "changes": [
+            "- **Darty-Ai Tables**: Added a dedicated Tables panel for creating and editing managed Illustrator tables, with live preview, cell, row, column and range targeting, and spreadsheet-driven automation.",
+            "- **Table Sources and Reload**: Create blank tables or import pasted data, XLSX/XLSM/ODS workbooks, CSV, TSV, TXT, Markdown and accessible Google Sheets sources. Choose a worksheet and range, retain the source with the Illustrator document, and reload it into the existing table.",
+            "- **Spreadsheet Formatting**: Optionally import supported Excel and Google Sheets workbook formatting, including fonts, text colors, solid fills and alignment. Source previews use the native importer, report unavailable fonts and access errors, and correctly resolve workbook theme colors and default vertical alignment.",
+            "- **Table Structure and Trimming**: Insert, delete, distribute and sort rows or columns; merge, unmerge and split cells; and manage headers and footers. Trim empty outer rows and columns while preserving interior blanks and remapping table formatting and artwork attachments.",
+            "- **Advanced Table Styling**: Apply indexed formatting to cells, rows, columns and named groups, including multiple fills and strokes, gradients, patterns, effects, opacity, text formatting, padding and dimensions. Preview layered strokes and apply range rules in their stored order.",
+            "- **Reusable Table Styles**: Save and reuse Table, Text, Fill, Border and Appearance styles. Select a saved Table style with one click, apply it with a double-click, rename it separately, and undo or redo saved-library changes during the session. Builder supports saved-style references.",
+            "- **Table Range Controls**: Inspect, edit, reorder and delete stored formatting rules from a compact range summary, including fill-artwork stroke colors and widths. Drag rules to change their precedence.",
+            "- **Table Artwork**: Attach tagged artwork, placed files and Illustrator symbols to cells and table ranges, with configurable anchors, scaling and stacking. Attached artwork follows table reflow; missing attachments produce warnings without preventing the table from rendering.",
+            "- **Live Table Editing**: Synchronize table selections and supported direct Illustrator edits to cell fills, text and borders with the Tables panel. Preserve unfinished panel edits, use incremental updates where possible, and retain Undo/Redo support. Live table features can be enabled or disabled.",
+            "- **On-Canvas Table Selection**: Select table rows and columns using directional arrow cursors beside the artwork on macOS and Windows. Use Shift to extend a range and Command/Ctrl to add to a selection. Divider selections highlight adjacent cells in table previews, including merged cells and rotated tables.",
+            "- **Table Sizing and Position**: Auto-fit rows and columns to their content with minimum and maximum dimensions, independent padding and rotation support. Auto-fit settings persist through readback and spreadsheet saving; changing one axis preserves the other, and position edits retain the selected ruler coordinate system.",
+            "- **Save Tables to Excel**: Save a managed table as a Darty-Ai methods workbook that can recreate its content, structure and supported styling, or copy its contents for Excel and Google Sheets. Supported inline formatting is saved as readable Markdown, with legacy formatting retained when needed.",
+            "- **Flexible Table Data Entry**: Populate complete tables or update individual rows, columns and cells using one-based and Excel-style addresses. Infer dimensions from structured data, support array shorthand in spreadsheet properties, and preserve untouched cells during sparse updates.",
+            "- **Markdown and Rich Text**: Convert supported Markdown and simple HTML into formatted Illustrator text and table cells, including bold, italic, underline, strikethrough, code and line breaks. Create reusable named Markdown styles in Settings and retain inline formatting through table edits and spreadsheet round trips.",
+            "- **Darty-Ai Annotations**: Display Darty-Ai tags beside artwork directly on the canvas, with layer-colored labels and hierarchy-aware placement that reduces overlapping labels.",
+            "- **Show/Hide Darty-Ai Annotations**: Added a stateful command to Illustrator's View menu. The CEP Tags tab and native Tags panel share the same annotation visibility state.",
+            "- **Darty-Ai Tag Tool**: Added a native Illustrator tool for selecting artwork and editing tags on the canvas, including untagged objects, batch tag changes, Clear All Tags, Tag by Name and Name by Tags.",
+            "- **Darty-Ai Tags Panel**: Added a dockable native panel with an artwork hierarchy, thumbnails, inline tag editing, multiple selection, batch Add/Remove/Replace operations and tag-search selection. Editing retains focus during table refreshes and discards stale drafts when the target changes.",
+            "- **Swatches and Gradients**: Added Illustrator-rendered swatch thumbnails and gradient creation and editing for fills and strokes, including editable stops, gradient swatches, and linear and radial geometry.",
+            "- **Document Assets**: Added native access to document swatches, character styles, paragraph styles, symbols, graphic styles, artboards, layers and brush names for integrated workflows.",
+            "- **Text Controls**: Added text anti-alias settings, area-text frame controls and justification-based fitting that adjusts word spacing, letter spacing and glyph scaling without changing the font size.",
+            "- **Place Page Selection**: Choose a specific PDF page or Illustrator artboard when placing or replacing artwork.",
+            "- **WebP Export**: Added native WebP export with lossless or lossy compression, quality controls, transparency and optional XMP metadata.",
+            "- **Export Metadata / XMP**: Manage titles, authors, descriptions, keywords, ratings, copyright and advanced publishing fields across supported bitmap and vector exports. Choose Merge, Replace, Preserve or Remove, with global settings and explicit per-job overrides.",
+            "- **XMP Variables and Output Accuracy**: Use spreadsheet values, custom variables and export variables in XMP text, resolved separately for each record and output. Metadata uses the final filename when generating a title and the correct output MIME type; field removal and preservation of unrelated source metadata follow the selected mode.",
+            "- **Paths Utility**: Added Tools > Utilities > Paths to scan folders, filter and select files, generate absolute, relative or variable-based paths, copy path lists, and save file tables as XLSX or TXT.",
+            "- **Native Google Sheets and Cloud Accounts**: Google Sheets and cloud-account operations now run through the native plug-in instead of a separate background Go server, with service-account and OAuth access, encrypted credentials, account migration and shared proxy/certificate settings.",
+            "- **Panel Access and Languages**: Added Window > Darty-Ai entries for the main panel, Tables and Tags. Main and Tables visibility checkmarks follow Illustrator and hidden panels retain their state. Tables controls and the native Tags panel support English, German, French, Spanish, Italian and Dutch.",
+            "- **Worksheet Choice and Validation**: Builder asks which worksheet to use before loading or merging a multi-sheet workbook. Data worksheet selection honors the saved sheet-name or sheet-number preference after workbook reordering. Missing tag-search targets are reported on the actual row and property cell; partial Table failures appear as errors rather than success.",
+            "- **Color Names**: Fixed library color names containing spaces being truncated during parsing, including shared Appearance and Tables workflows.",
+            "- **Place — Keep Background**: Fixed Keep Background to retain complete original groups, compound paths and their appearance beneath placed graphics. Failed placements no longer remove the original target."
+          ],
+          "breakingChanges": [
+            "Adobe Illustrator 2024 is not supported by the 2.5.0 mainline. Illustrator 2024 users should remain on Darty-Ai 2.2.0."
+          ],
+          "notes": "Draft release notes reviewed against the mainline changelogs through native 2.5.0.6348 and CEP 2.5.0 on 2026-10-06. These notes describe the current source; they do not announce availability of a matching installer. The release date and download links will be added when the final installers are ready.",
+          "type": "feature, fix"
+        }
+      }
+    },
+    {
       "version": "2.2.0",
       "date": "2026-09-23",
-      "ai_versions": [2024, 2025, 2026],
-      "ai_versions_numbers": [28, 29, 30],
+      "ai_versions": [
+        2024,
+        2025,
+        2026
+      ],
+      "ai_versions_numbers": [
+        28,
+        29,
+        30
+      ],
       "released": true,
       "public": true,
       "important": false,
@@ -148,8 +213,16 @@
     {
       "version": "2.0.0",
       "date": "2026-09-03",
-      "ai_versions": [2024, 2025, 2026],
-      "ai_versions_numbers": [28, 29, 30],
+      "ai_versions": [
+        2024,
+        2025,
+        2026
+      ],
+      "ai_versions_numbers": [
+        28,
+        29,
+        30
+      ],
       "released": true,
       "public": true,
       "important": true,
@@ -181,7 +254,9 @@
             "- **Significantly Improved Startup**: Darty-Ai starts up much quicker now.",
             "- **Bug Fixes**: several important bug fixes that improve stability, reliability, and overall workflow consistency."
           ],
-          "breakingChanges": ["None"],
+          "breakingChanges": [
+            "None"
+          ],
           "notes": "Release date: 2026-09-03",
           "type": "feature, fix"
         },
@@ -208,7 +283,9 @@
             "- **Deutlich schnellerer Start**: Darty-Ai startet jetzt wesentlich schneller.",
             "- **Fehlerbehebungen**: Mehrere wichtige Fehlerbehebungen verbessern Stabilität, Zuverlässigkeit und die Konsistenz des gesamten Arbeitsablaufs."
           ],
-          "breakingChanges": ["Keine"],
+          "breakingChanges": [
+            "Keine"
+          ],
           "notes": "Release date: 2026-09-03",
           "type": "Funktion, Fehlerbehebung"
         },
@@ -235,7 +312,9 @@
             "- **Démarrage considérablement accéléré** : Darty-Ai démarre désormais beaucoup plus rapidement.",
             "- **Corrections de bogues** : plusieurs corrections importantes améliorent la stabilité, la fiabilité et la cohérence générale du flux de travail."
           ],
-          "breakingChanges": ["Aucun"],
+          "breakingChanges": [
+            "Aucun"
+          ],
           "notes": "Release date: 2026-09-03",
           "type": "fonctionnalité, correction"
         },
@@ -262,7 +341,9 @@
             "- **Inicio considerablemente más rápido**: ahora Darty-Ai se inicia mucho más rápido.",
             "- **Correcciones de errores**: varias correcciones importantes mejoran la estabilidad, la fiabilidad y la coherencia general del flujo de trabajo."
           ],
-          "breakingChanges": ["Ninguno"],
+          "breakingChanges": [
+            "Ninguno"
+          ],
           "notes": "Release date: 2026-09-03",
           "type": "funcionalidad, corrección"
         },
@@ -289,7 +370,9 @@
             "- **Avvio notevolmente migliorato**: ora Darty-Ai si avvia molto più rapidamente.",
             "- **Correzioni di bug**: diverse importanti correzioni migliorano la stabilità, l'affidabilità e la coerenza complessiva del flusso di lavoro."
           ],
-          "breakingChanges": ["Nessuno"],
+          "breakingChanges": [
+            "Nessuno"
+          ],
           "notes": "Release date: 2026-09-03",
           "type": "funzionalità, correzione"
         },
@@ -316,7 +399,9 @@
             "- **Aanzienlijk sneller opstarten**: Darty-Ai start nu veel sneller op.",
             "- **Bugfixes**: diverse belangrijke bugfixes verbeteren de stabiliteit, betrouwbaarheid en algehele consistentie van de workflow."
           ],
-          "breakingChanges": ["Geen"],
+          "breakingChanges": [
+            "Geen"
+          ],
           "notes": "Release date: 2026-09-03",
           "type": "functie, bugfix"
         }

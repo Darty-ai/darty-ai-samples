@@ -13,7 +13,8 @@
 		"titleBar.inactiveForeground": "#15202b99",
 		"commandCenter.foreground": "#15202b",
 		"statusBar.debuggingBackground": "#1ed001",
-		"statusBar.debuggingForeground": "#15202b"
+		"statusBar.debuggingForeground": "#15202b",
+		"statusBar.inactiveBackground": "#1ed001"
 	},
 	"peacock.color": "#1ED001",
 	"deno.enable": true,
