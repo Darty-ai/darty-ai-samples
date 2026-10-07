@@ -26,7 +26,7 @@ native `7eeffb4d5969334d13402da94e3cc45fd79f9e22` and CEP
   phrase "indexed formatting" with "targeted formatting".
 - Correct the structural-editing claim to **sort rows**. `sortRows` is supported;
   column sorting is absent from the public Table operations and implementation.
-- Include the Windows table-color Undo/Redo fix from native
+- Review the Windows table-color Undo/Redo fix from native
   `60ef35996d35f726c7c168fc932c2c6c36e5ddae` and the latest CEP gradient,
   color-model, swatch-ownership and color-library preference fixes from
   `84041c189e86af5f4c4fd32d336d34d2acbfe6e0`.
@@ -40,6 +40,28 @@ The release-feed JSON is authored Samples content. It is separate from the CEP
 UI translation workbook and its generated locale catalogs. No workbook or
 generated UI translation file is changed by this editorial task.
 
+## Vasily's wording revisions — 2026-10-06
+
+Product source versions remain **native 2.5.0.6353 / CEP 2.5.0**.
+Revision implementation: `47f0e1dc458caa9a23cf19bf1bbf5ce91a77961f`.
+
+Apply Vasily's six English revisions and their German, Dutch, French, Spanish
+and Italian equivalents:
+
+- Remove operating-system names from on-canvas table selection.
+- Remove the pre-release stale-color fix from live table editing; retain the
+  supported editing and Undo/Redo features.
+- Remove legacy-formatting details from saving tables to Excel.
+- Remove stale-draft handling from the Tags panel description; retain focus
+  preservation during table refreshes.
+- Rename the heading to **Advanced Text Controls**.
+- Describe Google Sheets and cloud-account access without Go-server or native
+  implementation details.
+
+All 31 items remain in the same order. Unrelated release content, translations,
+compatibility warnings, historical releases and release-control metadata are
+unchanged. These are editorial changes, with no new resolved software bug.
+
 ## Validation
 
 All checks below passed on 2026-10-06, including 12 CEP consumer scenarios
@@ -49,6 +71,8 @@ All checks below passed on 2026-10-06, including 12 CEP consumer scenarios
   PowerShell `Test-Json -SchemaFile`.
 - Check all six locales for equal item counts, complete fields, matching
   technical format names and valid Markdown list items.
+- Confirm exactly six requested item revisions in each locale against
+  `5defe949f4f682d3cb24885ff1e87a34fb5a9813`, with unrelated content unchanged.
 - Compare historical releases and all release-control metadata with Trevor's
   source revision to confirm they are unchanged.
 - Exercise the actual CEP update-feed consumer in development and production
