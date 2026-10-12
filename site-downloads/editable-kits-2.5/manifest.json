@@ -1,0 +1,268 @@
+{
+  "release": "editable-kits-2.5",
+  "kits": [
+    {
+      "id": "packaging",
+      "title": "Food packaging",
+      "records": 30,
+      "templates": 2,
+      "fonts": [
+        "Arial",
+        "Arial-BoldMT",
+        "ArialMT",
+        "Brush Script MT",
+        "BrushScriptMT",
+        "Caflisch Script Pro",
+        "CaflischScriptPro-Semibold",
+        "Georgia",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-packaging.zip",
+          "bytes": 51138491,
+          "sha256": "7e0dd93d4829dea949c49608e0b226983d52787ac1104bd12a4cf4ab33d4fbac",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.zip"
+        },
+        {
+          "name": "darty-ai-packaging.pdf",
+          "bytes": 17331804,
+          "sha256": "eb470f71592dba0c2f379972268907c59b05c9d2baa3de7bbce93950691f59ad",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.pdf"
+        }
+      ]
+    },
+    {
+      "id": "apparel",
+      "title": "Team apparel",
+      "records": 4,
+      "templates": 4,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "DINCondensed-Bold",
+        "MyriadHebrew-Regular"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-apparel.zip",
+          "bytes": 393998,
+          "sha256": "3ad2b7bf7f34dd38d14cdb4abe5ff75d551eb669eaf4a4f614d20c55d4e91123",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.zip"
+        },
+        {
+          "name": "darty-ai-apparel.pdf",
+          "bytes": 11860863,
+          "sha256": "84de7b38bbefd40c498fdf9172ffce4e9fd34db511d7ac184eebfa50ef3e7276",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ebike",
+      "title": "Product catalogues",
+      "records": 2,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "Georgia",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-ebike.zip",
+          "bytes": 3087652,
+          "sha256": "0f105d33616068046b34717c2f429b18a6c975dc9a9254d1f733d7f52cf3bfb1",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.zip"
+        },
+        {
+          "name": "darty-ai-ebike.pdf",
+          "bytes": 2761540,
+          "sha256": "6460309523f0fd3e7afb4397f1b5912c1a2a95003b5796c12ae215b56bc097e2",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.pdf"
+        }
+      ]
+    },
+    {
+      "id": "retail",
+      "title": "Retail campaigns",
+      "records": 3,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "Georgia",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-retail.zip",
+          "bytes": 3019362,
+          "sha256": "0f53e0b7e7f779b350fd81309860eaf3de7438df89f4d1f29c9d1bc949707915",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.zip"
+        },
+        {
+          "name": "darty-ai-retail.pdf",
+          "bytes": 3636469,
+          "sha256": "dceb1667171fb2e8730f266642fd88621f82186eb41de568f5669599b20bfc55",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.pdf"
+        }
+      ]
+    },
+    {
+      "id": "menus",
+      "title": "Hospitality menus",
+      "records": 6,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "Georgia",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-menus.zip",
+          "bytes": 4175466,
+          "sha256": "fb6ed957718ad1bc8f89d204d12368f4d69a443e864a99b7e52b038168565311",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.zip"
+        },
+        {
+          "name": "darty-ai-menus.pdf",
+          "bytes": 5381743,
+          "sha256": "61ce118f2b8f420f26ec4fb716d7cbb380d3d8c986535627396adc1b1e50fc50",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.pdf"
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "title": "Event credentials",
+      "records": 3,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-events.zip",
+          "bytes": 358442,
+          "sha256": "83df1e9d6c4b849a715f38781ed1d1cb065fe31a0d1d34eb6610ad479af76901",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.zip"
+        },
+        {
+          "name": "darty-ai-events.pdf",
+          "bytes": 591625,
+          "sha256": "7671aadc4dec14e44d51786128f29444eb8f70c094d47a1fe89a583f8b8a79e9",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.pdf"
+        }
+      ]
+    },
+    {
+      "id": "property",
+      "title": "Property marketing",
+      "records": 2,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "Georgia",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-property.zip",
+          "bytes": 4062345,
+          "sha256": "cbd31ee1e1db60fb5170f96f3658c295d598f3b68cb6b0367e9eccf35045baa5",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.zip"
+        },
+        {
+          "name": "darty-ai-property.pdf",
+          "bytes": 4836210,
+          "sha256": "dae66e0e536fe61836708a3f833601a4ff769f3d957977c3a4309da46c792ead",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stationery",
+      "title": "Personalised stationery",
+      "records": 2,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "CaflischScriptPro-Semibold",
+        "Georgia"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-stationery.zip",
+          "bytes": 372489,
+          "sha256": "39b6a3fb31277c5f624346df67518df2552db9125be7f8be73627c80f0cb5d4f",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.zip"
+        },
+        {
+          "name": "darty-ai-stationery.pdf",
+          "bytes": 516680,
+          "sha256": "c6cde9473d19577865917f943efed2d550b1f21fe5a6d936bf465d87d227216e",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.pdf"
+        }
+      ]
+    },
+    {
+      "id": "certificates",
+      "title": "Certificates and awards",
+      "records": 3,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "CaflischScriptPro-Semibold",
+        "Georgia",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-certificates.zip",
+          "bytes": 1208640,
+          "sha256": "b2918e2d63dc75a2b558433501a89db7ad0c5d66e8d81eb8d2e70cb772d4ad0c",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.zip"
+        },
+        {
+          "name": "darty-ai-certificates.pdf",
+          "bytes": 539645,
+          "sha256": "58570289dc6dc791d6d64fd3758f3a9eaa22f67d239ab3dcce7658b140b23fc3",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.pdf"
+        }
+      ]
+    },
+    {
+      "id": "stickers",
+      "title": "Stickers and labels",
+      "records": 2,
+      "templates": 1,
+      "fonts": [
+        "Arial-BoldMT",
+        "ArialMT",
+        "Georgia-Bold"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-stickers.zip",
+          "bytes": 1228708,
+          "sha256": "ad681b39cea4ac11918c5b4a338fa2ff4755f1eda088aaf54a4e2d43101bb5e7",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.zip"
+        },
+        {
+          "name": "darty-ai-stickers.pdf",
+          "bytes": 541325,
+          "sha256": "d333bd1371c2b0781bbe74f6b1dbfa360592b787be0e18e9777dd84c2e043b52",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.pdf"
+        }
+      ]
+    }
+  ]
+}
