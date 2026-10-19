@@ -323,6 +323,48 @@
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates-contact.png"
         }
       ]
+    },
+    {
+      "id": "compression",
+      "title": "Raster compression",
+      "records": 0,
+      "templates": 1,
+      "fonts": [
+        "ArialMT",
+        "Arial-BoldMT"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-compression.pdf",
+          "bytes": 14113634,
+          "sha256": "207771cfde004d236f0a6790f5ccecad2a31d10194f9518857defdc4604e53be",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-compression.pdf"
+        },
+        {
+          "name": "darty-ai-compression.zip",
+          "bytes": 11630842,
+          "sha256": "3f16e3538199a9c2cdcc10e9f1bcf2e96888abc94f4091cb2d162159272ec94a",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-compression.zip"
+        }
+      ]
+    },
+    {
+      "id": "xmp",
+      "title": "XMP metadata",
+      "records": 3,
+      "templates": 2,
+      "fonts": [
+        "ArialMT",
+        "Arial-BoldMT"
+      ],
+      "files": [
+        {
+          "name": "darty-ai-xmp.zip",
+          "bytes": 8063773,
+          "sha256": "fac3a6301b9e81d055079bdd4460a7ff16ae5acf4d55e65758d1f12670868ffc",
+          "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-xmp.zip"
+        }
+      ]
     }
   ]
 }

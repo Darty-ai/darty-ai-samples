@@ -13,3 +13,7 @@ for source provenance, validation and the remaining launch steps.
 
 [Download the editable sample kits and review PDFs](site-downloads/editable-kits-2.5/README.md)
 and generate variations using Excel and Darty-Ai’s Preview traverser.
+
+The sample downloads also include standalone Compression and XMP metadata DIY
+kits with export presets. XMP demonstrates named spreadsheet variables, creator
+and location details, star ratings, and PNG/JPEG/PDF output.

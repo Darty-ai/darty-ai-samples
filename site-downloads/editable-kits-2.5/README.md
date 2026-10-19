@@ -1,8 +1,9 @@
 # Darty-Ai editable sample kits
 
-Download a ZIP, extract it, and open its Excel workbook in Darty-Ai. Each kit
-contains **Assets**, **AI Templates** and **Excel Sheets**, plus a short
-**START HERE.txt** guide. These are ready-to-use Illustrator samples.
+Download a ZIP, extract it, and open its Excel workbook in Darty-Ai. The design kits
+contain **Assets**, **AI Templates** and **Excel Sheets**, plus a short
+**START HERE.txt** guide. The utility kits below include export presets and
+HTML instructions; Compression works without a spreadsheet. These are ready-to-use Illustrator samples.
 
 Use Adobe Illustrator 2025 or newer with Darty-Ai 2.5. Fonts are listed in the
 workbook's **Start here** worksheet; activate them or choose replacements before
@@ -90,3 +91,14 @@ This release contains sample files, not a plug-in installer. The Mac checks do
 not qualify Windows or long-session stability. Earlier Preserve-metadata export
 failures for Events and Property remain a separate native investigation; these
 review PDFs were saved from temporary artwork copies without source metadata.
+
+## Compression and XMP utility kits
+
+- [Compression DIY Kit](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-compression.zip): three embedded original images, on-artboard instructions and a two-job preset producing PNG/JPEG pairs with compression off and on. [View the measured comparison PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-compression.pdf).
+- [XMP metadata DIY Kit](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-xmp.zip): a three-record workbook using named variables from the fourth header row, images, matching five- and four-star templates, and a preset exporting PNG, JPEG and PDF. The examples include creators, locations, ratings 5/5/4 and fictional studio contact details. Open exported files in Adobe Bridge to inspect their XMP.
+
+For these kits, extract the ZIP and open **START HERE.html** before importing
+the supplied export preset. Compression's source images are deliberately
+embedded at their original resolution. XMP uses Merge mode to inherit each
+template's rating while setting text fields from the spreadsheet. The blue
+instruction panel stays outside the exported artboard.
