@@ -9,11 +9,13 @@ suffix:
 | Windows | `Darty-Ai-<major.minor.micro.build>-Win.exe` | `Darty-Ai-2.2.0.6177-Win.exe` |
 
 See [Mac downloads and validation](Mac/README.md) and
-[Windows downloads and validation](Windows/README.md). The new
-[Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is a signed
-September 24, 2026 test candidate with verified replacement and full owned-file
-removal. Vasily authorized its upload before the remaining manual CEP
-folder-choice and Help/Tools checks; see the Windows page for current status.
+[Windows downloads and validation](Windows/README.md).
+[Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is the signed
+October 19, 2026 build, uploaded on October 20 at Vasily's request. It starts
+per-user, offers elevation only for protected legacy payloads, and uses
+filename-based cleanup without runtime content-hash gates. Download a fresh
+copy: the September 24 download used the same filename and version. See the
+Windows page for completed qualification and remaining manual checks.
 
 The signed and notarized mainline
 [Darty-Ai-2.3.0.6281-Mac.dmg](Mac/Darty-Ai-2.3.0.6281-Mac.dmg) is also available
@@ -25,14 +27,12 @@ The two Windows installers using `-LTS24` names have been removed at Vasily's
 request because they interfere with deployment scripts. Use the current
 `Darty-Ai-2.2.0.6177-Win.exe` for Windows LTS testing.
 The current Windows EXE also removes the visible LTS/LTS24 suffix from Setup
-and Installed Apps. Download a fresh copy after this wording correction;
-the filename is unchanged.
-Vasily confirmed that the installer otherwise works; the Windows README
-records the wording change and his requested fresh signed rebuild.
+and Installed Apps. The Windows README records the current signed build and
+its qualification; historical signed bytes remain available in Git history.
 
 Download folders contain installer files and READMEs only. Do not add manifest
 or checksum files to Samples. Detailed Windows verification evidence
-remain in the [LTS repository](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_LTS_LIFECYCLE_20260924.md).
+remains in the [release source report](https://github.com/dartyai/p-tests/blob/codex/windows-lts-2.2.0-filename-installer/installer-notes/WINDOWS_FILENAME_INSTALLERS_20261019.md).
 The September 23 Mac export also removes channel labels from its mounted disk,
 installer/uninstaller app names and embedded package title. Its filename remains
 unchanged; download a fresh copy. Mac manifests, checksums and verification
