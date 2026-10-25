@@ -1,13 +1,13 @@
-# Darty-Ai editable sample kits
+# Darty-Ai DIY kits
 
 Download a ZIP, extract it, and open its Excel workbook in Darty-Ai. The design kits
 contain **Assets**, **AI Templates** and **Excel Sheets**, plus a short
 **START HERE.txt** guide. The utility kits below include export presets and
-HTML instructions; Compression works without a spreadsheet. These are ready-to-use Illustrator samples.
+HTML instructions; Compression works without a spreadsheet. These are ready-to-use Illustrator kits.
 
 Use Adobe Illustrator 2025 or newer with Darty-Ai 2.5. Fonts are listed in the
 workbook's **Start here** worksheet; activate them or choose replacements before
-exporting. Font files are not distributed with these samples.
+exporting. Font files are not distributed with these kits.
 
 ## Generate your Illustrator files
 
@@ -32,22 +32,22 @@ replacement uses its implicit mode, so no repeated @ mode is needed.
 ## Downloads
 
 ZIPs and review PDFs are attached to the public
-[Editable kits 2.5 release](https://github.com/Darty-ai/darty-ai-samples/releases/tag/editable-kits-2.5).
+[DIY kits 2.5 release](https://github.com/Darty-ai/darty-ai-samples/releases/tag/editable-kits-2.5).
 Release downloads deliver the files directly, without requiring a GitHub account.
 The PDFs show the supplied examples; the ZIPs contain the editable source files.
 
-| Example | Records | Editable kit | Review PDF | Contact grid |
-| --- | ---: | --- | --- | --- |
-| Food packaging | 30 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging-contact.png) |
-| Team apparel | 6 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel-contact.png) |
-| Product catalogues | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike-contact.png) |
-| Retail campaigns | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail-contact.png) |
-| Hospitality menus | 6 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus-contact.png) |
-| Event credentials | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events-contact.png) |
-| Property marketing | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property-contact.png) |
-| Stickers and labels | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers-contact.png) |
-| Personalised stationery | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery-contact.png) |
-| Certificates and awards | 3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates-contact.png) |
+| Example                 | Records | DIY kit                                                                                                                    | Review PDF                                                                                                                 | Contact grid                                                                                                              |
+| ----------------------- | ------: | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Food packaging          |      30 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.zip)    | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.pdf)    | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging-contact.png)    |
+| Team apparel            |       6 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.zip)      | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.pdf)      | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel-contact.png)      |
+| Product catalogues      |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.zip)        | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.pdf)        | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike-contact.png)        |
+| Retail campaigns        |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.zip)       | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.pdf)       | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail-contact.png)       |
+| Hospitality menus       |       6 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.zip)        | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.pdf)        | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus-contact.png)        |
+| Event credentials       |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.zip)       | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.pdf)       | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events-contact.png)       |
+| Property marketing      |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.zip)     | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.pdf)     | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property-contact.png)     |
+| Stickers and labels     |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.zip)     | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.pdf)     | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers-contact.png)     |
+| Personalized stationery |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.zip)   | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.pdf)   | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery-contact.png)   |
+| Certificates and awards |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates-contact.png) |
 
 Food packaging includes two empty box templates and 30 fruit/language records on
 one Darty Designs sheet. The 250 × 170 × 85 mm box is the header default for
