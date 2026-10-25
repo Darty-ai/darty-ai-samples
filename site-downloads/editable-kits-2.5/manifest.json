@@ -20,20 +20,20 @@
       "files": [
         {
           "name": "darty-ai-packaging.zip",
-          "bytes": 50947680,
-          "sha256": "eeed5aa4ac1fee732e4d5403cea352240183f2a4a2d4119b1d9757f3084eeca3",
+          "bytes": 50946737,
+          "sha256": "940618ff16f06cd238bd58a93b1e3ecdd5d9ef93a6e837ea068630614a70a691",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.zip"
         },
         {
           "name": "darty-ai-packaging.pdf",
-          "bytes": 60257307,
-          "sha256": "eea7a33818e94c8a73b08f8a14184c34bc50ea22ad817dc3997892aff589eeb4",
+          "bytes": 13757343,
+          "sha256": "86c4267cf89c81d1cd7edf108133b9ee821ff4294c0608f39678e355518a8b07",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.pdf"
         },
         {
           "name": "darty-ai-packaging-contact.png",
-          "bytes": 437995,
-          "sha256": "cdf36cf6e11de5aee0c29812d63e42a4546a9fbc50cf5137ca78499a6aba31c3",
+          "bytes": 437709,
+          "sha256": "9bb8288c34368435305d5e885078c2c1d4bc98281658b4c356ef41447a5e5bce",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging-contact.png"
         }
       ]
@@ -84,20 +84,20 @@
       "files": [
         {
           "name": "darty-ai-ebike.zip",
-          "bytes": 6847309,
-          "sha256": "4cd42b5fb1e37a23f9d14eb82086bc9f4e9b520b6f20a98a23fee8a6e8ad3c4e",
+          "bytes": 6848030,
+          "sha256": "0a427805f1cd23ec551edc30600910d62bf1165e456ec8557290c6e6ecb96023",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.zip"
         },
         {
           "name": "darty-ai-ebike.pdf",
-          "bytes": 10107041,
-          "sha256": "7236135c76884cd833e9833a26b288378b3e92626b634f7e3032907708c509c4",
+          "bytes": 4068087,
+          "sha256": "e8c9a8de64ca5da5e261bb11c6dc2b61f2dbdc1571a206055119a357acdd0bce",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.pdf"
         },
         {
           "name": "darty-ai-ebike-contact.png",
-          "bytes": 390194,
-          "sha256": "76918ba76310053d062eddf13418cac57ba6ee6d516389948e9f98eb500d064a",
+          "bytes": 377102,
+          "sha256": "5506c2912651ce10a6b02cdf4784533df6dc89d4b152380f621b42301c177c86",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike-contact.png"
         }
       ]
@@ -148,20 +148,20 @@
       "files": [
         {
           "name": "darty-ai-menus.zip",
-          "bytes": 4577387,
-          "sha256": "f86968c63b9f3054cd4fac513871f6652b1ac8ef842a0f7bf44f1f295e8e7d2f",
+          "bytes": 4578077,
+          "sha256": "fdb344b3369731bc067f137fcb6c1d76b25d678cc8b9d5a70f84ca8df332e594",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.zip"
         },
         {
           "name": "darty-ai-menus.pdf",
-          "bytes": 17828670,
-          "sha256": "a3bbfd5c890882bed8784cbce7f07fa76ff35a3e8a1a6381b18846b999eb6be9",
+          "bytes": 5294905,
+          "sha256": "a6b7a5b52e366564c0a75adbc1f3775e6139cd575f8a072186f00307946c206e",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.pdf"
         },
         {
           "name": "darty-ai-menus-contact.png",
-          "bytes": 1906949,
-          "sha256": "2202c2219cfd51a26599bb77976a47eeb2b9a07c7115c849e6efbf770f5d9efa",
+          "bytes": 1886009,
+          "sha256": "3734e37a047e4c2340b3a133586613e91514343e41c39e63c96a049df6f81f93",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus-contact.png"
         }
       ]
@@ -210,20 +210,20 @@
       "files": [
         {
           "name": "darty-ai-property.zip",
-          "bytes": 4453715,
-          "sha256": "b31381ea147d6fb1b8fb2e209daa26feb14bf91dbfaeae7a3dd714254229dc63",
+          "bytes": 4454270,
+          "sha256": "e30ce458578514a9d52bb6bd7c53824b3250814eaee0acbd6054797f2e2d283f",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.zip"
         },
         {
           "name": "darty-ai-property.pdf",
-          "bytes": 15645070,
-          "sha256": "9225db98be6cdc8f0fab7f63d4dc759108d725a18f1478c63bd72ad1e90bcb09",
+          "bytes": 4872478,
+          "sha256": "d3d18054f0aea201ed34215e92aa902ee121629d59a867ecf62f62299966fcb0",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.pdf"
         },
         {
           "name": "darty-ai-property-contact.png",
-          "bytes": 817546,
-          "sha256": "3289a23764978ade6d443c97f7eafa9b4a3d7bdd14d52b723e167fb7e173f844",
+          "bytes": 816350,
+          "sha256": "c5e34a6dc5d40cac75dd2ccfabf5539470fe10cc5c8a8bd5740cd219f2bf9f70",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property-contact.png"
         }
       ]
@@ -241,20 +241,20 @@
       "files": [
         {
           "name": "darty-ai-stickers.zip",
-          "bytes": 1194075,
-          "sha256": "9fc8f1354342bbaa728655b719ab00ed2cf7dd52869f6398e7d81c0be6cd4229",
+          "bytes": 1194537,
+          "sha256": "d5c7cccba13d8944771f656b3dcee8d30cdc3193cad64421049697324f5b7200",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.zip"
         },
         {
           "name": "darty-ai-stickers.pdf",
-          "bytes": 3431911,
-          "sha256": "cbaad8b9c76d2dbf1a136eb8713e6f56a6f9563471ebe58846b8179783f360eb",
+          "bytes": 3440164,
+          "sha256": "fae1b7d8ef8ccc5a9fb037496f3e90f442174dfc0dadbe2a82668818f0715eb8",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.pdf"
         },
         {
           "name": "darty-ai-stickers-contact.png",
-          "bytes": 278234,
-          "sha256": "41039380ea0a1d1758fb1f93456609496235e63bdcfbd37bf6bb8f814e10793a",
+          "bytes": 277807,
+          "sha256": "8f39ed782d875f6adca8ed742c05d418111789bae5a9db4ec7225779ab1fae92",
           "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers-contact.png"
         }
       ]

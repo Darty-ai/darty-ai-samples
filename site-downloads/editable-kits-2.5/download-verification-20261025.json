@@ -1,0 +1,308 @@
+{
+  "date": "2026-10-25",
+  "release": "editable-kits-2.5",
+  "allDownloadsVerified": true,
+  "assetCount": 33,
+  "replacedAssets": 15,
+  "unchangedAssets": 18,
+  "manifestSha256": "f88783c8f880d9b310275628fb8cb8ac00dd574a8c67745120a3af8f61ea8751",
+  "downloads": [
+    {
+      "file": "darty-ai-apparel-contact.png",
+      "bytes": 201737,
+      "sha256": "584c1afb676cb4b90c889e4677c9cad36873dd8214ceaeed9a7fbd874a3517cf",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-apparel-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-apparel.pdf",
+      "bytes": 6108379,
+      "sha256": "e415e38a30a079eb360e8966fea21c75a90a2c5c8771a8b134f1ab3cc72389e5",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-apparel.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-apparel.zip",
+      "bytes": 250836,
+      "sha256": "0cf58f712f029a0ca957a4200019550ba84db7efa787da4bc68e127894c68ee8",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-apparel.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-apparel.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-certificates-contact.png",
+      "bytes": 212006,
+      "sha256": "c2da52895fa3d45690f4375bdf4a818e5cca83c0ee482e9db9a3aaac51e41b6f",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-certificates-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-certificates.pdf",
+      "bytes": 3125562,
+      "sha256": "794e7c40832f512cbeed573bf54d8145acab4518fa0680648689361268e9d565",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-certificates.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-certificates.zip",
+      "bytes": 1201350,
+      "sha256": "8cc26d275ad67bef87a60d992031da84d179ab90d0b046e59b7c02abf9c4faf2",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-certificates.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-compression.pdf",
+      "bytes": 14113634,
+      "sha256": "207771cfde004d236f0a6790f5ccecad2a31d10194f9518857defdc4604e53be",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-compression.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-compression.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-compression.zip",
+      "bytes": 11630842,
+      "sha256": "3f16e3538199a9c2cdcc10e9f1bcf2e96888abc94f4091cb2d162159272ec94a",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-compression.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-compression.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-ebike-contact.png",
+      "bytes": 377102,
+      "sha256": "5506c2912651ce10a6b02cdf4784533df6dc89d4b152380f621b42301c177c86",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-ebike-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-ebike.pdf",
+      "bytes": 4068087,
+      "sha256": "e8c9a8de64ca5da5e261bb11c6dc2b61f2dbdc1571a206055119a357acdd0bce",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-ebike.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-ebike.zip",
+      "bytes": 6848030,
+      "sha256": "0a427805f1cd23ec551edc30600910d62bf1165e456ec8557290c6e6ecb96023",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-ebike.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-ebike.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-events-contact.png",
+      "bytes": 331023,
+      "sha256": "41e3bcc6a4666fb8c8465127504c74ac58081211390163725aa95782dff50981",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-events-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-events.pdf",
+      "bytes": 3713453,
+      "sha256": "770812a01ed1f29492955cfcea821d44cef73bde129de01abfcb0a6223374001",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-events.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-events.zip",
+      "bytes": 1195595,
+      "sha256": "5961bba7f673a62ae8c6d53407808b4f069a0adff79b2839518336421950b4bf",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-events.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-events.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-menus-contact.png",
+      "bytes": 1886009,
+      "sha256": "3734e37a047e4c2340b3a133586613e91514343e41c39e63c96a049df6f81f93",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-menus-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-menus.pdf",
+      "bytes": 5294905,
+      "sha256": "a6b7a5b52e366564c0a75adbc1f3775e6139cd575f8a072186f00307946c206e",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-menus.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-menus.zip",
+      "bytes": 4578077,
+      "sha256": "fdb344b3369731bc067f137fcb6c1d76b25d678cc8b9d5a70f84ca8df332e594",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-menus.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-menus.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-packaging-contact.png",
+      "bytes": 437709,
+      "sha256": "9bb8288c34368435305d5e885078c2c1d4bc98281658b4c356ef41447a5e5bce",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-packaging-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-packaging.pdf",
+      "bytes": 13757343,
+      "sha256": "86c4267cf89c81d1cd7edf108133b9ee821ff4294c0608f39678e355518a8b07",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-packaging.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-packaging.zip",
+      "bytes": 50946737,
+      "sha256": "940618ff16f06cd238bd58a93b1e3ecdd5d9ef93a6e837ea068630614a70a691",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-packaging.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-packaging.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-property-contact.png",
+      "bytes": 816350,
+      "sha256": "c5e34a6dc5d40cac75dd2ccfabf5539470fe10cc5c8a8bd5740cd219f2bf9f70",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-property-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-property.pdf",
+      "bytes": 4872478,
+      "sha256": "d3d18054f0aea201ed34215e92aa902ee121629d59a867ecf62f62299966fcb0",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-property.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-property.zip",
+      "bytes": 4454270,
+      "sha256": "e30ce458578514a9d52bb6bd7c53824b3250814eaee0acbd6054797f2e2d283f",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-property.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-property.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-retail-contact.png",
+      "bytes": 1929724,
+      "sha256": "1cab65541bb2e920e4374a76d0abb4c5c3a16eadb36a511b9ec5ab7ea288f674",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-retail-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-retail.pdf",
+      "bytes": 16591944,
+      "sha256": "61610b191c7533c91c2161a0fc53de153d09b665dde604699cff34fe157f104d",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-retail.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-retail.zip",
+      "bytes": 3333343,
+      "sha256": "24e2b4ce762feaba4d19037374857ebb446b5eb8dcd4bd7fdb3a3f5c318654f6",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-retail.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-retail.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-stationery-contact.png",
+      "bytes": 324945,
+      "sha256": "1cae7caa35eaee282cc18272257c0416f3abb5b298389f9c0bd6e170066c0869",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-stationery-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-stationery.pdf",
+      "bytes": 3374441,
+      "sha256": "d6f57ffd8bf3ace755fe9b71aa26c989d0d6e307e8a4797b5766861211052390",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-stationery.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-stationery.zip",
+      "bytes": 1204398,
+      "sha256": "93934aad2b19d75ef61ad2cd1bcf5786e453ae45438b5c347b92c43ead0444a7",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-stationery.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-stickers-contact.png",
+      "bytes": 277807,
+      "sha256": "8f39ed782d875f6adca8ed742c05d418111789bae5a9db4ec7225779ab1fae92",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-stickers-contact.png",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers-contact.png",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-stickers.pdf",
+      "bytes": 3440164,
+      "sha256": "fae1b7d8ef8ccc5a9fb037496f3e90f442174dfc0dadbe2a82668818f0715eb8",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-stickers.pdf",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.pdf",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-stickers.zip",
+      "bytes": 1194537,
+      "sha256": "d5c7cccba13d8944771f656b3dcee8d30cdc3193cad64421049697324f5b7200",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-stickers.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stickers.zip",
+      "authenticated": false
+    },
+    {
+      "file": "darty-ai-xmp.zip",
+      "bytes": 8063773,
+      "sha256": "fac3a6301b9e81d055079bdd4460a7ff16ae5acf4d55e65758d1f12670868ffc",
+      "httpStatus": 200,
+      "contentDisposition": "attachment; filename=darty-ai-xmp.zip",
+      "url": "https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-xmp.zip",
+      "authenticated": false
+    }
+  ]
+}

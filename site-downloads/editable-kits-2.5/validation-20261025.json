@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-25",
+  "complete": true,
+  "nativeVersion": "2.5.0.6429",
+  "nativeBinarySha256": "ee92a9c42bcf8545c55b9b8dbea36618d9f102d62a8365cb0525c3bc80158deb",
+  "nativeImplementation": "cf16dc28627d4d7eaa8704596a72ea54dca6d594",
+  "cepImplementation": "cda3f4664364e5cdcaea319869f7e91b7f468f40",
+  "illustrator": "2026 30.8.1",
+  "platform": "macOS Intel",
+  "designPreviewRecords": 63,
+  "xmpPreviewRecords": 3,
+  "nativeAIExports": 10,
+  "tableRecordsChecked": 45,
+  "reviewPDFs": 5,
+  "reviewPDFPages": 27,
+  "compressedContactGrids": 5,
+  "visuallyReviewedRecords": [
+    "packaging-2",
+    "ebike-1",
+    "menus-2",
+    "property-1",
+    "stickers-1"
+  ],
+  "unchangedKits": 7,
+  "windowsQualified": false,
+  "earlierScriptingCrashFixed": false,
+  "kitImplementation": "15e085595dda3e7f51da8d97d0ebaa8d3b02270c",
+  "kitsAudited": 12,
+  "workbooksAudited": 11,
+  "maxArtworkSettingDecimalPlaces": 1
+}

@@ -77,20 +77,44 @@ Packaging mockups use Darty-Ai Box Maker with registered artwork exported from
 Illustrator. The box proportions and print placement come from the document.
 Separate image-tool realism experiments are excluded from these PDFs.
 The contact sheets are high-resolution PNG grids, compressed with Darty-Ai
-optimizeBitmap. Their ten files total 6.83 MB.
+optimizeBitmap. The contact grids are included as separate downloads.
 
-## Compatibility checkpoint — October 14, 2026
+## Table workflow update — October 25, 2026
 
-The current checks use Darty-Ai native **2.5.0.6406** in Illustrator 2026 on macOS.
-The 63 workbook records use 12 minimal templates. Native Preview checks cover
+Packaging, Product catalogues, Menus, Property and Stickers now use readable
+`column[A]` data and indexed range rules. Table dimensions come from the content;
+shared text, padding and shrink-to-frame settings use header defaults. Header,
+column and cell rules retain the individual designs. The E-bike price row uses
+the footer rule, and sticker illustrations remain attached to their cells.
+
+Packaging's table, barcode and QR inherit the existing 180-degree template
+placeholders. The workbook no longer overrides the table's rotation. Artwork
+settings across all kits use at most one decimal place, with whole or half units
+where practical. Prices, nutrition, barcode/QR payloads and other content retain
+their original values.
+
+Five ZIPs and their matching review PDFs/contact grids are refreshed. The other
+seven kits needed no content changes. Source templates, assets and utility
+presets remain unchanged. Validation uses Illustrator 2026 on macOS and Darty-Ai
+**2.5.0.6429** and the October 25 CEP spreadsheet-range fix. Use a Darty-Ai
+installation containing those fitting/range fixes for the refreshed table kits.
+All 66 workbook records passed Preview, and all ten design kits exported AI
+files. See the [validation record](validation-20261025.json) and
+[verified downloads](download-verification-20261025.json). Windows runtime
+is not qualified by these checks.
+
+## Historical compatibility checkpoint — October 14, 2026
+
+That checkpoint used Darty-Ai native **2.5.0.6406** in Illustrator 2026 on macOS.
+The 63 workbook records used 12 minimal templates. Native Preview checks covered
 all 33 non-packaging records and the seven packaging editions shown in the PDF,
 including both box sizes and all three nutrition row counts. Review pages retain
 vector text and are checked against the spreadsheet text and table values.
 
-This release contains sample files, not a plug-in installer. The Mac checks do
-not qualify Windows or long-session stability. Earlier Preserve-metadata export
-failures for Events and Property remain a separate native investigation; these
-review PDFs were saved from temporary artwork copies without source metadata.
+The October 14 Mac checks did not qualify Windows or long-session stability.
+At that checkpoint, Preserve-metadata exports for Events and Property failed;
+the review PDFs were saved from temporary artwork copies without source metadata.
+The five October 25 replacement PDFs use native exports with XMP removal.
 
 ## Compression and XMP utility kits
 
