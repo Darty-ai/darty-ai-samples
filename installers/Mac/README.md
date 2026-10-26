@@ -1,5 +1,28 @@
 # Mac installers
 
+## Mainline 2.5.0.6496 — October 26, 2026
+
+[Darty-Ai-2.5.0.6496-Mac.dmg](Darty-Ai-2.5.0.6496-Mac.dmg) contains fresh
+Universal Release native **2.5.0.6496** and Adobe-signed production CEP **2.5.0**,
+including Main and Tables. It requires macOS **12** or later and Illustrator
+**2025 / 29.0** or later.
+
+- The native plug-in, installer and uninstallers contain Intel and Apple Silicon
+  code; none of the shipped executables requires Rosetta.
+- Developer ID signed, Apple notarized, stapled and Gatekeeper-verified.
+- Installed Intel Illustrator 30.8.1 native creation/readback checks passed.
+  Reinstallation and uninstall preserved settings/data; the original local
+  development installation was restored after verification.
+- DMG SHA-256:
+  `72e56cd55839b43e4b41ddc27ef5bef1fd230d5efca25e370560ba9cfed01066`.
+
+Close Illustrator before installing, then restart and confirm Help shows
+**2.5.0 - 6496**. If setup requests an Additional Plug-ins folder, choose a
+separate safe writable folder and restart Illustrator.
+
+[Source provenance and completed verification](https://github.com/dartyai/p-tests/blob/experiments/cmake/installer-notes/MAINLINE_MAC_RELEASE_20261026.md).
+
+
 ## Mainline 2.3.0 test candidate — September 23, 2026
 
 [Darty-Ai-2.3.0.6281-Mac.dmg](Darty-Ai-2.3.0.6281-Mac.dmg) is ready for testing

@@ -1,5 +1,10 @@
 # Installer downloads
 
+The latest Universal Mac installer is
+[Darty-Ai-2.5.0.6496-Mac.dmg](Mac/Darty-Ai-2.5.0.6496-Mac.dmg), signed and
+notarized on October 26, 2026. The plug-in, installer and uninstallers support
+Intel and Apple Silicon natively. See [Mac details](Mac/README.md).
+
 New exports use the full native release/build identity and a short platform
 suffix:
 
