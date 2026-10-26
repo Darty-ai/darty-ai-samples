@@ -19,6 +19,14 @@ The sample downloads also include standalone Compression and XMP metadata DIY
 kits with export presets. XMP demonstrates named spreadsheet variables, creator
 and location details, star ratings, and PNG/JPEG/PDF output.
 
-The October 25 kit refresh modernizes five table workbooks and limits artwork
-settings to one decimal place while preserving content numbers. The download
-index records the checked files and current hashes.
+The October 26 refresh gives all twelve kits CMYK Illustrator documents and
+simpler spreadsheets, keeping fixed settings in the templates. All 66 records
+remain, and fruit gradients follow shared global colors. The download index
+records the checked files and current hashes.
+
+## Template and spreadsheet authoring
+
+Read [the shared authoring rules](documentation/template-and-spreadsheet-authoring.md)
+before preparing templates, spreadsheets or DIY kits. Fixed styling belongs in
+templates; shared changes use shared tags, swatch channels are integers, and
+common folders belong in header defaults.

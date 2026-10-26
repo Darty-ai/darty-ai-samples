@@ -1,0 +1,388 @@
+{
+  "date": "2026-10-26",
+  "kits": 12,
+  "workbooks": 11,
+  "records": 66,
+  "templates": 15,
+  "documentMode": "CMYK",
+  "environment": "Illustrator 2026 / native 2.5.0.6496 / CEP 2.5.0 / macOS",
+  "checks": {
+    "realDataPreviewRecords": 66,
+    "exactGlobalColorRecords": 66,
+    "cleanCMYKTemplateReopens": 15,
+    "CMYKAIOutputReopens": 12,
+    "xmpExports": 9,
+    "compressionOutputs": 12,
+    "successfulCompressionJobs": 6,
+    "tableShrink": [
+      11,
+      9
+    ],
+    "designReviewPDFs": 10,
+    "compressionReviewPDFs": 1,
+    "contactGridsCompressed": 10,
+    "releaseAssets": 33
+  },
+  "columns": [
+    {
+      "kit": "apparel",
+      "before": 59,
+      "after": 16,
+      "records": 6
+    },
+    {
+      "kit": "certificates",
+      "before": 61,
+      "after": 11,
+      "records": 3
+    },
+    {
+      "kit": "ebike",
+      "before": 89,
+      "after": 21,
+      "records": 3
+    },
+    {
+      "kit": "events",
+      "before": 48,
+      "after": 16,
+      "records": 3
+    },
+    {
+      "kit": "menus",
+      "before": 74,
+      "after": 19,
+      "records": 6
+    },
+    {
+      "kit": "property",
+      "before": 73,
+      "after": 15,
+      "records": 3
+    },
+    {
+      "kit": "retail",
+      "before": 52,
+      "after": 12,
+      "records": 3
+    },
+    {
+      "kit": "stationery",
+      "before": 73,
+      "after": 8,
+      "records": 3
+    },
+    {
+      "kit": "stickers",
+      "before": 70,
+      "after": 24,
+      "records": 3
+    },
+    {
+      "kit": "xmp",
+      "before": 16,
+      "after": 14,
+      "records": 3
+    },
+    {
+      "kit": "packaging",
+      "before": 661,
+      "after": 86,
+      "records": 30
+    }
+  ],
+  "documentProof": [
+    {
+      "file": "STAGE/Kits/darty-ai-apparel/AI Templates/northline.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "563e16845e1aa6e2a6554a77d2d492fee482a9163319a848738a0dc0e3f2a293",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-apparel/AI Templates/redhaven.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "afe5754f5e2ebdd19ee29fc8f708a565f1e728c2fadbb4c5656028ac147a5dce",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-certificates/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "dd30871a8c4321c41ade35f5920a684fa4adc9798236bd7840d0da9712a80026",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-compression/AI Templates/compression-comparison.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "c54cb2d4977ce45779072f6970f47281b9e02af67c43dcaac976dc6bec8ce706",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-ebike/AI Templates/catalogue-master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "eadf9e261db4ca62f9b0c01224e24b49e4474ab9045a6bd4498e51a23e191d0f",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-events/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "46337b32ab1e8d2214b818395f9492d275a95e2d2e7fdb2e828ed24a9c5b7c73",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-menus/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "c66b2d6552227f787d454b6d49426549306a0e347bc2f86141348245efbb9b10",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-packaging/AI Templates/Fruit Packaging 200x136x68.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "10375e871f7e2e7ac3b2567e0f1e14550b7c03a91f98e94e3e9942b5e0f5463b",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-packaging/AI Templates/Fruit Packaging 250x170x85.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "fb2e1ca4cc27c5a04e8b3953066c8be468b3b65af18525be16e15228a2314ea2",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-property/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "c24733a4128eb0420a7fc1e7daca99f86fbc9592106978b12041762fe8e7131e",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-retail/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "ab37e876a5229649aa0b1c75f7caea2d804166b5cd7954c114948f4fc6091f65",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-stationery/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "513ae18c5fbc0d7a3c9e24c5bec7bf98b5ba7db3acdc9690e1da8c3c2f5e6215",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-stickers/AI Templates/master.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "d86dd2face39d52c93b94f3128b45432e3347211128d4c4a993ffd683f5f55dc",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-xmp/AI Templates/metadata-library-4-stars.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "ee47461153079124a32e8afee3b36cb2b4264a713f8d89813011e2c6bb23e662",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/Kits/darty-ai-xmp/AI Templates/metadata-library.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "9b0e5b691fd4bc1ad2e1c05f3e551dc4e70ff97865a87cb400b7bfc9d6391872",
+      "kind": "template"
+    },
+    {
+      "file": "STAGE/verified-outputs/apparel-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "41b85681d890def86339ec83c72726728198294a35faa68c20f7067df0814cad",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/certificates-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "4b9e2dd28bc5024a43034cebc302858c265f3828cf32b0c75b6d8e6fdbefe60a",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/compression-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "2a191a2b756616d2839a2d6ea84c5a21212863b1e65fffca706987b4ae832799",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/ebike-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "0a789d41eb2dc4a25df7bbe744378514d6acb307afff339cb1aceddddbb96a0b",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/events-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "bda2645fc4ce644d38994d607b042c8b87f770d1c7e7fe92a5aefaca5beb2507",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/menus-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "87cd129cd68ac951b0422a4ef3769dc132244809eb157a4622795e6124327617",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/packaging-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "7fc6ffd4211c9c87616d02443c05a337f500e68bd0c64fa94cd8a4c1a669abbd",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/property-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "96c7074386fe71069a8b6a7c3f7b48b5f60d86d84d611d76b2ae1cb09ff24b6e",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/retail-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "026761b25759cdb53c9f549bab076707580dcf87821983c35922ac77de272869",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/stationery-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "a90a18878bda0cedfc2ae5b49662e54aeb19c0e1f9c5e4054e504da44a096f84",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/stickers-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "55c1a41b150696d520bdb67a41b477d397ecd1a69dcc71658479899a19f45a9d",
+      "kind": "export"
+    },
+    {
+      "file": "STAGE/verified-outputs/xmp-verified.ai",
+      "mode": "DocumentColorSpace.CMYK",
+      "saved": true,
+      "migrated": false,
+      "sha256": "e52e4ba3f2f7fd399c102fc33f549d7cacf17ae1f53463b4b3778d33fd0b0e8c",
+      "kind": "export"
+    }
+  ],
+  "limits": [
+    "macOS Illustrator qualification; Windows not tested",
+    "Utility export tests used production preset hydration/dispatch and native exportFile; preset-manager import dialog not repeated",
+    "Existing photographic cover mockups retained"
+  ],
+  "sourceEvidence": "https://github.com/Darty-ai/darty-site-pages/tree/main/resources/kit-authoring-20261026",
+  "zipValidation": [
+    {
+      "file": "darty-ai-apparel.zip",
+      "bytes": 322158,
+      "sha256": "b91d8388c8bc340504f056d2c97232fda48a40be44e67a5676329d374e295fb1"
+    },
+    {
+      "file": "darty-ai-certificates.zip",
+      "bytes": 422548,
+      "sha256": "bb4aac975d37612adcf6d30b6c5ff486665a9d96420cacf5939968042c8cbda1"
+    },
+    {
+      "file": "darty-ai-compression.zip",
+      "bytes": 56244748,
+      "sha256": "e32042ffc0f6ba6eda33207681aaee56787d37510fb7f4b4b3e0a5b028cc425c"
+    },
+    {
+      "file": "darty-ai-ebike.zip",
+      "bytes": 6120083,
+      "sha256": "c20583446c08771257332ff2aa853ba9131e103359875a4f04cfec106d9df0fb"
+    },
+    {
+      "file": "darty-ai-events.zip",
+      "bytes": 393221,
+      "sha256": "56280abd199d6f687936800fc4bdb91508c9bccef4e28569992be3c580b719fe"
+    },
+    {
+      "file": "darty-ai-menus.zip",
+      "bytes": 3841399,
+      "sha256": "0682398b66263d528a587c0f880ef2d21c56f0c7c65a0e162a8a55a94552f439"
+    },
+    {
+      "file": "darty-ai-packaging.zip",
+      "bytes": 51122267,
+      "sha256": "48a8fc0f26b4fde4ed6d2fb9035a6a294b27f1e42d2bf1b7bed9767b0acc8b19"
+    },
+    {
+      "file": "darty-ai-property.zip",
+      "bytes": 3685056,
+      "sha256": "2b9bc41844dc42eb5aac79164c9e5d1b03b0938650bfe2360aca817a2aa06d98"
+    },
+    {
+      "file": "darty-ai-retail.zip",
+      "bytes": 2548511,
+      "sha256": "bb394d47942fd9f9ff3a8323da985e916fb9fbfcd8f6e40cb98d494681ed2a0f"
+    },
+    {
+      "file": "darty-ai-stationery.zip",
+      "bytes": 423661,
+      "sha256": "60922a4b3e8f60d2d0cc89562f737c5190a2d4f15258f86991c57ac2a600961c"
+    },
+    {
+      "file": "darty-ai-stickers.zip",
+      "bytes": 442229,
+      "sha256": "e54f2c1b1f2ad532e8ddf5c4ba0881ee4215714198e972df58abe28ef18db229"
+    },
+    {
+      "file": "darty-ai-xmp.zip",
+      "bytes": 8122168,
+      "sha256": "100f53f06754b0f0b0c58455c078a6088f2f5e183275a72989a1dd3d580d5d07"
+    }
+  ],
+  "commits": {
+    "siteImplementation": "f6a3688",
+    "cepFolderTooltip": "0b701001",
+    "cepRemovalDefaults": "14408b49",
+    "cepAuthoringRules": "2fe0bd5a",
+    "nativeAuthoringRules": "bc99316",
+    "vasilyAuthoringRules": "955bdd6"
+  }
+}

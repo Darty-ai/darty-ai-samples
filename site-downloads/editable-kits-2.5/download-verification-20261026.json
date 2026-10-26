@@ -1,0 +1,205 @@
+{
+  "release": "editable-kits-2.5",
+  "updated": "2026-10-26",
+  "files": [
+    {
+      "file": "darty-ai-packaging.zip",
+      "bytes": 51122267,
+      "sha256": "48a8fc0f26b4fde4ed6d2fb9035a6a294b27f1e42d2bf1b7bed9767b0acc8b19",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-packaging.pdf",
+      "bytes": 13906062,
+      "sha256": "16015467538009343271dc504f54c930e47c2b3034c66fd459edf97e59e49a34",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-packaging-contact.png",
+      "bytes": 449368,
+      "sha256": "b9fca0a7b18da5dd7621a1bff207bf681f344fd56013d48fe048382c35efd93d",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-apparel.zip",
+      "bytes": 322158,
+      "sha256": "b91d8388c8bc340504f056d2c97232fda48a40be44e67a5676329d374e295fb1",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-apparel.pdf",
+      "bytes": 6107629,
+      "sha256": "c3a447874b04079e0edd1e95416d39640a9c7268b7bfa4e39aae1d0500627564",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-apparel-contact.png",
+      "bytes": 197349,
+      "sha256": "f17b47645531661b33cd70042f42f87b9287ecbd674d47951906175414af7741",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-ebike.zip",
+      "bytes": 6120083,
+      "sha256": "c20583446c08771257332ff2aa853ba9131e103359875a4f04cfec106d9df0fb",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-ebike.pdf",
+      "bytes": 4068113,
+      "sha256": "1df1bdd66671caa03b0b7f33eabbc1460363ec072751dc1cfa864d0675923bca",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-ebike-contact.png",
+      "bytes": 377102,
+      "sha256": "5506c2912651ce10a6b02cdf4784533df6dc89d4b152380f621b42301c177c86",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-retail.zip",
+      "bytes": 2548511,
+      "sha256": "bb394d47942fd9f9ff3a8323da985e916fb9fbfcd8f6e40cb98d494681ed2a0f",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-retail.pdf",
+      "bytes": 4660744,
+      "sha256": "fc92dc39c98a933686f9e8b34270c75dae70f5f49bdc231827a7ba2e2595daa0",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-retail-contact.png",
+      "bytes": 1566728,
+      "sha256": "f317bcd50c16efe41ff3a40de694240a3b6ca702e6d19c4636495b74f13f6ebb",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-menus.zip",
+      "bytes": 3841399,
+      "sha256": "0682398b66263d528a587c0f880ef2d21c56f0c7c65a0e162a8a55a94552f439",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-menus.pdf",
+      "bytes": 5294878,
+      "sha256": "830e8d4516efa2fe3245726acf64f744e3f6ed312da6d7593d2c88ff210cee53",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-menus-contact.png",
+      "bytes": 1886009,
+      "sha256": "3734e37a047e4c2340b3a133586613e91514343e41c39e63c96a049df6f81f93",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-events.zip",
+      "bytes": 393221,
+      "sha256": "56280abd199d6f687936800fc4bdb91508c9bccef4e28569992be3c580b719fe",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-events.pdf",
+      "bytes": 3717433,
+      "sha256": "2f1b1a96173eedda9d06b719baae370bcc7aca42212ed2851350e37f173f6438",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-events-contact.png",
+      "bytes": 331025,
+      "sha256": "bc5900607c3c0bf39cf7363d0e7ba551a64b8f415a930d20b93bc2388ddcd7ec",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-property.zip",
+      "bytes": 3685056,
+      "sha256": "2b9bc41844dc42eb5aac79164c9e5d1b03b0938650bfe2360aca817a2aa06d98",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-property.pdf",
+      "bytes": 4872468,
+      "sha256": "f4f5adcd0391429368aad043f6c651457b955ec2b979af1dc41144fe953290f9",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-property-contact.png",
+      "bytes": 816350,
+      "sha256": "c5e34a6dc5d40cac75dd2ccfabf5539470fe10cc5c8a8bd5740cd219f2bf9f70",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-stickers.zip",
+      "bytes": 442229,
+      "sha256": "e54f2c1b1f2ad532e8ddf5c4ba0881ee4215714198e972df58abe28ef18db229",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-stickers.pdf",
+      "bytes": 3440173,
+      "sha256": "61fcf6e55598a4158ebfb5f1524383a95250cdc4d08cbec93cd9f52d0d418f09",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-stickers-contact.png",
+      "bytes": 277807,
+      "sha256": "8f39ed782d875f6adca8ed742c05d418111789bae5a9db4ec7225779ab1fae92",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-stationery.zip",
+      "bytes": 423661,
+      "sha256": "60922a4b3e8f60d2d0cc89562f737c5190a2d4f15258f86991c57ac2a600961c",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-stationery.pdf",
+      "bytes": 3374283,
+      "sha256": "cee7f6456cebf6cba7e639409d3eb04c84dd9c600accf95ebcbb4f1473aaa454",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-stationery-contact.png",
+      "bytes": 324945,
+      "sha256": "1cae7caa35eaee282cc18272257c0416f3abb5b298389f9c0bd6e170066c0869",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-certificates.zip",
+      "bytes": 422548,
+      "sha256": "bb4aac975d37612adcf6d30b6c5ff486665a9d96420cacf5939968042c8cbda1",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-certificates.pdf",
+      "bytes": 3125400,
+      "sha256": "3b896da77f6c058882353d843da93c454c94fd35cec5582124b95b3dc43f267b",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-certificates-contact.png",
+      "bytes": 212006,
+      "sha256": "c2da52895fa3d45690f4375bdf4a818e5cca83c0ee482e9db9a3aaac51e41b6f",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-compression.pdf",
+      "bytes": 13174269,
+      "sha256": "61a95777c526cbd83941cbfffb4e0f52a52fad3e25cf02d1106b62b9e19f3a1d",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-compression.zip",
+      "bytes": 56244748,
+      "sha256": "e32042ffc0f6ba6eda33207681aaee56787d37510fb7f4b4b3e0a5b028cc425c",
+      "verified": true
+    },
+    {
+      "file": "darty-ai-xmp.zip",
+      "bytes": 8122168,
+      "sha256": "100f53f06754b0f0b0c58455c078a6088f2f5e183275a72989a1dd3d580d5d07",
+      "verified": true
+    }
+  ],
+  "method": "Fresh GitHub release downloads; exact byte counts and SHA-256 against manifest"
+}

@@ -24,9 +24,9 @@ versions. Keep the first four header rows; records start on row five.
 
 The kits work from the extracted folder, including folder names with spaces.
 References are relative to the workbook. Sticker illustrations load from Assets into three tagged source placeholders
-on the pasteboard, then the table anchors copies into its cells. Templates start with short placeholder text and empty image, table and code
-targets. Each layout has at least three spreadsheet variations. Common settings
-use row 3 defaults; enter values in records only when they differ. Frame text
+on the pasteboard, then the table anchors copies into its cells. Templates store fixed formatting and managed table styles, with targets for
+variable images and codes. Each layout has at least three spreadsheet variations. Fixed settings live in the template. Defaults needed by variable operations
+use row 3; common folders go there and records contain filenames. Frame text
 replacement uses its implicit mode, so no repeated @ mode is needed.
 
 ## Downloads
@@ -49,7 +49,7 @@ The PDFs show the supplied examples; the ZIPs contain the editable source files.
 | Personalized stationery |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.zip)   | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery.pdf)   | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-stationery-contact.png)   |
 | Certificates and awards |       3 | [Download ZIP](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.zip) | [Download PDF](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates.pdf) | [PNG](https://github.com/Darty-ai/darty-ai-samples/releases/download/editable-kits-2.5/darty-ai-certificates-contact.png) |
 
-Food packaging includes two empty box templates and 30 fruit/language records on
+Food packaging includes two prepared CMYK box templates and 30 fruit/language records on
 one Darty Designs sheet. The 250 × 170 × 85 mm box is the header default for
 plums, apricots, nectarines and strawberries; cherry rows override it with the
 200 × 136 × 68 mm box. Shared settings also use header defaults, with explicit
@@ -79,7 +79,32 @@ Separate image-tool realism experiments are excluded from these PDFs.
 The contact sheets are high-resolution PNG grids, compressed with Darty-Ai
 optimizeBitmap. The contact grids are included as separate downloads.
 
-## Table workflow update — October 25, 2026
+## CMYK templates and simpler spreadsheets — October 26, 2026
+
+All twelve kits now use **CMYK Illustrator documents**: all fifteen saved
+AI templates were reopened in Illustrator and their document modes checked.
+Fixed typography, justification, table styles and appearance live in the
+templates. The eleven workbooks keep all 66 records while retaining only
+necessary variable settings. Packaging drops from 661 columns to 86, with
+all 30 fruit/language records and the revised cherry data preserved.
+
+Generic role tags and shared tags replace fruit-specific names. Named global
+CMYK swatches use integer channels and change the fruit panels and title
+gradients together. Common folders live in header defaults; records contain
+filenames. Packaging retains explicit 9/10/11 table row counts so shorter
+updates remove trailing rows. Each ZIP includes the shared
+[authoring rules](../../documentation/template-and-spreadsheet-authoring.md).
+
+Validation used Illustrator 2026 30.8.1 on macOS, native **2.5.0.6496** and
+CEP 2.5.0 with the folder-default tooltip fix (`0b701001`). Use a build containing
+these fixes. Checks cover all 66 Preview records, 12 AI exports, nine XMP
+exports and twelve compression outputs. Review PDFs and contact grids were
+rebuilt. RGB raster export settings in utility presets do not change the CMYK
+source document requirement. Windows is not qualified by these Mac checks.
+See the [validation record](validation-20261026.json) and
+[verified downloads](download-verification-20261026.json).
+
+## Historical table workflow update — October 25, 2026
 
 Packaging, Product catalogues, Menus, Property and Stickers now use readable
 `column[A]` data and indexed range rules. Table dimensions come from the content;
