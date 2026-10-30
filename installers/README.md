@@ -14,13 +14,12 @@ suffix:
 | Windows | `Darty-Ai-<major.minor.micro.build>-Win.exe` | `Darty-Ai-2.2.0.6177-Win.exe` |
 
 See [Mac downloads and validation](Mac/README.md) and
-[Windows downloads and validation](Windows/README.md).
+[Windows downloads](Windows/).
 [Darty-Ai-2.2.0.6177-Win.exe](Windows/Darty-Ai-2.2.0.6177-Win.exe) is the signed
 October 19, 2026 build, uploaded on October 20 at Vasily's request. It starts
 per-user, offers elevation only for protected legacy payloads, and uses
 filename-based cleanup without runtime content-hash gates. Download a fresh
-copy: the September 24 download used the same filename and version. See the
-Windows page for completed qualification and remaining manual checks.
+copy: the September 24 download used the same filename and version.
 
 The signed and notarized mainline
 [Darty-Ai-2.3.0.6281-Mac.dmg](Mac/Darty-Ai-2.3.0.6281-Mac.dmg) is also available
@@ -32,8 +31,7 @@ The two Windows installers using `-LTS24` names have been removed at Vasily's
 request because they interfere with deployment scripts. Use the current
 `Darty-Ai-2.2.0.6177-Win.exe` for Windows LTS testing.
 The current Windows EXE also removes the visible LTS/LTS24 suffix from Setup
-and Installed Apps. The Windows README records the current signed build and
-its qualification; historical signed bytes remain available in Git history.
+and Installed Apps. Historical signed bytes remain available in Git history.
 
 Download folders contain installer files and READMEs only. Do not add manifest
 or checksum files to Samples. Detailed Windows verification evidence
