@@ -1,4 +1,29 @@
-# Darty-Ai 2.2.0.6177 for Windows
+# Darty-Ai for Windows
+
+## Mainline 2.5.0.6513
+
+Download [Darty-Ai-2.5.0.6513-Win.exe](Darty-Ai-2.5.0.6513-Win.exe).
+This signed mainline installer requires Illustrator 2025 or later and includes
+native **2.5.0.6513** and production CEP **2.5.0**. MCP/Assistant is excluded.
+Published October 30, 2026: the exact October 28 Language-fix candidate.
+
+Fresh install, reinstall, uninstall, installed payload hashes and Language
+navigation passed on Windows with Illustrator **2026 / 30.3.0**. Replayed
+Language requests leave Help, Data, Tags, Export and Tools selected; a fresh
+Language click reopens it. Both panels stayed authenticated.
+
+An existing automated COM shutdown hang reproduced after panel testing and
+remains unresolved. The initial production launch/quit completed normally.
+Another PC and Illustrator 2025 runtime remain untested.
+
+Close Illustrator normally before installing. Open the installed panel through
+**Window > Extensions > Darty-Ai**. If no usable Additional Plug-ins folder is
+configured, use CEP setup to choose a separate safe folder and restart Illustrator.
+
+Maintainer checksums and detailed verification are in the [private signed archive](https://github.com/dartyai/p-tests-builds/tree/15a558611dbff827fb055e29de6b344acdf3e168/releases/windows/Darty-Ai-2.5.0.6513-Win-d9178e0b92b6248f).
+This download does not change the update feed or release flags.
+
+## Darty-Ai 2.2.0.6177 for Windows
 
 Download [Darty-Ai-2.2.0.6177-Win.exe](Darty-Ai-2.2.0.6177-Win.exe).
 This is the October 19, 2026 signed build, copied to Samples on October 20
@@ -11,7 +36,7 @@ backend and exact Illustrator SDK **28.1/build 140**. LTS keeps Tables and nativ
 Tags controls excluded. Samples contains Windows EXEs and Markdown only;
 manifests, checksums and detailed build evidence remain in the private archive.
 
-## October 19 installer changes
+### October 19 installer changes
 
 - Setup starts per-user without administrator privileges. Separate elevation
   is offered only when actual legacy Darty payloads are found in protected
@@ -29,7 +54,7 @@ manifests, checksums and detailed build evidence remain in the private archive.
   cleanup failures warn; required file removal or replacement failures remain
   visible.
 
-## Qualification
+### Qualification
 
 The exact signed EXE passed mainline-to-LTS upgrade and same-version reinstall
 on the local machine, with native/CEP contents and preserved user files checked.
@@ -43,7 +68,7 @@ final LTS build, interactive uninstall cancellation, visual CEP Help/account
 checks, another PC and Illustrator 2024/2025 runtime remain manual acceptance.
 Earlier installer results do not qualify these outstanding checks.
 
-## First launch and manual acceptance
+### First launch and manual acceptance
 
 1. Close Illustrator normally before installation.
 2. If no usable Additional Plug-ins folder is configured, open
