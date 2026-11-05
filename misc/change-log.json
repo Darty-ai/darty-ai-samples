@@ -7,7 +7,7 @@
     "extension": "2.5.0",
     "go-server": "2.6.0",
     "zint": "2.16.0.9",
-    "cpp-plugin": "2.5.0.6525"
+    "cpp-plugin": "2.5.0.6526"
   },
   "version-history": [
     {
@@ -25,8 +25,8 @@
       "public": true,
       "important": true,
       "download-links": {
-        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.5.0.6525-Mac.dmg",
-        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.5.0.6525-Win.exe"
+        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.5.0.6526-Mac.dmg",
+        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.5.0.6526-Win.exe"
       },
       "localizations": {
         "en": {
@@ -73,7 +73,7 @@
           "breakingChanges": [
             "Adobe Illustrator 2024 is not supported by the 2.5.0 mainline. Illustrator 2024 users should remain on Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 supports Adobe Illustrator 2025 and 2026. Mac and Windows installers are build 6525. Illustrator 2024 users should continue using Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 supports Adobe Illustrator 2025 and 2026. Mac and Windows installers are build 6526. Illustrator 2024 users should continue using Darty-Ai 2.2.0.",
           "type": "feature, fix"
         },
         "de": {
@@ -120,7 +120,7 @@
           "breakingChanges": [
             "Adobe Illustrator 2024 wird von der Hauptversion 2.5.0 nicht unterstützt. Nutzer von Illustrator 2024 sollten bei Darty-Ai 2.2.0 bleiben."
           ],
-          "notes": "Darty-Ai 2.5.0 unterstützt Adobe Illustrator 2025 und 2026. Die Installationsprogramme für Mac und Windows haben die Build-Nummer 6525. Nutzer von Illustrator 2024 sollten weiterhin Darty-Ai 2.2.0 verwenden.",
+          "notes": "Darty-Ai 2.5.0 unterstützt Adobe Illustrator 2025 und 2026. Die Installationsprogramme für Mac und Windows haben die Build-Nummer 6526. Nutzer von Illustrator 2024 sollten weiterhin Darty-Ai 2.2.0 verwenden.",
           "type": "Funktion, Fehlerbehebung"
         },
         "nl": {
@@ -167,7 +167,7 @@
           "breakingChanges": [
             "Adobe Illustrator 2024 wordt niet ondersteund door de hoofdversie 2.5.0. Gebruikers van Illustrator 2024 moeten Darty-Ai 2.2.0 blijven gebruiken."
           ],
-          "notes": "Darty-Ai 2.5.0 ondersteunt Adobe Illustrator 2025 en 2026. De installatieprogramma’s voor Mac en Windows zijn build 6525. Gebruikers van Illustrator 2024 moeten Darty-Ai 2.2.0 blijven gebruiken.",
+          "notes": "Darty-Ai 2.5.0 ondersteunt Adobe Illustrator 2025 en 2026. De installatieprogramma’s voor Mac en Windows zijn build 6526. Gebruikers van Illustrator 2024 moeten Darty-Ai 2.2.0 blijven gebruiken.",
           "type": "functie, bugfix"
         },
         "fr": {
@@ -214,7 +214,7 @@
           "breakingChanges": [
             "Adobe Illustrator 2024 n'est pas pris en charge par la version principale 2.5.0. Les utilisateurs d'Illustrator 2024 doivent conserver Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 prend en charge Adobe Illustrator 2025 et 2026. Les programmes d’installation pour Mac et Windows correspondent à la build 6525. Les utilisateurs d’Illustrator 2024 doivent continuer à utiliser Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 prend en charge Adobe Illustrator 2025 et 2026. Les programmes d’installation pour Mac et Windows correspondent à la build 6526. Les utilisateurs d’Illustrator 2024 doivent continuer à utiliser Darty-Ai 2.2.0.",
           "type": "fonctionnalité, correction"
         },
         "es": {
@@ -261,7 +261,7 @@
           "breakingChanges": [
             "Adobe Illustrator 2024 no es compatible con la versión principal 2.5.0. Los usuarios de Illustrator 2024 deben seguir usando Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 es compatible con Adobe Illustrator 2025 y 2026. Los instaladores para Mac y Windows corresponden a la compilación 6525. Los usuarios de Illustrator 2024 deben seguir utilizando Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 es compatible con Adobe Illustrator 2025 y 2026. Los instaladores para Mac y Windows corresponden a la compilación 6526. Los usuarios de Illustrator 2024 deben seguir utilizando Darty-Ai 2.2.0.",
           "type": "funcionalidad, corrección"
         },
         "it": {
@@ -308,7 +308,7 @@
           "breakingChanges": [
             "Adobe Illustrator 2024 non è supportato dalla versione principale 2.5.0. Gli utenti di Illustrator 2024 devono continuare a usare Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 supporta Adobe Illustrator 2025 e 2026. Gli installer per Mac e Windows corrispondono alla build 6525. Gli utenti di Illustrator 2024 devono continuare a utilizzare Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 supporta Adobe Illustrator 2025 e 2026. Gli installer per Mac e Windows corrispondono alla build 6526. Gli utenti di Illustrator 2024 devono continuare a utilizzare Darty-Ai 2.2.0.",
           "type": "funzionalità, correzione"
         }
       }
