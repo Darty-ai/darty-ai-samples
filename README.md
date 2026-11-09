@@ -4,7 +4,7 @@ This repository contains Illustrator and Excel samples used by the Darty Ai
 documentation site, plus download indexes for the editable DIY kits.
 
 See [installer downloads and the filename convention](installers/README.md) for
-the current Mac and Windows mainline 2.5.0.6526 installers and LTS downloads.
+the current Mac and Windows mainline 2.5.0.6532 installers and LTS downloads.
 
 The [release feed](misc/change-log.json) contains the Darty-Ai 2.5.0 release in
 English, German, Dutch, French, Spanish and Italian. It targets Illustrator

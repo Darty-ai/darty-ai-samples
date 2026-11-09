@@ -1,8 +1,8 @@
 # Mac installers
 
-Current mainline: [Darty-Ai 2.5.0.6526](Darty-Ai-2.5.0.6526-Mac.dmg), Universal
+Current mainline: [Darty-Ai 2.5.0.6532](Darty-Ai-2.5.0.6532-Mac.dmg), Universal
 Intel/Apple Silicon, signed, notarized and stapled. The in-place upgrade removes
-the complete old CEP folder. See the [6526 qualification record](https://github.com/dartyai/p-tests/blob/experiments/cmake/installer-notes/WINDOWS_CEP_SIGNATURE_LEFTOVERS_20261105.md).
+the complete old CEP folder. See the [6532 qualification record](https://github.com/dartyai/p-tests/blob/experiments/cmake/installer-notes/TABLES_TAGS_RELEASE_20261109.md).
 
 The earlier releases below retain their historical qualification records.
 

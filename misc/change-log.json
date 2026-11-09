@@ -7,12 +7,12 @@
     "extension": "2.5.0",
     "go-server": "2.6.0",
     "zint": "2.16.0.9",
-    "cpp-plugin": "2.5.0.6526"
+    "cpp-plugin": "2.5.0.6532"
   },
   "version-history": [
     {
       "version": "2.5.0",
-      "date": "2026-11-05",
+      "date": "2026-11-09",
       "ai_versions": [
         2025,
         2026
@@ -25,8 +25,8 @@
       "public": true,
       "important": true,
       "download-links": {
-        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.5.0.6526-Mac.dmg",
-        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.5.0.6526-Win.exe"
+        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.5.0.6532-Mac.dmg",
+        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.5.0.6532-Win.exe"
       },
       "localizations": {
         "en": {
@@ -68,12 +68,17 @@
             "- **Universal Mac Installer and Setup**: Run natively on Intel and Apple Silicon Macs. Improved setup and recovery help configure a writable external plug-in folder when needed, while preserving existing folder choices and settings.",
             "- **Color Names**: Fixed library color names containing spaces being truncated during parsing, including shared Appearance and Tables workflows.",
             "- **Place — Keep Background**: Fixed Keep Background to retain complete original groups, compound paths and their appearance beneath placed graphics. Failed placements no longer remove the original target.",
-            "- **Editing and Export Reliability**: Improved table resizing, formatting and Undo/Redo consistency, and artwork restoration between batch exports. Empty text is skipped during fitting instead of producing an error."
+            "- **Editing and Export Reliability**: Improved table resizing, formatting and Undo/Redo consistency, and artwork restoration between batch exports. Empty text is skipped during fitting instead of producing an error.",
+            "- **Table Padding and Target Feedback**: Unlinking padding now stays unlinked after live refreshes and when all four values match. Linked edits update all sides together in the Tables panel, Table tool and Builder. The selected-table ID action now shows a toast when no managed table is selected. Localized tooltips distinguish tag search from tags assigned to the table.",
+            "- **Windows Tags — Enter**: Press Enter in the Tags field to apply tags, in Selection to add tags, or in Search to select matching objects. Held-key repeats and active IME composition do not submit tags again.",
+            "- **Slow Imports and Panel Recovery**: Google Sheets waits offer localized progress and cancellation, including slow authorization and transfers. Spreadsheet Find runs in cancellable batches. Preview and Export recover their controls after failed setup or missing host replies, and suppress disruptive Illustrator alerts during rendering.",
+            "- **Export and Tools Layout**: Added docked and floating export controls with template shortcuts, improved compact Tools spacing, and a visible border beneath the scrolling Colors header. Export issues are checked when the page opens.",
+            "- **Issue Reports**: Send diagnostics directly from Help, including machine and installation details, and follow up by email using the report's case reference."
           ],
           "breakingChanges": [
             "Adobe Illustrator 2024 is not supported by the 2.5.0 mainline. Illustrator 2024 users should remain on Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 supports Adobe Illustrator 2025 and 2026. Mac and Windows installers are build 6526. Illustrator 2024 users should continue using Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 supports Adobe Illustrator 2025 and 2026. Mac and Windows installers are build 6532. Illustrator 2024 users should continue using Darty-Ai 2.2.0.",
           "type": "feature, fix"
         },
         "de": {
@@ -115,12 +120,17 @@
             "- **Universelles Mac-Installationsprogramm und Einrichtung**: Native Ausführung auf Macs mit Intel-Prozessor und Apple Silicon. Verbesserte Einrichtung und Wiederherstellung helfen bei Bedarf, einen beschreibbaren externen Plug-in-Ordner einzurichten, ohne vorhandene Ordnerauswahlen und Einstellungen zu überschreiben.",
             "- **Farbnamen**: Bibliotheksfarbnamen mit Leerzeichen werden beim Einlesen nicht mehr abgeschnitten, auch in gemeinsamen Aussehens- und Tabellenabläufen.",
             "- **Platzieren — Hintergrund beibehalten**: Die Option erhält nun vollständige ursprüngliche Gruppen, zusammengesetzte Pfade und deren Aussehen unter platzierten Grafiken. Fehlgeschlagene Platzierungen entfernen das ursprüngliche Ziel nicht mehr.",
-            "- **Zuverlässigere Bearbeitung und Exporte**: Verbesserte Größenänderung und Formatierung von Tabellen, konsistenteres Rückgängigmachen/Wiederherstellen und zuverlässigere Wiederherstellung der Grafik zwischen Stapelexporten. Leerer Text wird bei der Größenanpassung übersprungen, statt einen Fehler auszulösen."
+            "- **Zuverlässigere Bearbeitung und Exporte**: Verbesserte Größenänderung und Formatierung von Tabellen, konsistenteres Rückgängigmachen/Wiederherstellen und zuverlässigere Wiederherstellung der Grafik zwischen Stapelexporten. Leerer Text wird bei der Größenanpassung übersprungen, statt einen Fehler auszulösen.",
+            "- **Tabellenabstände und Zielmeldungen**: Aufgehobene Verknüpfungen der Innenabstände bleiben auch nach Live-Aktualisierungen und bei vier gleichen Werten aufgehoben. Verknüpfte Änderungen aktualisieren alle Seiten gemeinsam im Tabellenbedienfeld, Tabellenwerkzeug und Builder. Die ID-Aktion zeigt einen kurzen Hinweis, wenn keine verwaltete Tabelle ausgewählt ist. Lokalisierte Tooltips unterscheiden die Tag-Suche von den Tags der Tabelle.",
+            "- **Windows-Tags — Eingabetaste**: Die Eingabetaste übernimmt Tags im Feld Tags, fügt sie unter Auswahl hinzu und wählt unter Suche passende Objekte aus. Gedrückthalten der Taste und aktive IME-Eingabe lösen keine erneute Übernahme aus.",
+            "- **Langsame Importe und Wiederherstellung**: Google-Sheets-Wartezeiten bieten lokalisierte Fortschrittsmeldungen und Abbruchmöglichkeiten, auch bei langsamer Autorisierung und Übertragung. Die Tabellensuche arbeitet in abbrechbaren Abschnitten. Vorschau und Export geben ihre Steuerelemente nach fehlgeschlagener Einrichtung oder ausbleibenden Antworten wieder frei und unterdrücken störende Illustrator-Meldungen beim Rendern.",
+            "- **Export- und Werkzeuglayout**: Angedockte und schwebende Export-Steuerelemente mit Vorlagenverknüpfungen, verbesserte Abstände kompakter Werkzeuge und eine sichtbare Linie unter der scrollenden Farbüberschrift. Exportprobleme werden beim Öffnen der Seite geprüft.",
+            "- **Problemberichte**: Diagnosedaten einschließlich Rechner- und Installationsinformationen direkt über Hilfe senden und per E-Mail mit der Fallreferenz nachfragen."
           ],
           "breakingChanges": [
             "Adobe Illustrator 2024 wird von der Hauptversion 2.5.0 nicht unterstützt. Nutzer von Illustrator 2024 sollten bei Darty-Ai 2.2.0 bleiben."
           ],
-          "notes": "Darty-Ai 2.5.0 unterstützt Adobe Illustrator 2025 und 2026. Die Installationsprogramme für Mac und Windows haben die Build-Nummer 6526. Nutzer von Illustrator 2024 sollten weiterhin Darty-Ai 2.2.0 verwenden.",
+          "notes": "Darty-Ai 2.5.0 unterstützt Adobe Illustrator 2025 und 2026. Die Installationsprogramme für Mac und Windows haben die Build-Nummer 6532. Nutzer von Illustrator 2024 sollten weiterhin Darty-Ai 2.2.0 verwenden.",
           "type": "Funktion, Fehlerbehebung"
         },
         "nl": {
@@ -162,12 +172,17 @@
             "- **Universeel Mac-installatieprogramma en configuratie**: Werkt native op Macs met Intel en Apple Silicon. Verbeterde configuratie en herstel helpen indien nodig een beschrijfbare externe plug-inmap in te stellen, met behoud van bestaande mapkeuzes en instellingen.",
             "- **Kleurnamen**: Bibliotheekkleurnamen met spaties worden bij het inlezen niet meer afgekapt, ook in gedeelde vormgevings- en tabelworkflows.",
             "- **Plaatsen — Achtergrond behouden**: De optie behoudt nu complete oorspronkelijke groepen, samengestelde paden en hun vormgeving onder geplaatste illustraties. Mislukte plaatsingen verwijderen het oorspronkelijke doel niet meer.",
-            "- **Betrouwbaarder bewerken en exporteren**: Verbeterde tabelafmetingen, opmaak, ongedaan maken/opnieuw uitvoeren en herstel van illustraties tussen batchexports. Lege tekst wordt bij het passend maken overgeslagen in plaats van een fout te veroorzaken."
+            "- **Betrouwbaarder bewerken en exporteren**: Verbeterde tabelafmetingen, opmaak, ongedaan maken/opnieuw uitvoeren en herstel van illustraties tussen batchexports. Lege tekst wordt bij het passend maken overgeslagen in plaats van een fout te veroorzaken.",
+            "- **Tabelopvulling en doelmeldingen**: Ontkoppelde opvulling blijft ontkoppeld na verversen en wanneer alle vier waarden gelijk zijn. Gekoppelde wijzigingen werken alle zijden tegelijk bij in het Tabellenpaneel, het Tabelgereedschap en Builder. De ID-actie toont een melding als er geen beheerde tabel is geselecteerd. Vertaalde tooltips maken onderscheid tussen zoeken op tags en tags toewijzen aan de tabel.",
+            "- **Windows-tags — Enter**: Druk op Enter in Tags om tags toe te passen, in Selectie om ze toe te voegen of in Zoeken om overeenkomende objecten te selecteren. Ingedrukt houden van de toets en actieve IME-invoer verzenden de tags niet opnieuw.",
+            "- **Trage imports en paneelherstel**: Wachten op Google Sheets biedt vertaalde voortgang en annulering, ook bij trage autorisatie en overdracht. Zoeken in spreadsheets verloopt in annuleerbare batches. Voorbeeld en Export herstellen hun bediening na mislukte voorbereiding of ontbrekende antwoorden en onderdrukken storende Illustrator-meldingen tijdens het renderen.",
+            "- **Indeling van Export en Gereedschappen**: Vaste en zwevende exportbediening met sjabloonsnelkoppelingen, betere afstanden bij compacte gereedschappen en een zichtbare rand onder de kop Kleuren bij het scrollen. Exportproblemen worden bij het openen van de pagina gecontroleerd.",
+            "- **Probleemrapporten**: Verzend diagnostiek rechtstreeks vanuit Help, inclusief computer- en installatiegegevens, en vervolg per e-mail met het referentienummer van het rapport."
           ],
           "breakingChanges": [
             "Adobe Illustrator 2024 wordt niet ondersteund door de hoofdversie 2.5.0. Gebruikers van Illustrator 2024 moeten Darty-Ai 2.2.0 blijven gebruiken."
           ],
-          "notes": "Darty-Ai 2.5.0 ondersteunt Adobe Illustrator 2025 en 2026. De installatieprogramma’s voor Mac en Windows zijn build 6526. Gebruikers van Illustrator 2024 moeten Darty-Ai 2.2.0 blijven gebruiken.",
+          "notes": "Darty-Ai 2.5.0 ondersteunt Adobe Illustrator 2025 en 2026. De installatieprogramma’s voor Mac en Windows zijn build 6532. Gebruikers van Illustrator 2024 moeten Darty-Ai 2.2.0 blijven gebruiken.",
           "type": "functie, bugfix"
         },
         "fr": {
@@ -209,12 +224,17 @@
             "- **Installation universelle sur Mac** : fonctionnement natif sur les Mac Intel et Apple Silicon. La configuration et la récupération améliorées aident à définir, si nécessaire, un dossier externe de modules externes accessible en écriture, tout en préservant les choix de dossiers et les paramètres existants.",
             "- **Noms de couleurs** : les noms de couleurs de bibliothèque contenant des espaces ne sont plus tronqués à la lecture, y compris dans les flux de travail partagés d'aspect et de tableaux.",
             "- **Importer — Conserver l'arrière-plan** : l'option conserve désormais les groupes et tracés transparents d'origine complets, ainsi que leur aspect, sous les illustrations importées. Une importation échouée ne supprime plus la cible d'origine.",
-            "- **Fiabilité de la modification et de l’exportation** : amélioration du redimensionnement et de la mise en forme des tableaux, de la cohérence d’Annuler/Rétablir et de la restauration des illustrations entre les exportations par lots. Les textes vides sont ignorés lors de l’ajustement au lieu de provoquer une erreur."
+            "- **Fiabilité de la modification et de l’exportation** : amélioration du redimensionnement et de la mise en forme des tableaux, de la cohérence d’Annuler/Rétablir et de la restauration des illustrations entre les exportations par lots. Les textes vides sont ignorés lors de l’ajustement au lieu de provoquer une erreur.",
+            "- **Marges internes et ciblage des tableaux** : Les marges dissociées le restent après une actualisation et lorsque les quatre valeurs sont identiques. Les modifications liées actualisent tous les côtés dans le panneau Tableaux, l'outil Tableau et le Builder. L'action ID affiche une notification si aucun tableau géré n'est sélectionné. Les infobulles traduites distinguent la recherche par tags des tags attribués au tableau.",
+            "- **Tags Windows — Entrée** : Appuyez sur Entrée dans Tags pour appliquer les tags, dans Sélection pour en ajouter, ou dans Recherche pour sélectionner les objets correspondants. Le maintien de la touche et une composition IME active ne soumettent pas les tags à nouveau.",
+            "- **Imports lents et récupération des panneaux** : Les attentes Google Sheets proposent un suivi traduit et une annulation, y compris pour les autorisations et transferts lents. La recherche dans les feuilles s'effectue par lots annulables. Aperçu et Export réactivent leurs commandes après un échec d'initialisation ou une réponse manquante et suppriment les alertes Illustrator gênantes pendant le rendu.",
+            "- **Disposition Export et Outils** : Ajout de commandes d'export ancrées et flottantes avec raccourcis vers les modèles, amélioration de l'espacement des outils compacts et bordure visible sous l'en-tête Couleurs lors du défilement. Les problèmes d'export sont vérifiés à l'ouverture de la page.",
+            "- **Signalement de problèmes** : Envoyez les diagnostics depuis l'Aide, avec les informations sur la machine et l'installation, puis poursuivez par e-mail avec la référence du dossier."
           ],
           "breakingChanges": [
             "Adobe Illustrator 2024 n'est pas pris en charge par la version principale 2.5.0. Les utilisateurs d'Illustrator 2024 doivent conserver Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 prend en charge Adobe Illustrator 2025 et 2026. Les programmes d’installation pour Mac et Windows correspondent à la build 6526. Les utilisateurs d’Illustrator 2024 doivent continuer à utiliser Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 prend en charge Adobe Illustrator 2025 et 2026. Les programmes d’installation pour Mac et Windows correspondent à la build 6532. Les utilisateurs d’Illustrator 2024 doivent continuer à utiliser Darty-Ai 2.2.0.",
           "type": "fonctionnalité, correction"
         },
         "es": {
@@ -256,12 +276,17 @@
             "- **Instalador universal para Mac y configuración**: funcionamiento nativo en Mac con Intel y Apple Silicon. Las mejoras de configuración y recuperación ayudan a configurar una carpeta externa de plugins con permiso de escritura cuando sea necesario, conservando las carpetas elegidas y los ajustes existentes.",
             "- **Nombres de colores**: los nombres de colores de biblioteca con espacios ya no se truncan durante la lectura, incluidos los flujos compartidos de apariencia y tablas.",
             "- **Colocar — Conservar fondo**: la opción conserva los grupos y trazados compuestos originales completos y su apariencia debajo de los gráficos colocados. Las colocaciones fallidas ya no eliminan el destino original.",
-            "- **Fiabilidad de edición y exportación**: mejoras en el cambio de tamaño y el formato de tablas, la coherencia de Deshacer/Rehacer y la restauración de gráficos entre exportaciones por lotes. El texto vacío se omite durante el ajuste en lugar de producir un error."
+            "- **Fiabilidad de edición y exportación**: mejoras en el cambio de tamaño y el formato de tablas, la coherencia de Deshacer/Rehacer y la restauración de gráficos entre exportaciones por lotes. El texto vacío se omite durante el ajuste en lugar de producir un error.",
+            "- **Relleno y selección de tablas**: El relleno desvinculado permanece así tras actualizar y cuando los cuatro valores coinciden. Los cambios vinculados actualizan todos los lados juntos en el panel Tablas, la herramienta Tabla y Builder. La acción ID muestra una notificación si no hay una tabla gestionada seleccionada. Las ayudas traducidas distinguen la búsqueda por etiquetas de las etiquetas asignadas a la tabla.",
+            "- **Etiquetas de Windows — Intro**: Pulse Intro en Etiquetas para aplicarlas, en Selección para añadirlas o en Buscar para seleccionar objetos coincidentes. Mantener la tecla pulsada y una composición IME activa no vuelven a enviar las etiquetas.",
+            "- **Importaciones lentas y recuperación de paneles**: Las esperas de Google Sheets ofrecen progreso traducido y cancelación, también durante autorizaciones y transferencias lentas. La búsqueda en hojas funciona por lotes cancelables. Vista previa y Exportar recuperan sus controles tras fallos de preparación o respuestas ausentes y suprimen alertas molestas de Illustrator durante el procesamiento.",
+            "- **Diseño de Exportar y Herramientas**: Controles de exportación acoplados y flotantes con accesos a plantillas, mejor espaciado de herramientas compactas y un borde visible bajo el encabezado Colores al desplazarse. Los problemas de exportación se comprueban al abrir la página.",
+            "- **Informes de problemas**: Envíe diagnósticos desde Ayuda, incluidos los datos del equipo y la instalación, y continúe por correo con la referencia del caso."
           ],
           "breakingChanges": [
             "Adobe Illustrator 2024 no es compatible con la versión principal 2.5.0. Los usuarios de Illustrator 2024 deben seguir usando Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 es compatible con Adobe Illustrator 2025 y 2026. Los instaladores para Mac y Windows corresponden a la compilación 6526. Los usuarios de Illustrator 2024 deben seguir utilizando Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 es compatible con Adobe Illustrator 2025 y 2026. Los instaladores para Mac y Windows corresponden a la compilación 6532. Los usuarios de Illustrator 2024 deben seguir utilizando Darty-Ai 2.2.0.",
           "type": "funcionalidad, corrección"
         },
         "it": {
@@ -303,12 +328,17 @@
             "- **Installer universale per Mac e configurazione**: esecuzione nativa sui Mac Intel e Apple Silicon. La configurazione e il ripristino migliorati aiutano a impostare, quando necessario, una cartella esterna per i plug-in con accesso in scrittura, preservando le cartelle scelte e le impostazioni esistenti.",
             "- **Nomi dei colori**: i nomi dei colori di libreria contenenti spazi non vengono più troncati durante la lettura, anche nei flussi condivisi di aspetto e tabelle.",
             "- **Inserisci — Mantieni sfondo**: l'opzione conserva ora i gruppi e tracciati composti originali completi e il loro aspetto sotto la grafica inserita. Gli inserimenti non riusciti non rimuovono più la destinazione originale.",
-            "- **Affidabilità di modifica ed esportazione**: miglioramenti al ridimensionamento e alla formattazione delle tabelle, alla coerenza di Annulla/Ripristina e al ripristino della grafica tra le esportazioni in batch. Il testo vuoto viene ignorato durante l’adattamento anziché generare un errore."
+            "- **Affidabilità di modifica ed esportazione**: miglioramenti al ridimensionamento e alla formattazione delle tabelle, alla coerenza di Annulla/Ripristina e al ripristino della grafica tra le esportazioni in batch. Il testo vuoto viene ignorato durante l’adattamento anziché generare un errore.",
+            "- **Spaziatura interna e destinazione delle tabelle**: I margini scollegati restano tali dopo gli aggiornamenti e quando i quattro valori coincidono. Le modifiche collegate aggiornano tutti i lati insieme nel pannello Tabelle, nello strumento Tabella e nel Builder. L'azione ID mostra una notifica se non è selezionata una tabella gestita. I suggerimenti localizzati distinguono la ricerca per tag dai tag assegnati alla tabella.",
+            "- **Tag Windows — Invio**: Premi Invio nel campo Tag per applicarli, in Selezione per aggiungerli o in Ricerca per selezionare gli oggetti corrispondenti. Tenere premuto il tasto o usare una composizione IME attiva non invia nuovamente i tag.",
+            "- **Importazioni lente e ripristino dei pannelli**: Le attese di Google Sheets offrono avanzamento localizzato e annullamento, anche durante autorizzazioni e trasferimenti lenti. La ricerca nei fogli procede per gruppi annullabili. Anteprima ed Esportazione ripristinano i controlli dopo errori di preparazione o risposte mancanti e sopprimono gli avvisi di Illustrator che interrompono il rendering.",
+            "- **Layout Esportazione e Strumenti**: Controlli di esportazione ancorati e mobili con scorciatoie ai modelli, migliore spaziatura degli strumenti compatti e un bordo visibile sotto l'intestazione Colori durante lo scorrimento. I problemi di esportazione vengono verificati all'apertura della pagina.",
+            "- **Segnalazioni di problemi**: Invia la diagnostica dalla Guida, inclusi i dettagli del computer e dell'installazione, e prosegui via e-mail usando il riferimento della segnalazione."
           ],
           "breakingChanges": [
             "Adobe Illustrator 2024 non è supportato dalla versione principale 2.5.0. Gli utenti di Illustrator 2024 devono continuare a usare Darty-Ai 2.2.0."
           ],
-          "notes": "Darty-Ai 2.5.0 supporta Adobe Illustrator 2025 e 2026. Gli installer per Mac e Windows corrispondono alla build 6526. Gli utenti di Illustrator 2024 devono continuare a utilizzare Darty-Ai 2.2.0.",
+          "notes": "Darty-Ai 2.5.0 supporta Adobe Illustrator 2025 e 2026. Gli installer per Mac e Windows corrispondono alla build 6532. Gli utenti di Illustrator 2024 devono continuare a utilizzare Darty-Ai 2.2.0.",
           "type": "funzionalità, correzione"
         }
       }
