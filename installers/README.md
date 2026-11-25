@@ -1,10 +1,15 @@
 # Installer downloads
 
-The current mainline installers are **Darty-Ai 2.5.0.6532**, for Illustrator
-2025 and 2026: [Universal Mac](Mac/Darty-Ai-2.5.0.6532-Mac.dmg) and
-[Windows](Windows/Darty-Ai-2.5.0.6532-Win.exe). Close Illustrator before upgrading.
+The current mainline installers are **Darty-Ai 2.6.0.6780**, for Illustrator
+2025 and later: [Universal Mac](Mac/Darty-Ai-2.6.0.6780-Mac.dmg) and
+[Windows](Windows/Darty-Ai-2.6.0.6780-Win.exe). Close Illustrator before upgrading.
 The complete previous CEP folder is replaced; settings and licensing are retained.
-See the [source and qualification record](https://github.com/dartyai/p-tests/blob/experiments/cmake/installer-notes/TABLES_TAGS_RELEASE_20261109.md).
+
+The Windows installer is timestamp-signed by Darty Ai Corp and includes signed
+native and CEP plug-ins. Setup shows progress while checking older installations
+and copying files. Obsolete Windows Installed Apps entries alone do not trigger
+an administrator prompt. See the [Windows installer qualification record](https://github.com/dartyai/p-tests/blob/1da7114e0797a0a2d5082c0afefe582ca3627ead/installer-notes/WINDOWS_INSTALLER_FINALIZATION_20261125.md).
+The Universal Mac installer is signed, notarized and stapled.
 
 New exports use the full native release/build identity and a short platform
 suffix:
@@ -48,7 +53,7 @@ Historical downloaded EXE/DMG files are not removed by uninstalling the product.
 
 Help compares CEP release metadata and follows explicit platform URLs in
 `misc/change-log.json`; uploading a file alone does not announce an update.
-The feed advertises mainline 2.5.0 with native build 6532. Illustrator 2024
+The feed advertises mainline 2.6.0 with native build 6780. Illustrator 2024
 continues to use the separate 2.2.0 LTS release.
 
 [Windows export, upgrade and uninstall instructions](https://github.com/dartyai/p-tests/blob/long-term-support/installer-notes/WINDOWS_INSTALLER_NAMING_HANDOFF_20260922.md).

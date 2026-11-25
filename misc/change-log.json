@@ -4,12 +4,149 @@
   "downloads-page": "https://darty.ai/downloads/",
   "release-notes-page": "https://docs.darty.ai/release-notes/",
   "current-versions": {
-    "extension": "2.5.0",
+    "extension": "2.6.0",
     "go-server": "2.6.0",
     "zint": "2.16.0.9",
-    "cpp-plugin": "2.5.0.6532"
+    "cpp-plugin": "2.6.0.6780"
   },
   "version-history": [
+    {
+      "version": "2.6.0",
+      "date": "2026-11-25",
+      "ai_versions": [
+        2025,
+        2026,
+        2027
+      ],
+      "ai_versions_numbers": [
+        29,
+        30,
+        31
+      ],
+      "released": true,
+      "public": true,
+      "important": true,
+      "localizations": {
+        "en": {
+          "title": "Darty-Ai 2.6.0 — Combined PDFs, text Flow, and workflow improvements",
+          "changes": [
+            "- **Combined PDF export**: Save the individual PDFs and an additional collection in the same export. Choose an Illustrator-editable collection or a PDF-only collection, with separate destination and naming controls.",
+            "- **Text Flow**: Create linked text layouts from existing text frames or rectangular shapes. Arrange content in columns or separate frames, choose the reading order, and control the layout from the Text tool, Builder or a spreadsheet.",
+            "- **Fit within the template**: Preserve each roster’s outer dimensions, set width and font-size limits, and fit linked text proportionally while retaining differences between headings and body text.",
+            "- **Column breaks and section starts**: Start marked sections in a new column and let long sections continue through additional columns within the overall frame.",
+            "- **Shared content, separate layouts**: Define sections once for multiple rosters and give each roster its own merging and fitting settings.",
+            "- **Text Flow editing**: Add controls for frame order, section merging, column counts, padding and live monitoring. Column-break annotations help identify section boundaries without becoming part of the exported artwork.",
+            "- **Right-to-left tables**: Mirror the table’s column layout while preserving logical column indexes, data, merges, widths, formatting and attached artwork. Text direction and alignment remain separately configurable.",
+            "- **Table artwork controls**: Added clearer attachment targets and sizing choices, including original size, fit inside, fit to border, dimensions and scale factors, with padding and proportion controls. Retarget artwork or formatting rules without losing their settings.",
+            "- **Protected artwork**: Improved editing of artwork inside hidden or locked layers and groups, including managed tables, while preserving protection settings.",
+            "- **Barcode improvements**: Improved alignment within tagged placeholders, clarified format validation, and avoided reporting an error while the Barcode Generator data field is empty.",
+            "- **Panel and workflow reliability**: Reduced unnecessary Tags and thumbnail refreshes, improved slow file-path handling and panel freeze recovery, and corrected PDF-only collection failures caused by incomplete Illustrator thumbnail checksums."
+          ],
+          "breakingChanges": [],
+          "notes": "Editable PDF collections can still differ from individual PDFs for artwork with complex appearances; check the resulting collection before delivery. Redo may not fully restore some Text Flow layouts that create or resize linked frames.",
+          "type": "feature, fix"
+        },
+        "de": {
+          "title": "Darty-Ai 2.6.0 — Zusammengeführte PDFs, Text Flow und verbesserte Arbeitsabläufe",
+          "changes": [
+            "- **Zusammengeführte PDFs exportieren**: Speichern Sie einzelne PDFs und eine zusätzliche Sammlung im selben Exportvorgang. Wählen Sie eine in Illustrator bearbeitbare Sammlung oder eine reine PDF-Sammlung, mit separaten Einstellungen für Zielordner und Dateinamen.",
+            "- **Text Flow**: Erstellen Sie verknüpfte Textlayouts aus vorhandenen Textrahmen oder rechteckigen Formen. Ordnen Sie Inhalte in Spalten oder separaten Rahmen an, wählen Sie die Lesereihenfolge und steuern Sie das Layout über das Textwerkzeug, den Builder oder eine Tabelle.",
+            "- **In die Vorlage einpassen**: Behalten Sie die Außenmaße jeder Namensliste bei, legen Sie Grenzen für Breite und Schriftgröße fest und passen Sie verknüpften Text proportional ein. Unterschiede zwischen Überschriften und Fließtext bleiben erhalten.",
+            "- **Spaltenumbrüche und Abschnittsanfänge**: Beginnen Sie markierte Abschnitte in einer neuen Spalte und lassen Sie lange Abschnitte innerhalb des Gesamtrahmens über weitere Spalten weiterlaufen.",
+            "- **Gemeinsame Inhalte, getrennte Layouts**: Definieren Sie Abschnitte einmal für mehrere Namenslisten und legen Sie für jede Liste eigene Einstellungen zum Zusammenführen und Einpassen fest.",
+            "- **Text Flow bearbeiten**: Neue Steuerelemente für Rahmenreihenfolge, das Zusammenführen von Abschnitten, Spaltenanzahl, Innenabstände und Live-Überwachung. Spaltenumbruch-Markierungen helfen, Abschnittsgrenzen zu erkennen, ohne Teil der exportierten Grafik zu werden.",
+            "- **Tabellen von rechts nach links**: Spiegeln Sie die Spaltenanordnung einer Tabelle, während logische Spaltenindizes, Daten, Zusammenführungen, Breiten, Formatierungen und zugeordnete Grafiken erhalten bleiben. Textrichtung und Ausrichtung lassen sich weiterhin separat einstellen.",
+            "- **Grafiken in Tabellen**: Klarere Zuordnungsziele und Größenoptionen, darunter Originalgröße, Einpassen, Anpassen an den Rand, Abmessungen und Skalierungsfaktoren, mit Einstellungen für Innenabstände und Proportionen. Ändern Sie die Zielbereiche von Grafiken oder Formatierungsregeln, ohne deren Einstellungen zu verlieren.",
+            "- **Geschützte Grafiken**: Verbesserte Bearbeitung von Grafiken in ausgeblendeten oder gesperrten Ebenen und Gruppen, einschließlich verwalteter Tabellen, unter Beibehaltung der Schutzeinstellungen.",
+            "- **Barcode-Verbesserungen**: Verbesserte Ausrichtung in mit Tags versehenen Platzhaltern, klarere Formatprüfung und keine Fehlermeldung mehr bei leerem Datenfeld im Barcode-Generator.",
+            "- **Zuverlässigere Bedienfelder und Arbeitsabläufe**: Weniger unnötige Aktualisierungen von Tags und Miniaturansichten, verbesserte Verarbeitung langsamer Dateipfadabfragen und Wiederherstellung eingefrorener Bedienfelder sowie behobene Fehler bei reinen PDF-Sammlungen durch unvollständige Prüfsummen von Illustrator-Miniaturansichten."
+          ],
+          "notes": "Bei Grafiken mit komplexen Aussehenseigenschaften können bearbeitbare PDF-Sammlungen weiterhin von den einzelnen PDFs abweichen. Prüfen Sie die fertige Sammlung vor der Weitergabe. Wiederholen stellt manche Text Flow-Layouts, bei denen verknüpfte Rahmen erstellt oder in der Größe geändert werden, möglicherweise nicht vollständig wieder her.",
+          "breakingChanges": [],
+          "type": "feature, fix"
+        },
+        "nl": {
+          "title": "Darty-Ai 2.6.0 — Gecombineerde PDF’s, Text Flow en verbeterde werkprocessen",
+          "changes": [
+            "- **Gecombineerde PDF-export**: Sla de afzonderlijke PDF’s en een extra verzameling op tijdens dezelfde export. Kies een verzameling die in Illustrator bewerkbaar is of een verzameling voor uitsluitend PDF-gebruik, met aparte instellingen voor de bestemming en bestandsnamen.",
+            "- **Text Flow**: Maak gekoppelde tekstindelingen van bestaande tekstkaders of rechthoekige vormen. Verdeel inhoud over kolommen of afzonderlijke kaders, kies de leesvolgorde en beheer de indeling via het tekstgereedschap, Builder of een spreadsheet.",
+            "- **Passend maken binnen de sjabloon**: Behoud de buitenafmetingen van elke namenlijst, stel grenzen voor breedte en lettergrootte in en pas gekoppelde tekst proportioneel aan, met behoud van verschillen tussen koppen en hoofdtekst.",
+            "- **Kolomeinden en het begin van secties**: Begin gemarkeerde secties in een nieuwe kolom en laat lange secties doorlopen in extra kolommen binnen het totale kader.",
+            "- **Gedeelde inhoud, afzonderlijke indelingen**: Definieer secties eenmaal voor meerdere namenlijsten en geef elke lijst eigen instellingen voor samenvoegen en passend maken.",
+            "- **Text Flow bewerken**: Nieuwe opties voor kadervolgorde, secties samenvoegen, het aantal kolommen, binnenmarges en livebewaking. Kolomeindemarkeringen helpen sectiegrenzen te herkennen zonder deel uit te maken van de geëxporteerde illustratie.",
+            "- **Tabellen van rechts naar links**: Spiegel de kolomindeling van de tabel met behoud van logische kolomindexen, gegevens, samenvoegingen, breedtes, opmaak en gekoppelde illustraties. Tekstrichting en uitlijning blijven afzonderlijk instelbaar.",
+            "- **Illustraties in tabellen**: Duidelijkere koppelingsdoelen en grootteopties, waaronder oorspronkelijke grootte, binnen het doel passen, aanpassen aan de rand, afmetingen en schaalfactoren, met instellingen voor binnenmarges en verhoudingen. Wijzig de doelbereiken van illustraties of opmaakregels zonder hun instellingen te verliezen.",
+            "- **Beveiligde illustraties**: Verbeterde bewerking van illustraties in verborgen of vergrendelde lagen en groepen, inclusief beheerde tabellen, met behoud van de beveiligingsinstellingen.",
+            "- **Verbeteringen aan barcodes**: Betere uitlijning binnen getagde plaatsaanduidingen, duidelijkere formaatvalidatie en geen foutmelding meer wanneer het gegevensveld van de barcodegenerator leeg is.",
+            "- **Betrouwbaardere panelen en werkprocessen**: Minder onnodige vernieuwingen van tags en miniaturen, betere afhandeling van trage bestandspadcontroles en herstel van vastgelopen panelen, en verholpen fouten in PDF-verzamelingen door onvolledige controlesommen van Illustrator-miniaturen."
+          ],
+          "notes": "Bij illustraties met complexe vormgevingskenmerken kunnen bewerkbare PDF-verzamelingen nog steeds afwijken van de afzonderlijke PDF’s. Controleer de verzameling voordat u deze aanlevert. Opnieuw herstelt sommige Text Flow-indelingen waarin gekoppelde kaders worden gemaakt of van grootte veranderen mogelijk niet volledig.",
+          "breakingChanges": [],
+          "type": "feature, fix"
+        },
+        "fr": {
+          "title": "Darty-Ai 2.6.0 — PDF combinés, Text Flow et améliorations des flux de travail",
+          "changes": [
+            "- **Export de PDF combinés** : Enregistrez les PDF individuels et un document combiné supplémentaire lors du même export. Choisissez un document combiné modifiable dans Illustrator ou destiné uniquement au format PDF, avec des réglages distincts pour la destination et les noms de fichiers.",
+            "- **Text Flow** : Créez des mises en page de texte chaîné à partir de blocs de texte existants ou de formes rectangulaires. Organisez le contenu en colonnes ou en blocs séparés, choisissez l’ordre de lecture et gérez la mise en page depuis l’outil Texte, Builder ou une feuille de calcul.",
+            "- **Ajustement au modèle** : Conservez les dimensions extérieures de chaque liste de noms, définissez des limites de largeur et de corps de texte, puis ajustez proportionnellement le texte chaîné tout en préservant les différences entre titres et texte courant.",
+            "- **Sauts de colonne et débuts de section** : Faites commencer les sections marquées dans une nouvelle colonne et laissez les sections longues se poursuivre dans des colonnes supplémentaires à l’intérieur du cadre global.",
+            "- **Contenu partagé, mises en page distinctes** : Définissez les sections une seule fois pour plusieurs listes de noms et attribuez à chaque liste ses propres réglages de fusion et d’ajustement.",
+            "- **Modification de Text Flow** : De nouvelles commandes permettent de régler l’ordre des blocs, la fusion des sections, le nombre de colonnes, les marges intérieures et le suivi en direct. Les annotations de saut de colonne aident à repérer les limites des sections sans apparaître dans les illustrations exportées.",
+            "- **Tableaux de droite à gauche** : Inversez la disposition des colonnes du tableau tout en conservant les indices logiques des colonnes, les données, les fusions, les largeurs, la mise en forme et les illustrations associées. Le sens du texte et l’alignement restent réglables séparément.",
+            "- **Illustrations dans les tableaux** : Des cibles d’association plus claires et davantage d’options de dimensionnement : taille d’origine, ajustement à l’intérieur, ajustement aux limites, dimensions et facteurs d’échelle, avec réglage des marges intérieures et des proportions. Changez les cibles des illustrations ou des règles de mise en forme sans perdre leurs réglages.",
+            "- **Illustrations protégées** : Amélioration de la modification des illustrations dans les calques et groupes masqués ou verrouillés, y compris les tableaux gérés, tout en préservant les réglages de protection.",
+            "- **Améliorations des codes-barres** : Meilleur alignement dans les espaces réservés balisés, validation du format plus claire et suppression du message d’erreur lorsque le champ de données du générateur de codes-barres est vide.",
+            "- **Fiabilité des panneaux et des flux de travail** : Réduction des actualisations inutiles des balises et des vignettes, meilleure gestion des vérifications de chemins d’accès lentes et de la récupération des panneaux figés, et correction d’échecs de création de collections au format PDF uniquement dus à des sommes de contrôle incomplètes dans les vignettes Illustrator."
+          ],
+          "notes": "Les PDF combinés modifiables peuvent encore différer des PDF individuels lorsque les illustrations présentent des aspects complexes. Vérifiez le document combiné avant sa livraison. La commande Rétablir peut ne pas restaurer entièrement certaines mises en page Text Flow qui créent ou redimensionnent des blocs chaînés.",
+          "breakingChanges": [],
+          "type": "feature, fix"
+        },
+        "es": {
+          "title": "Darty-Ai 2.6.0 — PDF combinados, Text Flow y mejoras del flujo de trabajo",
+          "changes": [
+            "- **Exportación de PDF combinados**: Guarde los PDF individuales y una colección adicional en la misma exportación. Elija una colección editable en Illustrator o una colección solo PDF, con controles independientes para el destino y los nombres de archivo.",
+            "- **Text Flow**: Cree composiciones de texto enlazado a partir de marcos de texto existentes o formas rectangulares. Organice el contenido en columnas o marcos separados, elija el orden de lectura y controle la composición desde la herramienta Texto, Builder o una hoja de cálculo.",
+            "- **Ajuste dentro de la plantilla**: Conserve las dimensiones exteriores de cada lista de nombres, establezca límites de anchura y tamaño de fuente y ajuste el texto enlazado de forma proporcional, manteniendo las diferencias entre los títulos y el texto principal.",
+            "- **Saltos de columna e inicios de sección**: Inicie las secciones marcadas en una columna nueva y permita que las secciones largas continúen en columnas adicionales dentro del marco general.",
+            "- **Contenido compartido, composiciones independientes**: Defina las secciones una sola vez para varias listas de nombres y asigne a cada lista sus propios ajustes de combinación y ajuste de texto.",
+            "- **Edición de Text Flow**: Nuevos controles para el orden de los marcos, la combinación de secciones, el número de columnas, los márgenes interiores y la supervisión en tiempo real. Las anotaciones de salto de columna ayudan a identificar los límites de las secciones sin formar parte de las ilustraciones exportadas.",
+            "- **Tablas de derecha a izquierda**: Invierta la disposición de las columnas de la tabla conservando los índices lógicos de columna, los datos, las combinaciones de celdas, las anchuras, el formato y las ilustraciones adjuntas. La dirección y la alineación del texto siguen siendo configurables por separado.",
+            "- **Controles de ilustraciones en tablas**: Destinos de asociación más claros y opciones de tamaño que incluyen tamaño original, ajustar dentro, ajustar al borde, dimensiones y factores de escala, con controles de márgenes interiores y proporciones. Cambie los destinos de las ilustraciones o las reglas de formato sin perder sus ajustes.",
+            "- **Ilustraciones protegidas**: Mejoras en la edición de ilustraciones dentro de capas y grupos ocultos o bloqueados, incluidas las tablas gestionadas, conservando los ajustes de protección.",
+            "- **Mejoras de códigos de barras**: Mejor alineación dentro de marcadores de posición etiquetados, validación del formato más clara y eliminación del mensaje de error cuando el campo de datos del generador de códigos de barras está vacío.",
+            "- **Fiabilidad de los paneles y del flujo de trabajo**: Menos actualizaciones innecesarias de etiquetas y miniaturas, mejor gestión de las comprobaciones lentas de rutas de archivo y de la recuperación de paneles bloqueados, y corrección de fallos en colecciones solo PDF causados por sumas de comprobación incompletas de las miniaturas de Illustrator."
+          ],
+          "notes": "Las colecciones de PDF editables aún pueden diferir de los PDF individuales cuando las ilustraciones tienen apariencias complejas. Revise la colección resultante antes de entregarla. Rehacer puede no restaurar por completo algunas composiciones de Text Flow que crean o redimensionan marcos enlazados.",
+          "breakingChanges": [],
+          "type": "feature, fix"
+        },
+        "it": {
+          "title": "Darty-Ai 2.6.0 — PDF combinati, Text Flow e miglioramenti del flusso di lavoro",
+          "changes": [
+            "- **Esportazione di PDF combinati**: Salva i singoli PDF e una raccolta aggiuntiva nella stessa esportazione. Scegli una raccolta modificabile in Illustrator oppure una raccolta solo PDF, con controlli separati per la destinazione e i nomi dei file.",
+            "- **Text Flow**: Crea impaginazioni di testo concatenato da cornici di testo esistenti o forme rettangolari. Disponi i contenuti in colonne o cornici separate, scegli l’ordine di lettura e controlla l’impaginazione dallo strumento Testo, da Builder o da un foglio di calcolo.",
+            "- **Adattamento al modello**: Mantieni le dimensioni esterne di ogni elenco di nomi, imposta i limiti di larghezza e dimensione del carattere e adatta il testo concatenato in modo proporzionale, conservando le differenze tra titoli e testo principale.",
+            "- **Interruzioni di colonna e inizio delle sezioni**: Fai iniziare le sezioni contrassegnate in una nuova colonna e consenti alle sezioni lunghe di proseguire in colonne aggiuntive all’interno della cornice complessiva.",
+            "- **Contenuti condivisi, impaginazioni separate**: Definisci le sezioni una sola volta per più elenchi di nomi e assegna a ciascun elenco impostazioni specifiche per l’unione e l’adattamento.",
+            "- **Modifica di Text Flow**: Nuovi controlli per l’ordine delle cornici, l’unione delle sezioni, il numero di colonne, i margini interni e il monitoraggio in tempo reale. Le annotazioni delle interruzioni di colonna aiutano a riconoscere i confini delle sezioni senza comparire nella grafica esportata.",
+            "- **Tabelle da destra a sinistra**: Inverti la disposizione delle colonne della tabella mantenendo gli indici logici delle colonne, i dati, le celle unite, le larghezze, la formattazione e la grafica associata. La direzione e l’allineamento del testo restano configurabili separatamente.",
+            "- **Controlli della grafica nelle tabelle**: Destinazioni di associazione più chiare e opzioni di dimensionamento che includono dimensioni originali, adattamento all’interno, adattamento al bordo, dimensioni e fattori di scala, con controlli per margini interni e proporzioni. Cambia le destinazioni della grafica o delle regole di formattazione senza perdere le relative impostazioni.",
+            "- **Grafica protetta**: Migliorata la modifica della grafica all’interno di livelli e gruppi nascosti o bloccati, comprese le tabelle gestite, mantenendo le impostazioni di protezione.",
+            "- **Miglioramenti dei codici a barre**: Migliore allineamento nei segnaposto con tag, convalida del formato più chiara ed eliminazione del messaggio di errore quando il campo dati del generatore di codici a barre è vuoto.",
+            "- **Affidabilità dei pannelli e del flusso di lavoro**: Ridotti gli aggiornamenti non necessari di tag e miniature, migliorata la gestione dei controlli lenti sui percorsi dei file e del ripristino dei pannelli bloccati, e corretti i problemi delle raccolte solo PDF causati da checksum incompleti delle miniature di Illustrator."
+          ],
+          "notes": "Le raccolte PDF modificabili possono ancora differire dai singoli PDF quando la grafica presenta aspetti complessi. Controlla la raccolta prima della consegna. Ripristina potrebbe non ricostruire completamente alcune impaginazioni Text Flow che creano o ridimensionano cornici concatenate.",
+          "breakingChanges": [],
+          "type": "feature, fix"
+        }
+      },
+      "download-links": {
+        "mac": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Mac/Darty-Ai-2.6.0.6780-Mac.dmg",
+        "win": "https://raw.githubusercontent.com/Darty-ai/darty-ai-samples/refs/heads/master/installers/Windows/Darty-Ai-2.6.0.6780-Win.exe"
+      }
+    },
     {
       "version": "2.5.0",
       "date": "2026-11-09",

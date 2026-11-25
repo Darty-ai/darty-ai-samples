@@ -1,8 +1,12 @@
 # Mac installers
 
-Current mainline: [Darty-Ai 2.5.0.6532](Darty-Ai-2.5.0.6532-Mac.dmg), Universal
-Intel/Apple Silicon, signed, notarized and stapled. The in-place upgrade removes
-the complete old CEP folder. See the [6532 qualification record](https://github.com/dartyai/p-tests/blob/experiments/cmake/installer-notes/TABLES_TAGS_RELEASE_20261109.md).
+Current mainline: [Darty-Ai 2.6.0.6780](Darty-Ai-2.6.0.6780-Mac.dmg), Universal
+Intel/Apple Silicon, signed, notarized and stapled. It contains native
+**2.6.0.6780** and Adobe-signed production CEP **2.6.0**, including Main and Tables.
+Requires macOS **12** or later and Illustrator **2025 / 29.0** or later.
+The in-place upgrade replaces the complete old CEP folder and preserves settings
+and licensing. Close Illustrator before installing, then restart and confirm
+Help shows **2.6.0 - 6780**.
 
 The earlier releases below retain their historical qualification records.
 

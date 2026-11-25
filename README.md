@@ -4,13 +4,11 @@ This repository contains Illustrator and Excel samples used by the Darty Ai
 documentation site, plus download indexes for the editable DIY kits.
 
 See [installer downloads and the filename convention](installers/README.md) for
-the current Mac and Windows mainline 2.5.0.6532 installers and LTS downloads.
+the current Mac and Windows mainline 2.6.0.6780 installers and LTS downloads.
 
-The [release feed](misc/change-log.json) contains the Darty-Ai 2.5.0 release in
+The [release feed](misc/change-log.json) contains the Darty-Ai 2.6.0 release in
 English, German, Dutch, French, Spanish and Italian. It targets Illustrator
-2025 and 2026; Illustrator 2024 users should keep Darty-Ai 2.2.0. See the
-[2.5.0 editorial review](documentation/RELEASE_NOTES_2.5.0_REVIEW_20261006.md)
-for source provenance, validation and the remaining launch steps.
+2025 and later; Illustrator 2024 users should keep Darty-Ai 2.2.0.
 
 [Download the editable sample kits and review PDFs](site-downloads/editable-kits-2.5/README.md)
 and generate variations using Excel and Darty-Ai’s Preview traverser.
